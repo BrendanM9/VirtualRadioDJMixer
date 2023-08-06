@@ -1,0 +1,501 @@
+body{
+  background-color: #818181;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .icon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  #b1{
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    position:absolute;
+    top:150px;
+    left:50px;
+    color: #FFFFFF;
+  }
+
+  #b2{
+    width:75px;
+    height:75px;
+    background-color: orange;
+    position:absolute;
+    top:150px;
+    left:125px;
+    color: #FFFFFF;
+  }
+
+  #b3{
+    width:75px;
+    height:75px;
+    background-color: yellow;
+    position:absolute;
+    top:150px;
+    left:200px;
+    color: #000000;
+  }
+
+  #b4{
+    width:75px;
+    height:75px;
+    background-color: green;
+    position:absolute;
+    top:150px;
+    left:275px;
+    color: #FFFFFF;
+  }
+
+  #b5{
+    width:75px;
+    height:75px;
+    background-color: blue;
+    position:absolute;
+    top:150px;
+    left:350px;
+    color: #FFFFFF;
+  }
+
+  #b6{
+    width:75px;
+    height:75px;
+    background-color: purple;
+    position:absolute;
+    top:150px;
+    left:425px;
+    color: #FFFFFF;
+  }
+
+  #b7{
+    width:75px;
+    height:75px;
+    background-color: red;
+    position:absolute;
+    top:150px;
+    left:500px;
+    color: #FFFFFF;
+  }
+
+  #b8{
+    width:75px;
+    height:75px;
+    background-color: orange;
+    position:absolute;
+    top:150px;
+    left:575px;
+    color: #FFFFFF;
+  }
+
+  #b9{
+    width:75px;
+    height:75px;
+    background-color: yellow;
+    position:absolute;
+    top:150px;
+    left:650px;
+    color: #000000;
+  }
+
+  #b0{
+    width:75px;
+    height:75px;
+    background-color: green;
+    position:absolute;
+    top:150px;
+    left:725px;
+    color: #FFFFFF;
+  }
+
+  #j8675309 {
+    position: absolute;
+    z-index: 9;
+    left:50px;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: top;
+    width:600px;
+    height:25px;
+  }
+
+  #aintno {
+    position: absolute;
+    z-index: 9;
+    left:50px;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    /*text-align: center;*/
+    width:600px;
+    height:25px;
+  }
+
+  #fader1 {
+    position: absolute;
+    z-index: 9;
+    left:50px;
+    top:500px;
+    background-color: #9c9292;
+    border: 1px solid #d3d3d3;
+    text-align: top;
+    width:25px;
+    height:50px;
+  }
+
+  #fader2 {
+    position: absolute;
+    z-index: 9;
+    left:150px;
+    top:500px;
+    background-color: #9c9292;
+    border: 1px solid #d3d3d3;
+    text-align: top;
+    width:25px;
+    height:50px;
+  }
+
+  #fader3 {
+    position: absolute;
+    z-index: 9;
+    left:250px;
+    top:500px;
+    background-color: #9c9292;
+    border: 1px solid #d3d3d3;
+    text-align: top;
+    width:25px;
+    height:50px;
+  }
+
+  #fader4 {
+    position: absolute;
+    z-index: 9;
+    left:350px;
+    top:500px;
+    background-color: #9c9292;
+    border: 1px solid #d3d3d3;
+    text-align: top;
+    width:25px;
+    height:50px;
+  }
+
+  #fader5 {
+    position: absolute;
+    z-index: 9;
+    left:450px;
+    top:500px;
+    background-color: #9c9292;
+    border: 1px solid #d3d3d3;
+    text-align: top;
+    width:25px;
+    height:50px;
+  }
+
+  #fader6 {
+    position: absolute;
+    z-index: 9;
+    left:550px;
+    top:335px;
+    background-color: #9c9292;
+    border: 1px solid #d3d3d3;
+    text-align: top;
+    width:25px;
+    height:50px;
+  }
+
+  #fader1-t{
+    position: absolute;
+    left:35px;
+    top:550px;
+  }
+
+  #fader2-t{
+    position: absolute;
+    left:125px;
+    top:550px;
+  }
+
+  #fader3-t{
+    position: absolute;
+    left:240px;
+    top:550px;
+  }
+
+  #fader4-t{
+    position: absolute;
+    left:340px;
+    top:550px;
+  }
+
+  #fader5-t{
+    position: absolute;
+    left:410px;
+    top:550px;
+  }
+
+  #fader6-t{
+    position: absolute;
+    left:540px;
+    top:550px;
+  }
+
+  #deck1{
+    position:absolute;
+    top:60px;
+    left:50px;
+  }
+
+  #deck2{
+    position:absolute;
+    top:60px;
+    left:750px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #ff0000;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #mute1{
+    position:absolute;
+    left:37px;
+    top:275px;
+  }
+
+  #mute1-t{
+    position:absolute;
+    left:48px;
+    top:295px;
+  }
+
+  #mute2{
+    position:absolute;
+    left:137px;
+    top:275px;
+  }
+
+  #mute2-t{
+    position:absolute;
+    left:148px;
+    top:295px;
+  }
+
+  #mute3{
+    position:absolute;
+    left:237px;
+    top:275px;
+  }
+
+  #mute3-t{
+    position:absolute;
+    left:248px;
+    top:295px;
+  }
+
+  #mute4{
+    position:absolute;
+    left:337px;
+    top:275px;
+  }
+
+  #mute4-t{
+    position:absolute;
+    left:348px;
+    top:295px;
+  }
+
+  #mute5{
+    position:absolute;
+    left:437px;
+    top:275px;
+  }
+
+  #mute5-t{
+    position:absolute;
+    left:448px;
+    top:295px;
+  }
+
+  #mute6{
+    position:absolute;
+    left:537px;
+    top:275px;
+  }
+
+  #mute6-t{
+    position:absolute;
+    left:548px;
+    top:295px;
+  }
+  #line1{
+    background-color: #111;
+    color:#111;
+    position:absolute;
+    left:60.5px;
+    top:335px;
+    width:4px;
+    height:215px;
+  }
+
+  #line2{
+    background-color: #111;
+    color:#111;
+    position:absolute;
+    left:160.5px;
+    top:335px;
+    width:4px;
+    height:215px;
+  }
+
+  #line3{
+    background-color: #111;
+    color:#111;
+    position:absolute;
+    left:260.5px;
+    top:335px;
+    width:4px;
+    height:215px;
+  }
+
+  #line4{
+    background-color: #111;
+    color:#111;
+    position:absolute;
+    left:360.5px;
+    top:335px;
+    width:4px;
+    height:215px;
+  }
+
+  #line5{
+    background-color: #111;
+    color:#111;
+    position:absolute;
+    left:460.5px;
+    top:335px;
+    width:4px;
+    height:215px;
+  }
+
+  #line6{
+    background-color: #111;
+    color:#111;
+    position:absolute;
+    left:560.5px;
+    top:335px;
+    width:4px;
+    height:215px;
+  }
+
+  #dump{
+    background-color: red;
+    color:black;
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:700px;
+    top:400px;
+  }

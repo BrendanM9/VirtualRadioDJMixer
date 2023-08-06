@@ -1,0 +1,10 @@
+Virtual DJ Platform:
+Pick a song from <select>
+Javascript matches with if(song=_){ play(song)};
+Play button activates song
+Mixer desk with hot keys under two tracks
+If possible, have an input, as well as the output
+Each mixer fader has mute and a volume control
+Hot keys for legal id, weather, PSAs, and theme music
+dj.html will pull from music library in "music" folder
+Use Virtual DJ Platform to radio dj.
