@@ -1,0 +1,123 @@
+{
+    "library": [
+        {
+            "title": "I Ran (So Far Away)",
+            "band": "A Flock of Seagulls",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Take on Me",
+            "band": "a-ha",
+            "year": 1984,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Dancing Queen",
+            "band": "Abba",
+            "year": 1976,
+            "length": 0,
+            "tracklist": "disco"
+        },
+        {
+            "title": "All That She Wants",
+            "band": "Ace of Base",
+            "year": 1992,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Der Kommissar",
+            "band": "After the Fire",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Black Velvet",
+            "band": "Alannah Myles",
+            "year": 1989,
+            "length": 4.47,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "A Horse With No Name",
+            "band": "America",
+            "year": 1971,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Ventura Highway",
+            "band": "America",
+            "year": 1972,
+            "length": 0,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Sister Golden Hair",
+            "band": "America",
+            "year": 1975,
+            "length": 3.19,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Heat Of The Moment",
+            "band": "Asia",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Cruel Summer",
+            "band": "Bananarama",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "summer"
+        },
+        {
+            "title": "I Get Around",
+            "band": "Beach Boys",
+            "year": 1964,
+            "length": 0,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Good Vibrations",
+            "band": "Beach Boys",
+            "year": 1966,
+            "length": 0,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Wouldn't It Be Nice",
+            "band":"Beach Boys",
+            "year": 1966,
+            "length": 0,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Movin' Out (Anthony's Song)",
+            "band": "Billy Joel",
+            "year": 1977,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "My Life",
+            "band": "Billy Joel",
+            "year": 1978,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Tell Her About It",
+            "band": "Billy Joel",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "regular"
+        }
+    ]
+}
