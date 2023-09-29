@@ -231,5 +231,187 @@
             "length": 0,
             "tracklist": "regular"
         },
+        {
+            "title": "Kiss on My List",
+            "band": "Daryl Hall and John Oates",
+            "year": 1981,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Maneater",
+            "band": "Daryl Hall and John Oates",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Out of Touch",
+            "band": "Daryl Hall and John Oates",
+            "year": 1984,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Private Eyes",
+            "band": "Daryl Hall and John Oates",
+            "year": 1981,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Rich Girl",
+            "band": "Daryl Hall and John Oates",
+            "year": 1977,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "You Make My Dreams (Come True)",
+            "band": "Daryl Hall and John Oates",
+            "year": 1981,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Let's Dance",
+            "band": "David Bowie",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Modern Love",
+            "band": "David Bowie",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "The Boys Of Summer",
+            "band": "Don Henley",
+            "year": 1984,
+            "length": 0,
+            "tracklist": "summer"
+        },
+        {
+            "title": "American Pie",
+            "band": "Don Mclean",
+            "year": 1971,
+            "length": 0,
+            "tracklist": "legalid"
+        },
+        {
+            "title": "Hungry Like the Wolf",
+            "band": "Duran Duran",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Rio",
+            "band": "Duran Duran",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Two Tickets to Paradise",
+            "band": "Eddie Money",
+            "year": 1977,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Take Me Home Tonight",
+            "band": "Eddie Money",
+            "year": 1986,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Don't Bring Me Down",
+            "band": "ELO",
+            "year": 1979,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Candle In The Wind",
+            "band": "Elton John",
+            "year": 1987,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Crocodile Rock",
+            "band": "Elton John",
+            "year": 1972,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Goodbye Yellow Brick Road",
+            "band": "Elton John",
+            "year": 1973,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "I Guess That's Why They Call It The Blues",
+            "band": "Elton John",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "I'm Still Standing",
+            "band": "Elton John",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Rocket Man (I Think It's Going to be a Long Time)",
+            "band": "Elton John",
+            "year": 1972,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Your Song",
+            "band": "Elton John",
+            "year": 1970,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Tiny Dancer",
+            "band": "Elton John",
+            "year": 1972,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Hungry Eyes",
+            "band": "Eric Carmen",
+            "year": 1987,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Sweet Dreams (Are Made of These)",
+            "band": "Eurythmics",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Shame",
+            "band": 'Evelyn "Champagne" King',
+            "year": 1977,
+            "length": 3.16,
+            "tracklist": "disco"
+        },
     ]
 }
