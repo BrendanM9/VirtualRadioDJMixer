@@ -408,10 +408,205 @@
         },
         {
             "title": "Shame",
-            "band": 'Evelyn "Champagne" King',
+            "band": "Evelyn Champagne King",
             "year": 1977,
             "length": 3.16,
             "tracklist": "disco"
         },
+        {
+            "title": "She Drives Me Crazy",
+            "band": "Fine Young Cannibals",
+            "year": 1988,
+            "length":0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Don't Stop",
+            "band": "Fleetwood Mac",
+            "year": 1977,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Rhiannon",
+            "band": "Fleetwood Mac",
+            "year": 1976,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Dreams",
+            "band": "Fleetwood Mac",
+            "year": 1977,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Go Your Own Way",
+            "band": "Fleetwood Mac",
+            "year": 1976,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Gypsy",
+            "band": "Fleetwood Mac",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "The Chain",
+            "band": "Fleetwood Mac",
+            "year": 1977,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Cold as Ice",
+            "band": "Foreigner",
+            "year": 1977,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Double Vision",
+            "band": "Foreigner",
+            "year": 1978,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "I Want to Know What Love Is",
+            "band": "Foreigner",
+            "year": 1984,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Urgent",
+            "band": "Foreigner",
+            "year": 1981,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Relax",
+            "band": "Frankie Goes to Hollywood",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Dream Weaver",
+            "band": "Gary Wright",
+            "year": 1975,
+            "length": 4.16,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Invisible Touch",
+            "band": "Genesis",
+            "year": 1986,
+            "length": 3.28,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Misunderstanding",
+            "band": "Genesis",
+            "year": 1980,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "That's All",
+            "band": "Genesis",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "specialty"
+        },{
+            "title": "Got My Mind Set On You",
+            "band": "George Harrison",
+            "year": 1987,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Baker Street",
+            "band": "Gerry Rafferty",
+            "year": 1978,
+            "length": 6.05,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Alone",
+            "band": "Heart",
+            "year": 1987,
+            "length": 3.38,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Things Can Only Get Better",
+            "band": "Howard Jones",
+            "year": 1985,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Do You Believe In Love",
+            "band": "Huey Lewis and The News",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Heart And Soul",
+            "band": "Huey Lewis and The News",
+            "year": 1983,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "If This Is It",
+            "band": "Huey Lewis and The News",
+            "year": 1984,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Stuck With You",
+            "band": "Huey Lewis and The News",
+            "year": 1986,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "The Heart Of Rock And Roll",
+            "band": "Huey Lewis and The News",
+            "year": 1984,
+            "length": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "The Power Of Love",
+            "band": "Huey Lewis and The News",
+            "year": 1985,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Don't You Want Me",
+            "band": "Human League",
+            "year": 1981,
+            "length": 0,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Somebody's Baby",
+            "band": "Jackson Browne",
+            "year": 1982,
+            "length": 0,
+            "tracklist": "specialty"
+        }
     ]
 }
