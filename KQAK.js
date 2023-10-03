@@ -1,2 +1,3 @@
-import myJson from './lib.json' assert {type: 'json'};
-document.getElementById("Song1").innerHTML = "myJson[1].song"
+const data = require('./lib.json');
+console.log("data /n", data);
+document.getElementById("Song1").innerHTML = "data[1].song"
