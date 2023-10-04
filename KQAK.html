@@ -3,9 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>KQAK Program</title>
-        <script type="module" src="KQAK.js"></script>
+        <!--<script type="module" src="KQAK.js"></script>-->
     </head>
     <body>
         <p id="Song1"></p>
+    <script type="module">
+        /*const data1 = require('./lib.json');
+        console.log("data1 \n", data1);
+        document.getElementById("Song1").innerHTML = "data1[1].song"
+
+        fetch('./lib.json')
+        .then(response => {
+            return(response.json());
+        })
+        .then(data => console.log(data));*/
+        import data from "./lib.json";
+
+        var songno = .1;
+        for(var i = 0; i < 190; i++){
+            songno = Math.floor(Math.random() * 190);
+            console.log(songno)
+        }
+    </script>
     </body>
 </html>
