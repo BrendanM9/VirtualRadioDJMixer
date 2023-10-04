@@ -70,12 +70,12 @@ tr:nth-child(even) {
     import data from './lib.json' assert { type: 'json' };
 console.log(data);
 */        
-        fetch('application/lib.json')
+        fetch('./application/lib.json')
         .then(response => {
             return(response.json());
         })
         .then(data => console.log(data));
-        import data from "application/lib.json";
+        import data from "./application/lib.json";
         /*
         var songno = .1;
         for(var i = 0; i < 190; i++){
