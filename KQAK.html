@@ -6,8 +6,63 @@
         <!--<script type="module" src="KQAK.js"></script>-->
     </head>
     <body>
-        <p id="Song1"></p>
-    <script type="module">
+        <style>
+            table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+            </style>
+        <table>
+            <thead>KQAK Program</thead>
+            <tr>
+                <td id = "Time 1">--:--</td>
+                <td id = "No. 1">---</td>
+                <td id = "Name 1">--</td>
+                <td id = "Band 1">--</td>
+                <td id = "Length 1">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 2">--:--</td>
+                <td id = "No. 2">---</td>
+                <td id = "Name 2">--</td>
+                <td id = "Band 2">--</td>
+                <td id = "Length 2">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 3">--:--</td>
+                <td id = "No. 3">---</td>
+                <td id = "Name 3">--</td>
+                <td id = "Band 3">--</td>
+                <td id = "Length 3">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 4">--:--</td>
+                <td id = "No. 4">---</td>
+                <td id = "Name 4">--</td>
+                <td id = "Band 4">--</td>
+                <td id = "Length 4">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 5">--:--</td>
+                <td id = "No. 5">---</td>
+                <td id = "Name 5">--</td>
+                <td id = "Band 5">--</td>
+                <td id = "Length 5">--:--</td>
+            </tr>
+
+        </table>
+    <script>
         /*const data1 = require('./lib.json');
         console.log("data1 \n", data1);
         document.getElementById("Song1").innerHTML = "data1[1].song"
@@ -17,13 +72,25 @@
             return(response.json());
         })
         .then(data => console.log(data));*/
-        import data from "./lib.json";
-
+        //import data from "./lib.json";
+        /*
         var songno = .1;
         for(var i = 0; i < 190; i++){
             songno = Math.floor(Math.random() * 190);
             console.log(songno)
         }
+        */
+       const ARRAY_LENGTH = 190;
+       const randomArray = []
+       for(let i = 0; i<ARRAY_LENGTH; i++){
+        randomArray.push(Math.floor(Math.random()*190))
+       }
+       console.log(randomArray)
+       document.getElementById("No. 1").innerHTML = randomArray[0];
+       document.getElementById("No. 2").innerHTML = randomArray[1];
+       document.getElementById("No. 3").innerHTML = randomArray[2];
+       document.getElementById("No. 4").innerHTML = randomArray[3];
+       document.getElementById("No. 5").innerHTML = randomArray[4];
     </script>
     </body>
 </html>
