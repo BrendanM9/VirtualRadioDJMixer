@@ -70,12 +70,13 @@ tr:nth-child(even) {
     import data from './lib.json' assert { type: 'json' };
 console.log(data);
 */        
-        fetch('./lib.json')
+        /*fetch('./lib.json')
         .then(response => {
             return(response.json());
         })
         .then(data => console.log(data));
         import data from "./lib.json" assert { type: 'json' };
+        */
         /*
         var songno = .1;
         for(var i = 0; i < 190; i++){
@@ -87,6 +88,7 @@ console.log(data);
        const randomArray = []
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*190))
+           
        }
        console.log(randomArray)
        document.getElementById("No. 1").innerHTML = randomArray[0];
