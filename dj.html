@@ -261,7 +261,34 @@
         }
         //go.addEventListener("click", onGoClick());
         song_2.addEventListener("click", onGoClick());
-            
+            let audioIN = { audio: true };
+            navigator.mediaDevices.getUserMedia(audioIN)
+            .then(function (mediaStreamObj) {
+                let audio = document.querySelector('audio');
+                if ("srcObject" in audio) {
+                    audio.srcObject = mediaStreamObj;
+                }
+                else {
+                    audio.src = window.URL
+                        .createObjectURL(mediaStreamObj)
+                }
+                audio.onloadedmetadata = function (ev) {
+                    audio.play();
+                }
+                let start = document.getElementById('btnStart');
+                let stop = document.getElementById('btnStop');
+                let playAudio = document.getElementById('adioPlay')
+                let mediaRecorder = new MediaRecorder(mediaStreamObj);
+                start.addEventListener('click', function (ev) {
+                    mediaRecorder.start();
+                })
+                stop.addEventListener('click', function (ev) {
+                    mediaRecorder.start();
+                });
+                mediaRecorder.ondataavailable = function (ev) {
+                    dataArray.push(ev.data)
+                }
+            })
         </script>
         <script>
         /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
