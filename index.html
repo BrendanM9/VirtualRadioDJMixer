@@ -2,8 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
         <link rel="stylesheet" href="radio.css">
+        <script src = "djscript.js"></script>
     </head>
     <body>
         <div id="mySidenav" class="sidenav">
@@ -19,23 +21,102 @@
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
         <div id="main">
-            ...
-        </div>
-        <h1>_</h1>
-        <script>
-        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-            }
+            <div id="deck1">
+            <form id="choosetrack_1">
+                <select id="1" name="1">
+                    <option value="dangerzone">Danger Zone</option>
+                    <option value="getaround">I Get Around</option>
+                    <option value="billiejean">Billie Jean</option>
+                </select>
+                <!--<input type="submit">-->
+            </form>
+            <audio controls>
+                <source src="music/06 Urgent.mp3">
 
-        /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
-                document.body.style.backgroundColor = "white";
-            }
-        </script>
+            </audio>
+            <button id="track_1">Start Track 1</button>
+            </div>
+            <div id="mic">
+            <button id="btnStart">Start Recording</button>
+            <button id="btnStop">Stop Recording</button>
+            <audio controls id="adioPlay">Play Audio</audio>
+        </div>
+            <div id="deck2">
+            <form id="choosetrack_2">
+                <select id="song2choose">
+                    <option></option>
+                    <option value="867">867-5309 Jenny</option>
+                    <option value="nosun">Ain't No Sunshine</option>
+                    <option value="modernlove">Modern Love</option>
+                    <option value="howardjones">Things Can Only Get Better</option>
+                </select>
+
+            </form>
+            <div id="turntable2"><audio controls><source src="music/10 Smooth Criminal.mp3"></audio></div>
+            <button id="track_2">Start Track 2</button>
+            </div>
+            <button accesskey="1" id="b1" onclick="a1play()" type="button">Legal ID</button>
+            <audio id="a1" class="soundboard"><source src="music/KQAK-FM_hour.mp3" type="audio/mpeg"></audio>
+            <button accesskey="2" id="b2" onclick="a2play()" type="button">Weather Report</button>
+            <audio id="a2" class="soundboard"><source src="music/KQAK-FM_weather.mp3" type="audio/mpeg"></audio>
+            <button accesskey="3" id="b3">Contests</button>
+            <button accesskey="4" id="b4">MyCentral Oregon .com Ad</button>
+            <button accesskey="5" id="b5">What You Missed-DCE</button>
+            <button accesskey="6" id="b6">PSA</button>
+            <button accesskey="7" id="b7">KQAK Ticket Window</button>
+            <button accesskey="8" id="b8" onclick="a8play()" type="button">KQAK Theme</button>
+            <audio id="a8" class="soundboard"><source src="music/KQAK-FM_1.1.mp3" type="audio/mpeg"></audio>
+            <button accesskey="9" id="b9">What's Trending</button>
+            <button accesskey="0" id="b0">KQAK Ad Break</button>
+            <label class="switch" id="mute1">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <p id="mute1-t">Mute</p>
+              <label class="switch" id="mute2">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <p id="mute2-t">Mute</p>
+              <label class="switch" id="mute3">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <p id="mute3-t">Mute</p>
+              <label class="switch" id="mute4">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <p id="mute4-t">Mute</p>
+              <label class="switch" id="mute5">
+                <input type="checkbox" checked id="ab5" value=1>
+                <span class="slider round"></span>
+              </label>
+              <p id="mute5-t">Mute</p>
+              <!--<label class="switch" id="mute6">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <p id="mute6-t">Mute</p>-->
+            <div id="fader1"></div>
+            <div id="line1"></div>
+            <div id="fader2"></div>
+            <div id="line2"></div>
+            <div id="fader3" id="f3"></div>
+            <div id="line3"></div>
+            <div id="fader4"></div>
+            <div id="line4"></div>
+            <div id="fader5"></div>
+            <div id="line5"></div>
+            <div id="fader6"></div>
+            <div id="line6"></div>
+            <p id="fader1-t">Host Mic</p>
+            <p id="fader2-t">Cohost Mic</p>
+            <p id="fader3-t">Deck 1</p>
+            <p id="fader4-t">Deck 2</p>
+            <p id="fader5-t">Theme Sounders</p>
+            <p id="fader6-t">Master</p>
+            <button id="dump" onclick="onDumpClick()">Dump</button>
+        </div>
     </body>
 </html>

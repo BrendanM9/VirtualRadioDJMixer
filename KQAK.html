@@ -89,11 +89,9 @@ console.log(data);
        const ARRAY_LENGTH = 190;
        const randomArray = [];
        const title1 = [];
-        var integer1 = 0;
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*190))
-         integer1 = randomArray - 1;  
-        title1.push(data.library[integer1].title);
+        title1.push(data.library[randomArray-1].title);
        }
        console.log(randomArray)
        document.getElementById("No. 1").innerHTML = randomArray[0];
