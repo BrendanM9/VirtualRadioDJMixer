@@ -1,4 +1,5 @@
 
+var x5 = document.getElementById("ab5");
                 //var x4=$("#mute4").is(":checked");
                 function getOffset(el) {
                     const rect = el.getBoundingClientRect();
@@ -14,10 +15,13 @@
                     }
                 }  
                 var mute5v=function(){
-                    if (x5===1){
-                        sound5.volume=0;
-                    } else {
-                        sound5.volume=1;
+                    if(x5){
+                        if (x5===1){
+                            sound5.volume=0;
+                            console.log("Yes")
+                        } else {
+                            sound5.volume=1;
+                        }
                     }
                 }
                 var dump = document.getElementById("dump");

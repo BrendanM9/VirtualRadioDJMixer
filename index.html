@@ -117,6 +117,46 @@
             <p id="fader5-t">Theme Sounders</p>
             <p id="fader6-t">Master</p>
             <button id="dump" onclick="onDumpClick()">Dump</button>
+            <audio src="/Radio Project/music/06 Heat Wave.mp3" controls="true" id="audio"></audio>
+            <input id="volume-control" type="range" min="0" max="100" value="50">
         </div>
+        <script>
+          let audio = new Audio("music/06_Heat_Wave.mp3");
+
+let volume = document.querySelector("#volume-control");
+volume.addEventListener("change", function(e) {
+audio.volume = e.currentTarget.value / 100;
+})
+          /*const audio = new Audio("./music/06_Heat_Wave.mp3");
+const configure = $("#play-pause-button");
+const range = $("#volume-control");
+configure.on("click", function () {
+    const hasPlayClass = configure.hasClass("fa-play");
+
+    //in nativejs its .classList.toggle() idk about jquery but here's my guess
+    configure.toggleClass("fa-play");
+    configure.toggleClass("fa-pause");
+
+    audio.muted = hasPlayClass;
+
+    if (hasPlayClass) {
+        //did you mean audio.autoplay? Used to be autoplay
+        audio.autoplay = true;
+        audio.play();
+    } else {
+        audio.pause();
+    }
+});
+
+range.on("change", () => {
+  audio.volume = range.value;
+});
+
+audio.on("ended", function () {
+    configure.removeClass('fa-pause');
+    configure.addClass('fa-play');
+});
+*/
+        </script>
     </body>
 </html>

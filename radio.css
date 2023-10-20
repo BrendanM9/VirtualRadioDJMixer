@@ -503,3 +503,13 @@ body{
     left:700px;
     top:400px;
   }
+  #volume-control{
+    position:absolute;
+    left:400px;
+    top:400px;
+  }
+  #audio{
+    position:absolute;
+    left: 400px;
+    top:500px;
+  }
