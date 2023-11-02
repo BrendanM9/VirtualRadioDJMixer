@@ -92,7 +92,7 @@ console.log(data);
         var arrayNo = 0;
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*190))
-        arrayNo = parseFloat(randomArray) - 1;
+        arrayNo = parseFloat(randomArray[i-1]) - 1;
         //title1.push(data.library[randomArray-1].title);
            console.log(arrayNo);
        }
