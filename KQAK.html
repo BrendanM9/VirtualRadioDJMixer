@@ -54,21 +54,21 @@ tr:nth-child(even) {
                 <td id = "Length 2">--:--</td>
             </tr>
             <tr>
-                <td>XX:08</td>
+                <td id="DCE">XX:08</td>
                 <td>N/A</td>
                 <td>Here's What You Missed On The Dave Clemens Experience</td>
                 <td>KQAK</td>
                 <td>.20</td>
             </tr>
             <tr>
-                <td>XX:08</td>
+                <td id="Ad1">XX:08</td>
                 <td>N/A</td>
                 <td>Ad Break</td>
                 <td>KQAK</td>
                 <td>2.00</td>
             </tr>
             <tr>
-                <td>XX:10</td>
+                <td id="Theme1">XX:10</td>
                 <td>N/A</td>
                 <td>KQAK Theme</td>
                 <td>KQAK</td>
@@ -89,14 +89,14 @@ tr:nth-child(even) {
                 <td id = "Length 4">--:--</td>
             </tr>
             <tr>
-                <td>XX:20</td>
+                <td id="Ad2">XX:20</td>
                 <td>N/A</td>
                 <td>Ad Break</td>
                 <td>KQAK</td>
                 <td>1.00</td>
             </tr>
             <tr>
-                <td>XX:21</td>
+                <td id="Weather1">XX:21</td>
                 <td>N/A</td>
                 <td>Central Oregon Weather</td>
                 <td>KQAK</td>
@@ -117,7 +117,7 @@ tr:nth-child(even) {
                 <td id = "Length 6">--:--</td>
             </tr>
             <tr>
-                <td>XX:21</td>
+                <td id="Promo1">XX:31</td>
                 <td>N/A</td>
                 <td>Contest Promo</td>
                 <td>KQAK</td>
@@ -180,41 +180,47 @@ console.log(data);
        console.log(randomArray)
         document.getElementById("L-ID Time").innerHTML = hour1, ":00";
        //document.getElementById("No. 1").innerHTML = randomArray[0];
-        document.getElementById("Time 1").innerHTML = hour1, ":00";
+        document.getElementById("Time 1").innerHTML = hour1+ ":00";
         document.getElementById("No. 1").innerHTML = year1[0];
        document.getElementById("Name 1").innerHTML = title1[0];
         document.getElementById("Band 1").innerHTML = artist1[0];
         document.getElementById("Length 1").innerHTML = length1[0];
        //document.getElementById("No. 2").innerHTML = randomArray[1];
-        document.getElementById("Time 2").innerHTML = hour1, ":04";
+        document.getElementById("Time 2").innerHTML = hour1+ ":04";
         document.getElementById("No. 2").innerHTML = year1[1];
        document.getElementById("Name 2").innerHTML = title1[1];
         document.getElementById("Band 2").innerHTML = artist1[1];
         document.getElementById("Length 2").innerHTML = length1[1];
+        document.getElementById("DCE").innerHTML = hour1+":08";
+        document.getElementById("Ad1").innerHTML = hour1+":08";
+        document.getElementById("Theme1").innerHTML = hour1+":10";
        //document.getElementById("No. 3").innerHTML = randomArray[2];
-        document.getElementById("Time 3").innerHTML = hour1, ":11";
+        document.getElementById("Time 3").innerHTML = hour1+ ":11";
         document.getElementById("No. 3").innerHTML = year1[2];
        document.getElementById("Name 3").innerHTML = title1[2];
         document.getElementById("Band 3").innerHTML = artist1[2];
         document.getElementById("Length 3").innerHTML = length1[2];
        //document.getElementById("No. 4").innerHTML = randomArray[3];
-        document.getElementById("Time 4").innerHTML = hour1, ":15";
+        document.getElementById("Time 4").innerHTML = hour1+ ":15";
         document.getElementById("No. 4").innerHTML = year1[3];
        document.getElementById("Name 4").innerHTML = title1[3];
         document.getElementById("Band 4").innerHTML = artist1[3];
         document.getElementById("Length 4").innerHTML = length1[3];
+        document.getElementById("Ad2").innerHTML = hour1+":20";
+        document.getElementById("Weather1").innerHTML = hour1+":21";
        //document.getElementById("No. 5").innerHTML = randomArray[4];
-        document.getElementById("Time 5").innerHTML = hour1, ":22";
+        document.getElementById("Time 5").innerHTML = hour1+ ":22";
         document.getElementById("No. 5").innerHTML = year1[4];
        document.getElementById("Name 5").innerHTML = title1[4];
         document.getElementById("Band 5").innerHTML = artist1[4];
         document.getElementById("Length 5").innerHTML = length1[4];
-        document.getElementById("Time 6").innerHTML = hour1, ":26";
+        document.getElementById("Time 6").innerHTML = hour1+ ":26";
         document.getElementById("No. 6").innerHTML = year1[5];
        document.getElementById("Name 6").innerHTML = title1[5];
         document.getElementById("Band 6").innerHTML = artist1[5];
         document.getElementById("Length 6").innerHTML = length1[5];
-        document.getElementById("Time 7").innerHTML = hour1, ":31";
+        document.getElementById("Promo1").innerHTML = hour1+":30";
+        document.getElementById("Time 7").innerHTML = hour1+ ":31";
         document.getElementById("No. 7").innerHTML = year1[6];
        document.getElementById("Name 7").innerHTML = title1[6];
         document.getElementById("Band 7").innerHTML = artist1[6];
