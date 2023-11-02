@@ -90,30 +90,37 @@ console.log(data);
        const randomArray = [];
        const title1 = [];
         const artist1 = [];
+        const length1 = [];
         var arrayNo = 0;
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*80))
         arrayNo = parseFloat(randomArray[i]) - 1;
         title1.push(data.library[arrayNo].title);
         artist1.push(data.library[arrayNo].band);
+        length1.push(data.library[arrayNo].band);
            console.log(arrayNo);
        }
        console.log(randomArray)
        document.getElementById("No. 1").innerHTML = randomArray[0];
        document.getElementById("Name 1").innerHTML = title1[0];
         document.getElementById("Band 1").innerHTML = artist1[0];
+        document.getElementById("Length 1").innerHTML = length1[0];
        document.getElementById("No. 2").innerHTML = randomArray[1];
        document.getElementById("Name 2").innerHTML = title1[1];
         document.getElementById("Band 2").innerHTML = artist1[1];
+        document.getElementById("Length 2").innerHTML = length1[1];
        document.getElementById("No. 3").innerHTML = randomArray[2];
        document.getElementById("Name 3").innerHTML = title1[2];
         document.getElementById("Band 3").innerHTML = artist1[2];
+        document.getElementById("Length 3").innerHTML = length1[2];
        document.getElementById("No. 4").innerHTML = randomArray[3];
        document.getElementById("Name 4").innerHTML = title1[3];
         document.getElementById("Band 4").innerHTML = artist1[3];
+        document.getElementById("Length 4").innerHTML = length1[3];
        document.getElementById("No. 5").innerHTML = randomArray[4];
        document.getElementById("Name 5").innerHTML = title1[4];
         document.getElementById("Band 5").innerHTML = artist1[4];
+        document.getElementById("Length 5").innerHTML = length1[4];
     </script>
     </body>
 </html>
