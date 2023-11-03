@@ -248,8 +248,29 @@ console.log(data);
                 timeMinute = timeMinute + 1;
                 timeSecond = timeSecond - 60;
             }
+            var r2 = r1 + 1;
+            var r3 = r2 + 1;
+            var r4 = r3 + 1;
             if(commercials === 0 && timeMinute > 8){
-                console.log("CB")
+                document.getElementById("Time "+r2).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r2).innerHTML = "N/A";
+                document.getElementById("Name "+ r2).innerHTML = "Here's What You Missed On The Dave Clemens Experience";
+                document.getElementById("Band "+r2).innerHTML = "KQAK";
+                document.getElementById("Length "+r2).innerHTML = minute1[r] + ":"+ second1[r];
+                timeSecond = timeSecond + 30;
+                document.getElementById("Time "+r3).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r3).innerHTML = "N/A";
+                document.getElementById("Name "+ r3).innerHTML = "Ad Break";
+                document.getElementById("Band "+r3).innerHTML = "KQAK";
+                document.getElementById("Length "+r3).innerHTML = minute1[r] + ":"+ second1[r];
+                timeMinute = timeMinute + 2;
+                document.getElementById("Time "+r4).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r4).innerHTML = "N/A";
+                document.getElementById("Name "+ r4).innerHTML = "KQAK Theme";
+                document.getElementById("Band "+r4).innerHTML = "KQAK";
+                document.getElementById("Length "+r4).innerHTML = minute1[r] + ":"+ second1[r];
+                timeSecond = timeSecond + 10;
+                r = r4;
             }
         }
            //document.getElementById("No. 2").innerHTML = randomArray[1];
