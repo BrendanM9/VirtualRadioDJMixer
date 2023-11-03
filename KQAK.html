@@ -189,27 +189,31 @@ console.log(data);
         document.getElementById("L-ID Time").innerHTML = timeHour+ ":00";
         timeSecond = timeSecond + 20;
        //document.getElementById("No. 1").innerHTML = randomArray[0];
-        document.getElementById("Time 1").innerHTML = timeHour+ ":00." + timeSecond;
-        document.getElementById("No. 1").innerHTML = year1[0];
-       document.getElementById("Name 1").innerHTML = title1[0];
-        document.getElementById("Band 1").innerHTML = artist1[0];
-        document.getElementById("Length 1").innerHTML = minute1[0] + ":"+ second1[0];
-        timeMinute = timeMinute + minute1[0];
-        timeSecond = timeSecond + (second1[0]-6);
-        while(timeSecond > 59){
-            timeMinute = timeMinute + 1;
-            timeSecond = timeSecond - 60;
-        }
-       //document.getElementById("No. 2").innerHTML = randomArray[1];
-        if(timeMinute > 9 && timeSecond > 9){
-            document.getElementById("Time 2").innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
-        } else if(timeMinute > 9 && timeSecond < 10){
-            document.getElementById("Time 2").innerHTML = timeHour+ ":"+timeMinute+".0"+timeSecond;
-        } else if(timeMinute < 10 && timeSecond > 9){
-            document.getElementById("Time 2").innerHTML = timeHour+ ":0"+timeMinute+"."+timeSecond;
-        } else if(timeMinute < 10 && timeSecond < 10){
-            document.getElementById("Time 2").innerHTML = timeHour+ ":0"+timeMinute+".0"+timeSecond;
-        }
+        for(var r=0; r < 7; r++){
+            r1 = r+1;
+            if(timeMinute > 9 && timeSecond > 9){
+                document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
+            } else if(timeMinute > 9 && timeSecond < 10){
+                document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+".0"+timeSecond;
+            } else if(timeMinute < 10 && timeSecond > 9){
+                document.getElementById("Time "+r1).innerHTML = timeHour+ ":0"+timeMinute+"."+timeSecond;
+            } else if(timeMinute < 10 && timeSecond < 10){
+                document.getElementById("Time "+r1).innerHTML = timeHour+ ":0"+timeMinute+".0"+timeSecond;
+            }
+            document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute"." + timeSecond;
+            document.getElementById("No. "+ r1).innerHTML = year1[r];
+            document.getElementById("Name "+ r1).innerHTML = title1[r];
+            document.getElementById("Band "+r1).innerHTML = artist1[r];
+            document.getElementById("Length "+r1).innerHTML = minute1[r] + ":"+ second1[r];
+            timeMinute = timeMinute + minute1[r];
+            timeSecond = timeSecond + (second1[r]-6);
+            while(timeSecond > 59){
+                timeMinute = timeMinute + 1;
+                timeSecond = timeSecond - 60;
+            }
+           //document.getElementById("No. 2").innerHTML = randomArray[1];
+        
+        
         document.getElementById("No. 2").innerHTML = year1[1];
        document.getElementById("Name 2").innerHTML = title1[1];
         document.getElementById("Band 2").innerHTML = artist1[1];
