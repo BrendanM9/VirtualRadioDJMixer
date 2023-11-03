@@ -173,6 +173,7 @@ console.log(data);
         var timeHour = 0;
         var timeMinute = 0;
         var timeSecond = 0;
+        var commercials = 0;
         timeHour = hour1;
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*80))
@@ -210,6 +211,9 @@ console.log(data);
             while(timeSecond > 59){
                 timeMinute = timeMinute + 1;
                 timeSecond = timeSecond - 60;
+            }
+            if(commercials = 0 && timeMinute > 8){
+                console.log("CB")
             }
         }
            //document.getElementById("No. 2").innerHTML = randomArray[1];
