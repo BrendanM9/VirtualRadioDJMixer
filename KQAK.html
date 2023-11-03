@@ -190,7 +190,7 @@ console.log(data);
         timeSecond = timeSecond + 20;
        //document.getElementById("No. 1").innerHTML = randomArray[0];
         for(var r=0; r < 7; r++){
-            r1 = r+1;
+            var r1 = r+1;
             if(timeMinute > 9 && timeSecond > 9){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
             } else if(timeMinute > 9 && timeSecond < 10){
