@@ -33,7 +33,7 @@ tr:nth-child(even) {
                 <td>Song Length:</td>
             </tr>
             <tr>
-                <td id="L-ID Time">XX:00</td>
+                <td id="TopOfHour">XX:00</td>
                 <td>N/A</td>
                 <td>Top of the Hour</td>
                 <td>KQAK</td>
@@ -230,6 +230,7 @@ console.log(data);
         var timeMinute = 0;
         var timeSecond = 0;
         var commercials = 0;
+        var KQAK1 = "no";
         timeHour = hour1;
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*80))
@@ -243,7 +244,7 @@ console.log(data);
            console.log(arrayNo);
        }
        console.log(randomArray)
-        document.getElementById("L-ID Time").innerHTML = timeHour+ ":00";
+        document.getElementById("TopOfHour").innerHTML = timeHour+ ":00";
         timeSecond = timeSecond + 20;
        //document.getElementById("No. 1").innerHTML = randomArray[0];
         for(var r=0; r < 21; r++){
@@ -309,6 +310,16 @@ console.log(data);
                 timeSecond = timeSecond + 30;
                 commercials = 2;
                 r = r2;
+            }
+            if(timeMinute > 30 && KQAK1 = "no"){
+                document.getElementById("Time "+r).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r).innerHTML = "N/A";
+                document.getElementById("Name "+ r).innerHTML = "Contest Promo";
+                document.getElementById("Band "+r).innerHTML = "KQAK";
+                document.getElementById("Length "+r).innerHTML = "0:30";
+                timeSecond = timeSecond + 30;
+                commercials = 2;
+                KQAK1 = "yes";
             }
         }
            //document.getElementById("No. 2").innerHTML = randomArray[1];
