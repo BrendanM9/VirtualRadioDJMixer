@@ -110,13 +110,6 @@ tr:nth-child(even) {
                 <td id = "Length 10">--:--</td>
             </tr>
             <tr>
-                <td id="Promo1">XX:31</td>
-                <td>N/A</td>
-                <td>Contest Promo</td>
-                <td>KQAK</td>
-                <td>.30</td>
-            </tr>
-            <tr>
                 <td id = "Time 11">--:--</td>
                 <td id = "No. 11">---</td>
                 <td id = "Name 11">--</td>
@@ -311,7 +304,7 @@ console.log(data);
                 commercials = 2;
                 r = r2;
             }
-            if(timeMinute > 30 && KQAK1 = "no"){
+            if(timeMinute > 30 && KQAK1 === "no"){
                 document.getElementById("Time "+r).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r).innerHTML = "N/A";
                 document.getElementById("Name "+ r).innerHTML = "Contest Promo";
