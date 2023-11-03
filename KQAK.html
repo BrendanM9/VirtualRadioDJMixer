@@ -196,6 +196,10 @@ console.log(data);
         document.getElementById("Length 1").innerHTML = minute1[0] + ":"+ second1[0];
         timeMinute = timeMinute + minute1[0];
         timeSecond = timeSecond + (second1[0]-6);
+        while(timeSecond > 59){
+            timeMinute = timeMinute + 1;
+            timeSecond = timeSecond - 60;
+        }
        //document.getElementById("No. 2").innerHTML = randomArray[1];
         document.getElementById("Time 2").innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
         document.getElementById("No. 2").innerHTML = year1[1];
