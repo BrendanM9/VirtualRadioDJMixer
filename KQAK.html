@@ -82,25 +82,11 @@ tr:nth-child(even) {
                 <td id = "Length 6">--:--</td>
             </tr>
             <tr>
-                <td id="Ad2">XX:20</td>
-                <td>N/A</td>
-                <td>Ad Break</td>
-                <td>KQAK</td>
-                <td>1.00</td>
-            </tr>
-            <tr>
                 <td id = "Time 7">--:--</td>
                 <td id = "No. 7">---</td>
                 <td id = "Name 7">--</td>
                 <td id = "Band 7">--</td>
                 <td id = "Length 7">--:--</td>
-            </tr>
-            <tr>
-                <td id="Weather1">XX:21</td>
-                <td>N/A</td>
-                <td>Central Oregon Weather</td>
-                <td>KQAK</td>
-                <td>.30</td>
             </tr>
             <tr>
                 <td id = "Time 8">--:--</td>
@@ -165,6 +151,41 @@ tr:nth-child(even) {
                 <td id = "Band 15">--</td>
                 <td id = "Length 15">--:--</td>
             </tr>
+            <tr>
+                <td id = "Time 16">--:--</td>
+                <td id = "No. 16">---</td>
+                <td id = "Name 16">--</td>
+                <td id = "Band 16">--</td>
+                <td id = "Length 16">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 17">--:--</td>
+                <td id = "No. 17">---</td>
+                <td id = "Name 17">--</td>
+                <td id = "Band 17">--</td>
+                <td id = "Length 17">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 18">--:--</td>
+                <td id = "No. 18">---</td>
+                <td id = "Name 18">--</td>
+                <td id = "Band 18">--</td>
+                <td id = "Length 18">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 19">--:--</td>
+                <td id = "No. 19">---</td>
+                <td id = "Name 19">--</td>
+                <td id = "Band 19">--</td>
+                <td id = "Length 19">--:--</td>
+            </tr>
+            <tr>
+                <td id = "Time 20">--:--</td>
+                <td id = "No. 20">---</td>
+                <td id = "Name 20">--</td>
+                <td id = "Band 20">--</td>
+                <td id = "Length 20">--:--</td>
+            </tr>
         </table>
     <script type="module">
         /*const data1 = require('./lib.json');
@@ -196,7 +217,7 @@ console.log(data);
             console.log(songno)
         }
         */
-       const ARRAY_LENGTH = 12;
+       const ARRAY_LENGTH = 20;
        const randomArray = [];
        const title1 = [];
         const artist1 = [];
@@ -225,7 +246,7 @@ console.log(data);
         document.getElementById("L-ID Time").innerHTML = timeHour+ ":00";
         timeSecond = timeSecond + 20;
        //document.getElementById("No. 1").innerHTML = randomArray[0];
-        for(var r=0; r < 12; r++){
+        for(var r=0; r < 21; r++){
             var r1 = r+1;
             
             document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
@@ -256,22 +277,38 @@ console.log(data);
                 document.getElementById("No. "+ r2).innerHTML = "N/A";
                 document.getElementById("Name "+ r2).innerHTML = "Here's What You Missed On The Dave Clemens Experience";
                 document.getElementById("Band "+r2).innerHTML = "KQAK";
-                document.getElementById("Length "+r2).innerHTML = minute1[r] + ":"+ second1[r];
+                document.getElementById("Length "+r2).innerHTML = "0:30";
                 timeSecond = timeSecond + 30;
                 document.getElementById("Time "+r3).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r3).innerHTML = "N/A";
                 document.getElementById("Name "+ r3).innerHTML = "Ad Break";
                 document.getElementById("Band "+r3).innerHTML = "KQAK";
-                document.getElementById("Length "+r3).innerHTML = minute1[r] + ":"+ second1[r];
+                document.getElementById("Length "+r3).innerHTML = "2:00";
                 timeMinute = timeMinute + 2;
                 document.getElementById("Time "+r4).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r4).innerHTML = "N/A";
                 document.getElementById("Name "+ r4).innerHTML = "KQAK Theme";
                 document.getElementById("Band "+r4).innerHTML = "KQAK";
-                document.getElementById("Length "+r4).innerHTML = minute1[r] + ":"+ second1[r];
+                document.getElementById("Length "+r4).innerHTML = "0:10";
                 timeSecond = timeSecond + 10;
                 commercials = 1;
                 r = r3;
+            }
+            if(commercials === 1 && timeMinute > 20){
+                document.getElementById("Time "+r2).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r2).innerHTML = "N/A";
+                document.getElementById("Name "+ r2).innerHTML = "Ad Break";
+                document.getElementById("Band "+r2).innerHTML = "KQAK";
+                document.getElementById("Length "+r2).innerHTML = "1:00";
+                timeMinute = timeMinute + 1;
+                document.getElementById("Time "+r3).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r3).innerHTML = "N/A";
+                document.getElementById("Name "+ r3).innerHTML = "Central Oregon Weather";
+                document.getElementById("Band "+r3).innerHTML = "KQAK";
+                document.getElementById("Length "+r3).innerHTML = "0:30";
+                timeSecond = timeSecond + 30;
+                commercials = 2;
+                r = r2;
             }
         }
            //document.getElementById("No. 2").innerHTML = randomArray[1];
