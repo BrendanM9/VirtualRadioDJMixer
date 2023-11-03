@@ -635,56 +635,64 @@
             "title": "Do You Believe In Love",
             "band": "Huey Lewis and The News",
             "year": 1982,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 30,
             "tracklist": "specialty"
         },
         {
             "title": "Heart And Soul",
             "band": "Huey Lewis and The News",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 13,
             "tracklist": "specialty"
         },
         {
             "title": "If This Is It",
             "band": "Huey Lewis and The News",
             "year": 1984,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 54,
             "tracklist": "specialty"
         },
         {
             "title": "Stuck With You",
             "band": "Huey Lewis and The News",
             "year": 1986,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 29,
             "tracklist": "specialty"
         },
         {
             "title": "The Heart Of Rock And Roll",
             "band": "Huey Lewis and The News",
             "year": 1984,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 58,
             "tracklist": "specialty"
         },
         {
             "title": "The Power Of Love",
             "band": "Huey Lewis and The News",
             "year": 1985,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 53,
             "tracklist": "regular"
         },
         {
             "title": "Don't You Want Me",
             "band": "Human League",
             "year": 1981,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 57,
             "tracklist": "regular"
         },
         {
             "title": "Somebody's Baby",
             "band": "Jackson Browne",
             "year": 1982,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 5,
             "tracklist": "specialty"
         }
     ]
