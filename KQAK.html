@@ -201,7 +201,15 @@ console.log(data);
             timeSecond = timeSecond - 60;
         }
        //document.getElementById("No. 2").innerHTML = randomArray[1];
-        document.getElementById("Time 2").innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
+        if(timeMinute > 9 && timeSecond > 9{
+            document.getElementById("Time 2").innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
+        } else if(timeMinute > 9 && timeSecond < 10{
+            document.getElementById("Time 2").innerHTML = timeHour+ ":"+timeMinute+".0"+timeSecond;
+        } else if(timeMinute < 10 && timeSecond > 9{
+            document.getElementById("Time 2").innerHTML = timeHour+ ":0"+timeMinute+"."+timeSecond;
+        } else if(timeMinute < 10 && timeSecond < 10{
+            document.getElementById("Time 2").innerHTML = timeHour+ ":0"+timeMinute+".0"+timeSecond;
+        }
         document.getElementById("No. 2").innerHTML = year1[1];
        document.getElementById("Name 2").innerHTML = title1[1];
         document.getElementById("Band 2").innerHTML = artist1[1];
