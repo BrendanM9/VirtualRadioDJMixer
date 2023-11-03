@@ -4,552 +4,631 @@
             "title": "I Ran (So Far Away)",
             "band": "A Flock of Seagulls",
             "year": 1982,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 43,
             "tracklist": "specialty"
         },
         {
             "title": "Take on Me",
             "band": "a-ha",
             "year": 1984,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 48,
             "tracklist": "regular"
         },
         {
             "title": "Dancing Queen",
             "band": "Abba",
             "year": 1976,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 50,
             "tracklist": "disco"
         },
         {
             "title": "All That She Wants",
             "band": "Ace of Base",
             "year": 1992,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 30,
             "tracklist": "specialty"
         },
         {
             "title": "Der Kommissar",
             "band": "After the Fire",
             "year": 1982,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 15,
             "tracklist": "specialty"
         },
         {
             "title": "Black Velvet",
             "band": "Alannah Myles",
             "year": 1989,
-            "length": 4.47,
+            "minutes": 4,
+            "seconds": 47,
             "tracklist": "specialty"
         },
         {
             "title": "A Horse With No Name",
             "band": "America",
             "year": 1971,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 8,
             "tracklist": "regular"
         },
         {
             "title": "Ventura Highway",
             "band": "America",
             "year": 1972,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 32,
             "tracklist": "summer"
         },
         {
             "title": "Sister Golden Hair",
             "band": "America",
             "year": 1975,
-            "length": 3.19,
+            "minutes": 3,
+            "seconds": 16,
             "tracklist": "regular"
         },
         {
             "title": "Heat Of The Moment",
             "band": "Asia",
             "year": 1982,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 25,
             "tracklist": "specialty"
         },
         {
             "title": "Cruel Summer",
             "band": "Bananarama",
             "year": 1983,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 35,
             "tracklist": "summer"
         },
         {
             "title": "I Get Around",
             "band": "Beach Boys",
             "year": 1964,
-            "length": 0,
+            "minutes": 2,
+            "seconds": 15,
             "tracklist": "summer"
         },
         {
             "title": "Good Vibrations",
             "band": "Beach Boys",
             "year": 1966,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 40,
             "tracklist": "summer"
         },
         {
             "title": "Wouldn't It Be Nice",
             "band":"Beach Boys",
             "year": 1966,
-            "length": 0,
+            "minutes": 2,
+            "seconds": 34,
             "tracklist": "summer"
         },
         {
             "title": "Movin' Out (Anthony's Song)",
             "band": "Billy Joel",
             "year": 1977,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 33,
             "tracklist": "regular"
         },
         {
             "title": "My Life",
             "band": "Billy Joel",
             "year": 1978,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 46,
             "tracklist": "regular"
         },
         {
             "title": "Tell Her About It",
             "band": "Billy Joel",
             "year": 1983,
-            "length": 0,
-            "tracklist": "regular"
+            "minutes": 3,
+            "seconds": 53,
+            "tracklist": "specialty"
         },
         {
             "title": "Caribbean Queen",
             "band": "Billy Ocean",
             "year": 1984,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 41,
             "tracklist": "specialty"
         },
         {
             "title": "No Rain",
             "band": "Blind Mellon",
             "year": 1992,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 38,
             "tracklist": "specialty"
         },
         {
             "title": "Run-Around",
             "band": "Blues Traveler",
             "year": 1994,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 14,
             "tracklist": "specialty"
         },
         {
             "title": "Livin' On A Prayer",
             "band": "Bon Jovi",
             "year": 1986,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 10,
             "tracklist": "regular"
         },
         {
             "title": "Total Eclipse of the Heart",
             "band": "Bonnie Tyler",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 30,
             "tracklist": "specialty"
         },
         {
             "title": "Lowdown",
             "band": "Boz Scaggs",
             "year": 1976,
-            "length": 5.15,
+            "minutes": 5,
+            "seconds": 15,
             "tracklist": "disco"
         },
         {
             "title": "Run To You",
             "band": "Bryan Adams",
             "year": 1984,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 54,
             "tracklist": "regular"
         },
         {
             "title": "If I Could Turn Back Time",
             "band": "Cher",
             "year": 1989,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 59,
             "tracklist": "specialty"
         },
         {
             "title": "Hard to Say I'm Sorry/ Get Away",
             "band": "Chicago",
             "year": 1982,
-            "length": 0,
+            "minutes": 5,
+            "seconds": 5,
             "tracklist": "specialty"
         },
         {
             "title": "Saturday in the Park",
             "band": "Chicago",
             "year": 1972,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 58,
             "tracklist": "specialty"
         },
         {
             "title": "Sunglasses At Night",
             "band": "Corey Hart",
             "year": 1984,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 54,
             "tracklist": "specialty"
         },
         {
             "title": "Bad Moon Rising",
             "band": "Creedence Clearwater Revival",
             "year": 1969,
-            "length": 0,
+            "minutes": 2,
+            "seconds": 20,
             "tracklist": "specialty"
         },
         {
             "title": "Down On The Corner",
             "band": "Creedence Clearwater Revival",
             "year": 1969,
-            "length": 0,
+            "minutes": 2,
+            "seconds": 45,
             "tracklist": "specialty"
         },
         {
             "title": "Don't Dream It's Over",
             "band": "Crowded House",
             "year": 1986,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 59,
             "tracklist": "regular"
         },
         {
             "title": "Karma Chameleon",
             "band": "Culture Club",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 13,
             "tracklist": "regular"
         },
         {
             "title": "(I Just) Died In Your Arms",
             "band": "Cutting Crew",
             "year": 1986,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 46,
             "tracklist": "regular"
         },
         {
             "title": "Kiss on My List",
             "band": "Daryl Hall and John Oates",
             "year": 1981,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 24,
             "tracklist": "regular"
         },
         {
             "title": "Maneater",
             "band": "Daryl Hall and John Oates",
             "year": 1982,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 32,
             "tracklist": "regular"
         },
         {
             "title": "Out of Touch",
             "band": "Daryl Hall and John Oates",
             "year": 1984,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 10,
             "tracklist": "specialty"
         },
         {
             "title": "Private Eyes",
             "band": "Daryl Hall and John Oates",
             "year": 1981,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 38,
             "tracklist": "regular"
         },
         {
             "title": "Rich Girl",
             "band": "Daryl Hall and John Oates",
             "year": 1977,
-            "length": 0,
+            "minutes": 2,
+            "seconds": 25,
             "tracklist": "regular"
         },
         {
             "title": "You Make My Dreams (Come True)",
             "band": "Daryl Hall and John Oates",
             "year": 1981,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 8,
             "tracklist": "regular"
         },
         {
             "title": "Let's Dance",
             "band": "David Bowie",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 10,
             "tracklist": "specialty"
         },
         {
             "title": "Modern Love",
             "band": "David Bowie",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 0,
             "tracklist": "specialty"
         },
         {
             "title": "The Boys Of Summer",
             "band": "Don Henley",
             "year": 1984,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 49,
             "tracklist": "summer"
         },
         {
             "title": "American Pie",
             "band": "Don Mclean",
             "year": 1971,
-            "length": 0,
+            "minutes": 8,
+            "seconds": 30,
             "tracklist": "legalid"
         },
         {
             "title": "Hungry Like the Wolf",
             "band": "Duran Duran",
             "year": 1982,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 42,
             "tracklist": "regular"
         },
         {
             "title": "Rio",
             "band": "Duran Duran",
             "year": 1982,
-            "length": 0,
+            "minutes": 5,
+            "seconds": 16,
             "tracklist": "specialty"
         },
         {
             "title": "Two Tickets to Paradise",
             "band": "Eddie Money",
             "year": 1977,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 58,
             "tracklist": "specialty"
         },
         {
             "title": "Take Me Home Tonight",
             "band": "Eddie Money",
             "year": 1986,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 32,
             "tracklist": "regular"
         },
         {
             "title": "Don't Bring Me Down",
             "band": "ELO",
             "year": 1979,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 5,
             "tracklist": "specialty"
         },
         {
             "title": "Candle In The Wind",
             "band": "Elton John",
             "year": 1987,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 48,
             "tracklist": "specialty"
         },
         {
             "title": "Crocodile Rock",
             "band": "Elton John",
             "year": 1972,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 57,
             "tracklist": "regular"
         },
         {
             "title": "Goodbye Yellow Brick Road",
             "band": "Elton John",
             "year": 1973,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 16,
             "tracklist": "regular"
         },
         {
             "title": "I Guess That's Why They Call It The Blues",
             "band": "Elton John",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 43,
             "tracklist": "specialty"
         },
         {
             "title": "I'm Still Standing",
             "band": "Elton John",
             "year": 1983,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 5,
             "tracklist": "regular"
         },
         {
             "title": "Rocket Man (I Think It's Going to be a Long Time)",
             "band": "Elton John",
             "year": 1972,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 42,
             "tracklist": "regular"
         },
         {
             "title": "Your Song",
             "band": "Elton John",
             "year": 1970,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 4,
             "tracklist": "regular"
         },
         {
             "title": "Tiny Dancer",
             "band": "Elton John",
             "year": 1972,
-            "length": 0,
+            "minutes": 6,
+            "seconds": 16,
             "tracklist": "specialty"
         },
         {
             "title": "Hungry Eyes",
             "band": "Eric Carmen",
             "year": 1987,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 8,
             "tracklist": "specialty"
         },
         {
             "title": "Sweet Dreams (Are Made of These)",
             "band": "Eurythmics",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 54,
             "tracklist": "regular"
         },
         {
             "title": "Shame",
             "band": "Evelyn Champagne King",
             "year": 1977,
-            "length": 3.16,
+            "minutes": 3,
+            "seconds": 16,
             "tracklist": "disco"
         },
         {
             "title": "She Drives Me Crazy",
             "band": "Fine Young Cannibals",
             "year": 1988,
-            "length":0,
+            "minutes": 3,
+            "seconds": 38,
             "tracklist": "specialty"
         },
         {
             "title": "Don't Stop",
             "band": "Fleetwood Mac",
             "year": 1977,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 14,
             "tracklist": "regular"
         },
         {
             "title": "Rhiannon",
             "band": "Fleetwood Mac",
             "year": 1976,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 13,
             "tracklist": "regular"
         },
         {
             "title": "Dreams",
             "band": "Fleetwood Mac",
             "year": 1977,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 18,
             "tracklist": "regular"
         },
         {
             "title": "Go Your Own Way",
             "band": "Fleetwood Mac",
             "year": 1976,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 44,
             "tracklist": "regular"
         },
         {
             "title": "Gypsy",
             "band": "Fleetwood Mac",
             "year": 1982,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 23,
             "tracklist": "regular"
         },
         {
             "title": "The Chain",
             "band": "Fleetwood Mac",
             "year": 1977,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 32,
             "tracklist": "specialty"
         },
         {
             "title": "Cold as Ice",
             "band": "Foreigner",
             "year": 1977,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 21,
             "tracklist": "specialty"
         },
         {
             "title": "Double Vision",
             "band": "Foreigner",
             "year": 1978,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 45,
             "tracklist": "specialty"
         },
         {
             "title": "I Want to Know What Love Is",
             "band": "Foreigner",
             "year": 1984,
-            "length": 0,
+            "minutes": 5,
+            "seconds": 4,
             "tracklist": "specialty"
         },
         {
             "title": "Urgent",
             "band": "Foreigner",
             "year": 1981,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 58,
             "tracklist": "specialty"
         },
         {
             "title": "Relax",
             "band": "Frankie Goes to Hollywood",
             "year": 1983,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 58,
             "tracklist": "specialty"
         },
         {
             "title": "Dream Weaver",
             "band": "Gary Wright",
             "year": 1975,
-            "length": 4.16,
+            "minutes": 4,
+            "seconds": 16,
             "tracklist": "specialty"
         },
         {
             "title": "Invisible Touch",
             "band": "Genesis",
             "year": 1986,
-            "length": 3.28,
+            "minutes": 3,
+            "seconds": 28,
             "tracklist": "specialty"
         },
         {
             "title": "Misunderstanding",
             "band": "Genesis",
             "year": 1980,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 12,
             "tracklist": "specialty"
         },
         {
             "title": "That's All",
             "band": "Genesis",
             "year": 1983,
-            "length": 0,
+            "minutes": 4,
+            "seconds": 27,
             "tracklist": "specialty"
         },{
             "title": "Got My Mind Set On You",
             "band": "George Harrison",
             "year": 1987,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 53,
             "tracklist": "specialty"
         },
         {
             "title": "Baker Street",
             "band": "Gerry Rafferty",
             "year": 1978,
-            "length": 6.05,
+            "minutes": 6,
+            "seconds": 5,
             "tracklist": "specialty"
         },
         {
             "title": "Alone",
             "band": "Heart",
             "year": 1987,
-            "length": 3.38,
+            "minutes": 3,
+            "seconds": 38,
             "tracklist": "regular"
         },
         {
             "title": "Things Can Only Get Better",
             "band": "Howard Jones",
             "year": 1985,
-            "length": 0,
+            "minutes": 3,
+            "seconds": 56,
             "tracklist": "regular"
         },
         {
