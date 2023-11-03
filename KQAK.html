@@ -192,6 +192,14 @@ console.log(data);
        //document.getElementById("No. 1").innerHTML = randomArray[0];
         for(var r=0; r < 7; r++){
             var r1 = r+1;
+            
+            document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+            document.getElementById("No. "+ r1).innerHTML = year1[r];
+            document.getElementById("Name "+ r1).innerHTML = title1[r];
+            document.getElementById("Band "+r1).innerHTML = artist1[r];
+            document.getElementById("Length "+r1).innerHTML = minute1[r] + ":"+ second1[r];
+            timeMinute = timeMinute + minute1[r];
+            timeSecond = timeSecond + (second1[r]-6);
             if(timeMinute > 9 && timeSecond > 9){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
             } else if(timeMinute > 9 && timeSecond < 10){
@@ -201,13 +209,6 @@ console.log(data);
             } else if(timeMinute < 10 && timeSecond < 10){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":0"+timeMinute+".0"+timeSecond;
             }
-            document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
-            document.getElementById("No. "+ r1).innerHTML = year1[r];
-            document.getElementById("Name "+ r1).innerHTML = title1[r];
-            document.getElementById("Band "+r1).innerHTML = artist1[r];
-            document.getElementById("Length "+r1).innerHTML = minute1[r] + ":"+ second1[r];
-            timeMinute = timeMinute + minute1[r];
-            timeSecond = timeSecond + (second1[r]-6);
             while(timeSecond > 59){
                 timeMinute = timeMinute + 1;
                 timeSecond = timeSecond - 60;
