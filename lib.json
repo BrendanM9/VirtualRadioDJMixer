@@ -694,6 +694,86 @@
             "minutes": 4,
             "seconds": 5,
             "tracklist": "specialty"
+        },
+        {
+            "title": "On The Dark Side",
+            "band": "John Cafferty and The Beaver Brown Band",
+            "year": 1983,
+            "minutes": 2,
+            "seconds": 43,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Missing You",
+            "band": "John Waite",
+            "year": 1984,
+            "minutes": 4,
+            "seconds": 1,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Any Way You Want It",
+            "band": "Journey",
+            "year": 1980,
+            "minutes": 3,
+            "seconds": 23,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Don't Stop Believin'",
+            "band": "Journey",
+            "year": 1981,
+            "minutes": 4,
+            "seconds": 10,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Faithfully",
+            "band": "Journey",
+            "year": 1983,
+            "minutes": 4,
+            "seconds": 27,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Dust In The Wind",
+            "band": "Kansas",
+            "year": 1977,
+            "minutes": 3,
+            "seconds": 26,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "That's The Way (I Like It)",
+            "band": "KC & The Sunshine Band",
+            "year": 1975,
+            "minutes": 3,
+            "seconds": 5,
+            "tracklist": "disco"
+        },
+        {
+            "title": "Danger Zone",
+            "band": "Kenny Loggins",
+            "year": 1986,
+            "minutes": 3,
+            "seconds": 33,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Too Hot",
+            "band": "Kool & The Gang",
+            "year": 1979,
+            "minutes": 3,
+            "seconds": 46,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Heat Wave",
+            "band": "Linda Ronstadt",
+            "year": 1975,
+            "minutes": 2,
+            "seconds": 46,
+            "tracklist": "summer"
         }
     ]
 }
