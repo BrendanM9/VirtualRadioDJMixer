@@ -41,7 +41,7 @@ tr:nth-child(even) {
                 <td>N/A</td>
                 <td id="TopOfHourText">Top of the Hour</td>
                 <td>KQAK</td>
-                <td>.20</td>
+                <td>:20</td>
             </tr>
             <tr>
                 <td id = "Time 1">--:--</td>
@@ -252,6 +252,15 @@ console.log(data);
             document.getElementById("Name "+ r1).innerHTML = title1[r];
             document.getElementById("Band "+r1).innerHTML = artist1[r];
             document.getElementById("Length "+r1).innerHTML = minute1[r] + ":"+ second1[r];
+            if(minute1[r] > 9 && second1[r] > 9){
+                document.getElementById("Length "+r1).innerHTML = minute1[r]":"second1[r];
+            } else if(minute1[r] > 9 && second1[r] < 10){
+                document.getElementById("Length "+r1).innerHTML = minute1[r]+":0"+second1[r];
+            } else if(minute1[r] < 10 && second1[r] > 9){
+                document.getElementById("Length "+r1).innerHTML = minute1[r]+":"+second1[r];
+            } else if(minute1[r] < 10 && second1[r] < 10){
+                document.getElementById("Length "+r1).innerHTML = minute1[r]+":0"+second1[r];
+            }
             if(timeMinute > 9 && timeSecond > 9){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"."+timeSecond;
             } else if(timeMinute > 9 && timeSecond < 10){
