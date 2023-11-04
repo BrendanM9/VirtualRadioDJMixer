@@ -27,7 +27,7 @@ tr:nth-child(even) {
     color:green;
 }
             </style>
-        <table>
+        <table id="tracklist">
             <thead>KQAK Program</thead>
             <tr>
                 <td>Time:</td>
@@ -229,6 +229,7 @@ console.log(data);
         var timeSecond = 0;
         var commercials = 0;
         var KQAK1 = "no";
+        var list = document.getElementById("tracklist");
         timeHour = hour1;
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*80))
@@ -371,7 +372,8 @@ console.log(data);
         document.getElementById("Length 7").innerHTML = minute1[6] + ":"+ second1[6];
         */
         document.getElementById("print1").addEventListener("click", function(){
-            print();
+            console.log("print");
+            print(list);
         });
     </script>
     </body>
