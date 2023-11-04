@@ -184,6 +184,7 @@ tr:nth-child(even) {
                 <td id = "Length 20">--:--</td>
             </tr>
         </table>
+        <button id="print1">
     <script type="module">
         /*const data1 = require('./lib.json');
         console.log("data1 \n", data1);
@@ -253,7 +254,7 @@ console.log(data);
             document.getElementById("Band "+r1).innerHTML = artist1[r];
             //document.getElementById("Length "+r1).innerHTML = minute1[r] + ":"+ second1[r];
             if(minute1[r] > 9 && second1[r] > 9){
-                document.getElementById("Length "+r1).innerHTML = minute1[r]":"second1[r];
+                document.getElementById("Length "+r1).innerHTML = minute1[r]+":"second1[r];
             } else if(minute1[r] > 9 && second1[r] < 10){
                 document.getElementById("Length "+r1).innerHTML = minute1[r]+":0"+second1[r];
             } else if(minute1[r] < 10 && second1[r] > 9){
@@ -369,6 +370,7 @@ console.log(data);
         document.getElementById("Band 7").innerHTML = artist1[6];
         document.getElementById("Length 7").innerHTML = minute1[6] + ":"+ second1[6];
         */
+        document.getElementById("print1").addEventListener("click", print());
     </script>
     </body>
 </html>
