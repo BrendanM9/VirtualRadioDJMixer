@@ -458,6 +458,20 @@ console.log(data);
                 commercials = 2;
                 r = r2;
             }
+            if(timeMinute > 57){
+                
+                document.getElementById("Time "+r).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r).innerHTML = "N/A";
+                document.getElementById("Name "+ r).innerHTML = "Top Of The Hour";
+                document.getElementById("Band "+r).innerHTML = "KQAK";
+                document.getElementById("Length "+r).innerHTML = "0:20";
+                timeSecond = timeSecond + 20;
+                //KQAK1 = "yes";
+            }
+            if(timeMinute >= 60){
+                timeMinute = timeMinute - 60;
+                timeHour = timeHour + 1;
+            }
             if(timeMinute > 30 && KQAK1 === "no"){
                 document.getElementById("Time "+r2).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r2).innerHTML = "N/A";
