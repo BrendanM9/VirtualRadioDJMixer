@@ -774,6 +774,270 @@
             "minutes": 2,
             "seconds": 46,
             "tracklist": "summer"
+        },
+        {
+            "title": "Dancing On The Ceiling",
+            "band": "Lionel Richie",
+            "year": 1986,
+            "minutes": 4,
+            "seconds": 18,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Borderline",
+            "band": "Madonna",
+            "year": 1983,
+            "minutes": 5,
+            "seconds": 21,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Into The Groove",
+            "band": "Madonna",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 10,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "La Isla Bonita",
+            "band": "Madonna",
+            "year": 1987,
+            "minutes": 4,
+            "seconds": 3,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Like a Prayer",
+            "band": "Madonna",
+            "year": 1989,
+            "minutes": 3,
+            "seconds": 40,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Lucky Star",
+            "band": "Madonna",
+            "year": 1983,
+            "minutes": 5,
+            "seconds": 37,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Break My Stride",
+            "band": "Matthew Wilder",
+            "year": 1983,
+            "minutes": 3,
+            "seconds": 4,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Bad",
+            "band": "Michael Jackson",
+            "year": 1987,
+            "minutes": 4,
+            "seconds": 7,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Beat It",
+            "band": "Michael Jackson",
+            "year": 1983,
+            "minutes": 4,
+            "seconds": 18,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Billie Jean",
+            "band": "Michael Jackson",
+            "year": 1983,
+            "minutes": 4,
+            "seconds": 54,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Smooth Criminal",
+            "band": "Michael Jackson",
+            "year": 1988,
+            "minutes": 4,
+            "seconds": 18,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Thriller",
+            "band": "Michael Jackson",
+            "year": 1983,
+            "minutes": 5,
+            "seconds": 57,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Man In The Mirror",
+            "band": "Michael Jackson",
+            "year": 1988,
+            "minutes": 5,
+            "seconds": 19,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Maniac",
+            "band": "Michael Sembello",
+            "year": 1983,
+            "minutes": 4,
+            "seconds": 18,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Broken Wings",
+            "band": "Mister Mister",
+            "year": 1984,
+            "minutes": 4,
+            "seconds": 43,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Kyrie",
+            "band": "Mister Mister",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 10,
+            "tracklist": "regular"
+        },
+        {
+            "title": "One Night In Bangkok",
+            "band": "Murray Head",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 56,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Sweet Caroline",
+            "band": "Neil Diamond",
+            "year": 1969,
+            "minutes": 2,
+            "seconds": 51,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Straight Up",
+            "band": "Paula Abdul",
+            "year": 1988,
+            "minutes": 4,
+            "seconds": 11,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "West End Girls",
+            "band": "Pet Shop Boys",
+            "year": 1984,
+            "minutes": 4,
+            "seconds": 45,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Glory of Love",
+            "band": "Peter Cetera",
+            "year": 1986,
+            "minutes": 4,
+            "seconds": 26,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "In Your Eyes",
+            "band": "Peter Gabriel",
+            "year": 1985,
+            "minutes": 5,
+            "seconds": 23,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Sledgehammer",
+            "band": "Peter Gabriel",
+            "year": 1986,
+            "minutes": 5,
+            "seconds": 12,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "In The Air Tonight",
+            "band": "Phil Collins",
+            "year": 1981,
+            "minutes": 5,
+            "seconds": 34,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Sussudio",
+            "band": "Phil Collins",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 23,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "You Can't Hurry Love",
+            "band": "Phil Collins",
+            "year": 1982,
+            "minutes": 2,
+            "seconds": 56,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Easy Lover",
+            "band": "Phil Collins & Philip Bailey",
+            "year": 1984,
+            "minutes": 5,
+            "seconds": 5,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Kiss",
+            "band": "Prince",
+            "year": 1986,
+            "minutes": 3,
+            "seconds": 38,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Purple Rain",
+            "band": "Prince",
+            "year": 1984,
+            "minutes": 4,
+            "seconds": 5,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "When Doves Cry",
+            "band": "Prince",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 47,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Another One Bites The Dust",
+            "band": "Queen",
+            "year": 1980,
+            "minutes": 3,
+            "seconds": 35,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Crazy Little Thing Called Love",
+            "band": "Queen",
+            "year": 1979,
+            "minutes": 2,
+            "seconds": 42,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Under Pressure",
+            "band": "Queen & David Bowie",
+            "year": 1981,
+            "minutes": 4,
+            "seconds": 8,
+            "tracklist": "specialty"
         }
     ]
 }
