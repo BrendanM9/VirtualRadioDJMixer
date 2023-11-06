@@ -459,14 +459,15 @@ console.log(data);
                 r = r2;
             }
             if(timeMinute > 57){
-                
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = "N/A";
                 document.getElementById("Name "+ r1).innerHTML = "Top Of The Hour";
+                document.getElementById("Name "+ r1).style = "color: Green";
                 document.getElementById("Band "+r1).innerHTML = "KQAK";
                 document.getElementById("Length "+r1).innerHTML = "0:20";
                 timeSecond = timeSecond + 20;
-                //KQAK1 = "yes";
+                KQAK1 = "no";
+                commercials= 0;
             }
             if(timeMinute >= 60){
                 timeMinute = timeMinute - 60;
