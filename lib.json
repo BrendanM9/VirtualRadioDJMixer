@@ -329,6 +329,14 @@
             "tracklist": "specialty"
         },
         {
+            "title": "Rhythym of the Night",
+            "band": "DeBarge",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 49,
+            "tracklist": "specialty"
+        },
+        {
             "title": "The Boys Of Summer",
             "band": "Don Henley",
             "year": 1984,
@@ -1054,6 +1062,190 @@
             "minutes": 4,
             "seconds": 8,
             "tracklist": "specialty"
+        },
+        {
+            "title": "Losing My Religion",
+            "band": "REM",
+            "year": 1991,
+            "minutes": 4,
+            "seconds": 28,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Take It on the Run",
+            "band": "REO Speedwagon",
+            "year": 1980,
+            "minutes": 3,
+            "seconds": 39,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Jessie's Girl",
+            "band": "Rick Springfield",
+            "year": 1981,
+            "minutes": 3,
+            "seconds": 14,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Somebody's Watching Me",
+            "band": "Rockwell",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 57,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "It Must Have Been Love",
+            "band": "Roxette",
+            "year": 1987,
+            "minutes": 4,
+            "seconds": 48,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Kiss from a Rose",
+            "band": "Seal",
+            "year": 1994,
+            "minutes": 3,
+            "seconds": 38,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Summer Breeze",
+            "band": "Seals and Crofts",
+            "year": 1972,
+            "minutes": 3,
+            "seconds": 25,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Mrs. Robinson",
+            "band": "Simon and Garfunkel",
+            "year": 1968,
+            "minutes": 4,
+            "seconds": 2,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Don't You (Forget About Me)",
+            "band": "Simple Minds",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 20,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Hot Fun in the Summertime",
+            "band": "Sly and the Family Stone",
+            "year": 1969,
+            "minutes": 2,
+            "seconds": 37,
+            "tracklist": "summer"
+        },
+        {
+            "title": "True",
+            "band": "Spandau Ballet",
+            "year": 1983,
+            "minutes": 5,
+            "seconds": 39,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "We Built This City",
+            "band": "Starship",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 49,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Oh Sherrie",
+            "band": "Steve Perry",
+            "year": 1983,
+            "minutes": 3,
+            "seconds": 48,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Higher Love",
+            "band": "Steve Winwood",
+            "year": 1986,
+            "minutes": 4,
+            "seconds": 14,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Edge Of Seventeen",
+            "band": "Stevie Nicks",
+            "year": 1981,
+            "minutes": 4,
+            "seconds": 28,
+            "tracklist": "regular"
+        },
+        {
+            "title": "I Wish",
+            "band": "Stevie Wonder",
+            "year": 1976,
+            "minutes": 3,
+            "seconds": 55,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Isn't She Lovely",
+            "band": "Stevie Wonder",
+            "year": 1976,
+            "minutes": 3,
+            "seconds": 20,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Part-Time Lover",
+            "band": "Stevie Wonder",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 12,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Give A Little Bit",
+            "band": "Supertramp",
+            "year": 1977,
+            "minutes": 4,
+            "seconds": 8,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "The Logical Song",
+            "band": "Supertramp",
+            "year": 1979,
+            "minutes": 4,
+            "seconds": 11,
+            "tracklist": "regular"
+        },
+        {
+            "title": "It's My Life",
+            "band": "Talk Talk",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 50,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Everybody Wants To Rule The World",
+            "band": "Tears For Fears",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 21,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Shout",
+            "band": "Tears For Fears",
+            "year": 1984,
+            "minutes": 4,
+            "seconds": 52,
+            "tracklist": "regular"
         }
     ]
 }
