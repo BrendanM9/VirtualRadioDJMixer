@@ -387,8 +387,6 @@ console.log(data);
        //document.getElementById("No. 1").innerHTML = randomArray[0];
         for(var r=0; r < 40; r++){
             var r1 = r+1;
-            timeMinute = timeMinute + minute1[r];
-            timeSecond = timeSecond + (second1[r]-6);
             while(timeSecond > 59){
                 timeMinute = timeMinute + 1;
                 timeSecond = timeSecond - 60;
@@ -482,6 +480,8 @@ console.log(data);
                     document.getElementById("Time "+r1).innerHTML = timeHour+ ":0"+timeMinute+".0"+timeSecond;
                 }
             }
+            timeMinute = timeMinute + minute1[r];
+            timeSecond = timeSecond + (second1[r]-6);
         }
            //document.getElementById("No. 2").innerHTML = randomArray[1];
         
