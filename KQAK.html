@@ -398,50 +398,50 @@ console.log(data);
             var r4 = r3 + 1;
             //document.getElementById("Length "+r1).innerHTML = minute1[r] + ":"+ second1[r];
             if(commercials === 0 && timeMinute > 7){
-                document.getElementById("Time "+r2).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
-                document.getElementById("No. "+ r2).innerHTML = "N/A";
-                document.getElementById("Name "+ r2).innerHTML = "Here's What You Missed On The Dave Clemens Experience";
-                document.getElementById("Band "+r2).innerHTML = "KQAK";
-                document.getElementById("Length "+r2).innerHTML = "0:30";
+                document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r1).innerHTML = "N/A";
+                document.getElementById("Name "+ r1).innerHTML = "Here's What You Missed On The Dave Clemens Experience";
+                document.getElementById("Band "+r1).innerHTML = "KQAK";
+                document.getElementById("Length "+r1).innerHTML = "0:30";
                 timeSecond = timeSecond + 30;
-                document.getElementById("Time "+r3).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
-                document.getElementById("No. "+ r3).innerHTML = "N/A";
-                document.getElementById("Name "+ r3).innerHTML = "Ad Break";
-                document.getElementById("Band "+r3).innerHTML = "KQAK";
-                document.getElementById("Length "+r3).innerHTML = "2:00";
-                timeMinute = timeMinute + 2;
-                document.getElementById("Time "+r4).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
-                document.getElementById("No. "+ r4).innerHTML = "N/A";
-                document.getElementById("Name "+ r4).innerHTML = "KQAK Theme";
-                document.getElementById("Band "+r4).innerHTML = "KQAK";
-                document.getElementById("Length "+r4).innerHTML = "0:10";
-                timeSecond = timeSecond + 10;
-                commercials = 1;
-                r = r3;
-            }
-            else if(commercials === 1 && timeMinute > 20){
                 document.getElementById("Time "+r2).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r2).innerHTML = "N/A";
                 document.getElementById("Name "+ r2).innerHTML = "Ad Break";
                 document.getElementById("Band "+r2).innerHTML = "KQAK";
-                document.getElementById("Length "+r2).innerHTML = "1:00";
-                timeMinute = timeMinute + 1;
+                document.getElementById("Length "+r2).innerHTML = "2:00";
+                timeMinute = timeMinute + 2;
                 document.getElementById("Time "+r3).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r3).innerHTML = "N/A";
-                document.getElementById("Name "+ r3).innerHTML = "Central Oregon Weather";
+                document.getElementById("Name "+ r3).innerHTML = "KQAK Theme";
                 document.getElementById("Band "+r3).innerHTML = "KQAK";
-                document.getElementById("Length "+r3).innerHTML = "0:30";
-                timeSecond = timeSecond + 30;
-                commercials = 2;
+                document.getElementById("Length "+r3).innerHTML = "0:10";
+                timeSecond = timeSecond + 10;
+                commercials = 1;
                 r = r2;
             }
-            else if(timeMinute > 57){
+            else if(commercials === 1 && timeMinute > 20){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = "N/A";
-                document.getElementById("Name "+ r1).innerHTML = "Top Of The Hour";
-                document.getElementById("Name "+ r1).style = "color: Green; font-size: 50px";
+                document.getElementById("Name "+ r1).innerHTML = "Ad Break";
                 document.getElementById("Band "+r1).innerHTML = "KQAK";
-                document.getElementById("Length "+r1).innerHTML = "0:20";
+                document.getElementById("Length "+r1).innerHTML = "1:00";
+                timeMinute = timeMinute + 1;
+                document.getElementById("Time "+r2).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r2).innerHTML = "N/A";
+                document.getElementById("Name "+ r2).innerHTML = "Central Oregon Weather";
+                document.getElementById("Band "+r2).innerHTML = "KQAK";
+                document.getElementById("Length "+r2).innerHTML = "0:30";
+                timeSecond = timeSecond + 30;
+                commercials = 2;
+                r = r1;
+            }
+            else if(timeMinute > 57){
+                document.getElementById("Time "+r).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r).innerHTML = "N/A";
+                document.getElementById("Name "+ r).innerHTML = "Top Of The Hour";
+                document.getElementById("Name "+ r).style = "color: Green; font-size: 50px";
+                document.getElementById("Band "+r).innerHTML = "KQAK";
+                document.getElementById("Length "+r).innerHTML = "0:20";
                 timeSecond = timeSecond + 20;
                 KQAK1 = "no";
                 commercials= 0;
@@ -451,11 +451,11 @@ console.log(data);
                 timeHour = timeHour + 1;
             }
             else if(timeMinute > 30 && KQAK1 === "no"){
-                document.getElementById("Time "+r2).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
-                document.getElementById("No. "+ r2).innerHTML = "N/A";
-                document.getElementById("Name "+ r2).innerHTML = "Contest Promo";
-                document.getElementById("Band "+r2).innerHTML = "KQAK";
-                document.getElementById("Length "+r2).innerHTML = "0:30";
+                document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r1).innerHTML = "N/A";
+                document.getElementById("Name "+ r1).innerHTML = "Contest Promo";
+                document.getElementById("Band "+r1).innerHTML = "KQAK";
+                document.getElementById("Length "+r1).innerHTML = "0:30";
                 timeSecond = timeSecond + 30;
                 KQAK1 = "yes";
             } else{
