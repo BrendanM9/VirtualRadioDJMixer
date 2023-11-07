@@ -433,7 +433,7 @@ console.log(data);
                 document.getElementById("Length "+r2).innerHTML = "0:30";
                 timeSecond = timeSecond + 30;
                 commercials = 2;
-                r = r1;
+                r = r2;
             }
             else if(timeMinute > 57){
                 document.getElementById("Time "+r).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
@@ -447,6 +447,7 @@ console.log(data);
                 commercials= 0;
                 timeMinute = timeMinute - 60;
                 timeHour = timeHour + 1;
+                r = r1;
             }
             else if(timeMinute > 30 && KQAK1 === "no"){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
@@ -456,6 +457,7 @@ console.log(data);
                 document.getElementById("Length "+r1).innerHTML = "0:30";
                 timeSecond = timeSecond + 30;
                 KQAK1 = "yes";
+                r = r1;
             } else{
                 document.getElementById("Time "+r1).innerHTML = timeHour+":"+timeMinute+"."+timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = year1[r];
