@@ -1000,6 +1000,14 @@
             "tracklist": "specialty"
         },
         {
+            "title": "Take Me Home",
+            "band": "Phil Collins",
+            "year": 1985,
+            "minutes": 5,
+            "seconds": 53,
+            "tracklist": "specialty"
+        },
+        {
             "title": "You Can't Hurry Love",
             "band": "Phil Collins",
             "year": 1982,
@@ -1254,6 +1262,134 @@
             "minutes": 4,
             "seconds": 52,
             "tracklist": "regular"
+        },
+        {
+            "title": "Love Shack",
+            "band": "The B-52's",
+            "year": 1989,
+            "minutes": 4,
+            "seconds": 15,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Roam",
+            "band": "The B-52's",
+            "year": 1990,
+            "minutes": 4,
+            "seconds": 5,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Let It Be",
+            "band": "The Beatles",
+            "year": 1970,
+            "minutes": 3,
+            "seconds": 50,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Drive",
+            "band": "The Cars",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 55,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Just What I Needed",
+            "band": "The Cars",
+            "year": 1978,
+            "minutes": 3,
+            "seconds": 44,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Magic",
+            "band": "The Cars",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 57,
+            "tracklist": "summer"
+        },
+        {
+            "title": "My Best Friend's Girl",
+            "band": "The Cars",
+            "year": 1978,
+            "minutes": 3,
+            "seconds": 43,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "You Might Think",
+            "band": "The Cars",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 4,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Rock the Casbah",
+            "band": "The Clash",
+            "year": 1982,
+            "minutes": 3,
+            "seconds": 42,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Take It Easy",
+            "band": "The Eagles",
+            "year": 1972,
+            "minutes": 3,
+            "seconds": 30,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "One Thing Leads To Another",
+            "band": "The Fixx",
+            "year": 1983,
+            "minutes": 3,
+            "seconds": 19,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Summer In The City",
+            "band": "The Lovin' Spoonful",
+            "year": 1966,
+            "minutes": 2,
+            "seconds": 39,
+            "tracklist": "summer"
+        },
+        {
+            "title": "Daydream Believer",
+            "band": "The Monkees",
+            "year": 1967,
+            "minutes": 3,
+            "seconds": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "I'm a Believer",
+            "band": "The Monkees",
+            "year": 1966,
+            "minutes": 2,
+            "seconds": 47,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Every Little Thing She Does Is Magic",
+            "band": "The Police",
+            "year": 1981,
+            "minutes": 4,
+            "seconds": 22,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Message In A Bottle",
+            "band": "The Police",
+            "year": 1979,
+            "minutes": 3,
+            "seconds": 50,
+            "tracklist": "specialty"
         }
     ]
 }
