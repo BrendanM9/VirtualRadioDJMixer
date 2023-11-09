@@ -632,7 +632,7 @@ console.log(data);
             console.log(songno)
         }
         */
-       const ARRAY_LENGTH = 79;
+       const ARRAY_LENGTH = 80;
        const randomArray = [];
        const title1 = [];
         const artist1 = [];
@@ -663,7 +663,7 @@ console.log(data);
         document.getElementById("TopOfHour").innerHTML = timeHour+ ":00";
         timeSecond = timeSecond + 20;
        //document.getElementById("No. 1").innerHTML = randomArray[0];
-        for(var r=0; r < 40; r++){
+        for(var r=0; r < ARRAY_LENGTH; r++){
             var r1 = r+1;
             while(timeSecond > 59){
                 timeMinute = timeMinute + 1;
