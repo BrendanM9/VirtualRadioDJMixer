@@ -265,6 +265,14 @@
             "tracklist": "regular"
         },
         {
+            "title": "I Can Dream About You",
+            "band": "Dan Hartman",
+            "year": 1984,
+            "minutes": 4,
+            "seconds": 12,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Kiss on My List",
             "band": "Daryl Hall and John Oates",
             "year": 1981,
@@ -1387,6 +1395,182 @@
             "title": "Message In A Bottle",
             "band": "The Police",
             "year": 1979,
+            "minutes": 3,
+            "seconds": 50,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Roxanne",
+            "band": "The Police",
+            "year": 1978,
+            "minutes": 3,
+            "seconds": 2,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "(I Can't Get No) Satisfaction",
+            "band": "The Rolling Stones",
+            "year": 1965,
+            "minutes": 3,
+            "seconds": 42,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Miss You",
+            "band": "The Rolling Stones",
+            "year": 1978,
+            "minutes": 4,
+            "seconds": 48,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Talking In Your Sleep",
+            "band": "The Romantics",
+            "year": 1983,
+            "minutes": 3,
+            "seconds": 54,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Don't Do Me Like That",
+            "band": "Tom Petty",
+            "year": 1979,
+            "minutes": 2,
+            "seconds": 44,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Free Fallin'",
+            "band": "Tom Petty",
+            "year": 1989,
+            "minutes": 4,
+            "seconds": 14,
+            "tracklist": "regular"
+        },
+        {
+            "title": "I Won't Back Down",
+            "band": "Tom Petty",
+            "year": 1989,
+            "minutes": 2,
+            "seconds": 59,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Refugee",
+            "band": "Tom Petty",
+            "year": 1980,
+            "minutes": 3,
+            "seconds": 25,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Runnin' Down A Dream",
+            "band": "Tom Petty",
+            "year": 1989,
+            "minutes": 4,
+            "seconds": 25,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "867-5309/Jenny",
+            "band": "Tommy Tutone",
+            "year": 1981,
+            "minutes": 3,
+            "seconds": 45,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Africa",
+            "band": "Toto",
+            "year": 1982,
+            "minutes": 4,
+            "seconds": 55,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Hold the Line",
+            "band": "Toto",
+            "year": 1978,
+            "minutes": 3,
+            "seconds": 29,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Rosanna",
+            "band": "Toto",
+            "year": 1982,
+            "minutes": 3,
+            "seconds": 59,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Drops of Jupiter (Tell Me)",
+            "band": "Train",
+            "year": 2001,
+            "minutes": 4,
+            "seconds": 19,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "I Still Haven't Found What I'm Looking For",
+            "band": "U2",
+            "year": 1987,
+            "minutes": 4,
+            "seconds": 37,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Where The Streets Have No Name",
+            "band": "U2",
+            "year": 1987,
+            "minutes": 4,
+            "seconds": 46,
+            "tracklist": "regular"
+        },
+        {
+            "title": "Turn the Beat Around",
+            "band": "Vicki Sue Robinson",
+            "year": 1976,
+            "minutes": 4,
+            "seconds": 12,
+            "tracklist": "disco"
+        },
+        {
+            "title": "Careless Whisper",
+            "band": "Wham!",
+            "year": 1984,
+            "minutes": 5,
+            "seconds": 0,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Everything She Wants",
+            "band": "Wham!",
+            "year": 1984,
+            "minutes": 6,
+            "seconds": 29,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Wake Me Up Before You Go-Go",
+            "band": "Wham!",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 50,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Rock Steady",
+            "band": "Whispers",
+            "year": 1987,
+            "minutes": 4,
+            "seconds": 49,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Owner of a Lonely Heart",
+            "band": "Yes",
+            "year": 1983,
             "minutes": 3,
             "seconds": 50,
             "tracklist": "specialty"
