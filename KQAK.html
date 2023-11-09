@@ -650,7 +650,7 @@ console.log(data);
         timeHour = hour1;
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*197))
-        arrayNo = parseFloat(randomArray[i]) - 1;
+        arrayNo = parseFloat(randomArray[i]);
         console.log(arrayNo);
         title1.push(data.library[arrayNo].title);
         artist1.push(data.library[arrayNo].band);
