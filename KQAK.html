@@ -651,13 +651,14 @@ console.log(data);
        for(let i = 0; i<ARRAY_LENGTH; i++){
         randomArray.push(Math.floor(Math.random()*197))
         arrayNo = parseFloat(randomArray[i]) - 1;
+        console.log(arrayNo);
         title1.push(data.library[arrayNo].title);
         artist1.push(data.library[arrayNo].band);
         length1.push(data.library[arrayNo].length);
         year1.push(data.library[arrayNo].year);
         minute1.push(data.library[arrayNo].minutes);
         second1.push(data.library[arrayNo].seconds);
-           console.log(arrayNo);
+           //console.log(arrayNo);
        }
        console.log(randomArray)
         document.getElementById("TopOfHour").innerHTML = timeHour+ ":00";
