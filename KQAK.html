@@ -617,23 +617,25 @@ console.log(data);
         .then(data => console.log(data));*/
         import data from "./lib.json" assert { type: 'json' };
         console.log(data);
-        var lib = data.library[0].title;
-        console.log("Lib: "+lib)
+        //var lib = data.library[0].title;
+        //console.log("Lib: "+lib)
         var date = new Date();
         var hour = date.getHours();
         var minute = date.getMinutes();
         console.log(hour);
         console.log(minute);
         var hour1 = hour + 1;
-        /*
+        const ARRAY_LENGTH = 80;
+        const randomArray = [];
         var songno = .1;
         for(var i = 0; i < 190; i++){
-            songno = Math.floor(Math.random() * 190);
+            songno = Math.floor(Math.random() * ARRAY_LENGTH);
+            randomArray.push(songno);
             console.log(songno)
         }
-        */
-       const ARRAY_LENGTH = 80;
-       const randomArray = [];
+        
+       
+       
        const title1 = [];
         const artist1 = [];
         const length1 = [];
@@ -649,7 +651,7 @@ console.log(data);
         var list = document.getElementById("tracklist");
         timeHour = hour1;
        for(let i = 0; i<ARRAY_LENGTH; i++){
-        randomArray.push(Math.floor(Math.random()*197))
+        //randomArray.push(Math.floor(Math.random()*197))
         arrayNo = parseFloat(randomArray[i]);
         console.log(arrayNo);
         title1.push(data.library[arrayNo].title);
