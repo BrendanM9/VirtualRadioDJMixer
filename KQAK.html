@@ -754,7 +754,7 @@ console.log(data);
                 commercials= 0;
                 timeMinute = timeMinute - 60;
                 timeHour = timeHour + 1;
-                r = r1;
+                r = r;
             }
             else if(timeMinute > 30 && KQAK1 === "no"){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
@@ -764,7 +764,7 @@ console.log(data);
                 document.getElementById("Length "+r1).innerHTML = "0:30";
                 timeSecond = timeSecond + 30;
                 KQAK1 = "yes";
-                r = r1;
+                r = r;
             } else{
                 document.getElementById("Time "+r1).innerHTML = timeHour+":"+timeMinute+"."+timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = year1[r];
