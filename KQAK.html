@@ -629,11 +629,37 @@ console.log(data);
         const ARRAY_LENGTH = 80;
         const randomArray = [];
         var songno = .1;
-        for(var i = 0; i < 190; i++){
+        
+// You can take this value from user
+    const n = ARRAY_LENGTH
+ 
+// Initial empty array
+    const arr = [];
+ 
+// Null check
+    if (n == 0) {
+        console.log(null)
+    }
+ 
+    do {
+        // Generating random number
+        const randomNumber = Math.floor(Math.random() * 197) + 1
+ 
+        // Pushing into the array only 
+        // if the array does not contain it
+        if (!arr.includes(randomNumber)) {
+            arr.push(randomNumber);
+        }
+    } 
+    while (arr.length < n);
+     randomArray.push(arr[arr.length-1])
+    // Printing the array elements
+    console.log(arr)
+        /*for(var i = 0; i < 190; i++){
             songno = Math.floor(Math.random() * 197);
             randomArray.push(songno);
             console.log(songno)
-        }
+        }*/
         
        
        
