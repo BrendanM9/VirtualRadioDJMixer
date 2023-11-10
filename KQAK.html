@@ -810,6 +810,15 @@ console.log(data);
                 timeSecond = timeSecond + 30;
                 KQAK1 = "yes";
                 r = r;
+            } else if(timeMinute > 40 && KQAK1 === "yes"){
+                document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
+                document.getElementById("No. "+ r1).innerHTML = "N/A";
+                document.getElementById("Name "+ r1).innerHTML = "KQAK Theme";
+                document.getElementById("Band "+r1).innerHTML = "KQAK";
+                document.getElementById("Length "+r1).innerHTML = "0:10";
+                timeSecond = timeSecond + 10;
+                KQAK1 = "yes1";
+                r = r;
             } else{
                 document.getElementById("Time "+r1).innerHTML = timeHour+":"+timeMinute+"."+timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = year1[r];
