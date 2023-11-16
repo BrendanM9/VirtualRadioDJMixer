@@ -705,7 +705,7 @@ console.log(data);
             var r3 = r2 + 1;
             var r4 = r3 + 1;
             //document.getElementById("Length "+r1).innerHTML = minute1[r] + ":"+ second1[r];
-            if(commercials === 0 && timeMinute > 7){
+            if(commercials === 0 && timeMinute + minute1[r1] >= 9){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = "N/A";
                 document.getElementById("Name "+ r1).innerHTML = "Here's What You Missed On The Dave Clemens Experience";
@@ -727,7 +727,7 @@ console.log(data);
                 commercials = 1;
                 r = r2;
             }
-            else if(commercials === 1 && timeMinute > 20){
+            else if(commercials === 1 && timeMinute + minute1[r1] >= 19){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = "N/A";
                 document.getElementById("Name "+ r1).innerHTML = "Ad Break";
@@ -743,7 +743,7 @@ console.log(data);
                 commercials = 2;
                 r = r1;
             }
-            else if(commercials === 2 && timeMinute > 35){
+            else if(commercials === 2 && timeMinute + minute1[r1] >= 34){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = "N/A";
                 document.getElementById("Name "+ r1).innerHTML = "Ad Break";
@@ -759,7 +759,7 @@ console.log(data);
                 commercials = 3;
                 r = r1;
             }
-            else if(commercials === 3 && timeMinute > 49){
+            else if(commercials === 3 && timeMinute + minute1[r1] > 49){
                 document.getElementById("Time "+r1).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r1).innerHTML = "N/A";
                 document.getElementById("Name "+ r1).innerHTML = "Ad Break";
@@ -788,7 +788,7 @@ console.log(data);
                 commercials = 4;
                 r = r4;
             }
-            else if(timeMinute > 57){
+            else if(timeMinute + minute1[r1] > 57){
                 document.getElementById("Time "+r).innerHTML = timeHour+ ":"+timeMinute+"." + timeSecond;
                 document.getElementById("No. "+ r).innerHTML = "N/A";
                 document.getElementById("Name "+ r).innerHTML = "Top Of The Hour";
