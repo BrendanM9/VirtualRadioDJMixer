@@ -553,6 +553,14 @@
             "tracklist": "regular"
         },
         {
+            "title": "Little Lies",
+            "band": "Fleetwood Mac",
+            "year": 1987,
+            "minutes": 3,
+            "seconds": 39,
+            "tracklist": "specialty"
+        },
+        {
             "title": "The Chain",
             "band": "Fleetwood Mac",
             "year": 1977,
@@ -742,6 +750,14 @@
             "minutes": 2,
             "seconds": 43,
             "tracklist": "specialty"
+        },
+        {
+            "title": "St. Elmo's Fire (Man in Motion)",
+            "band": "John Parr",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 8,
+            "tracklist": "regular"
         },
         {
             "title": "Missing You",
