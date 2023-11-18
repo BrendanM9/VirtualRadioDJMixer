@@ -630,6 +630,7 @@ console.log(data);
         const ARRAY_LENGTH = 80;
         const randomArray = [];
         var songno = .1;
+        var songamount = data.length;
         
 // You can take this value from user
     const n = 80
@@ -645,7 +646,7 @@ console.log(data);
     do {
         // Generating random number
         const randomNumber = Math.
-            floor(Math.random() * 200)// + 1
+            floor(Math.random() * songamount)// + 1
  
         // Pushing into the array only 
         // if the array does not contain it
