@@ -25,6 +25,14 @@
             "tracklist": "disco"
         },
         {
+            "title": "Take A Chance On Me",
+            "band": "Abba",
+            "year": 1978,
+            "minutes": 4,
+            "seconds": 5,
+            "tracklist": "disco"
+        },
+        {
             "title": "All That She Wants",
             "band": "Ace of Base",
             "year": 1992,
@@ -183,6 +191,14 @@
             "minutes": 5,
             "seconds": 15,
             "tracklist": "disco"
+        },
+        {
+            "title": "Heaven",
+            "band": "Bryan Adams",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 3,
+            "tracklist": "specialty"
         },
         {
             "title": "Run To You",
@@ -358,7 +374,7 @@
             "year": 1971,
             "minutes": 8,
             "seconds": 30,
-            "tracklist": "legalid"
+            "tracklist": "regular"
         },
         {
             "title": "Hungry Like the Wolf",
@@ -888,6 +904,14 @@
             "tracklist": "specialty"
         },
         {
+            "title": "Down Under",
+            "band": "Men at Work",
+            "year": 1981,
+            "minutes": 3,
+            "seconds": 42,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Bad",
             "band": "Michael Jackson",
             "year": 1987,
@@ -973,6 +997,14 @@
             "year": 1969,
             "minutes": 2,
             "seconds": 51,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "You Can Call Me Al",
+            "band": "Paul Simon",
+            "year": 1986,
+            "minutes": 4,
+            "seconds": 40,
             "tracklist": "specialty"
         },
         {
@@ -1288,6 +1320,14 @@
             "tracklist": "specialty"
         },
         {
+            "title": "Head Over Heels",
+            "band": "Tears For Fears",
+            "year": 1985,
+            "minutes": 3,
+            "seconds": 51,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Shout",
             "band": "Tears For Fears",
             "year": 1984,
@@ -1453,6 +1493,14 @@
             "year": 1983,
             "minutes": 3,
             "seconds": 54,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Life Is A Highway",
+            "band": "Tom Cochrane",
+            "year": 1991,
+            "minutes": 4,
+            "seconds": 26,
             "tracklist": "specialty"
         },
         {
