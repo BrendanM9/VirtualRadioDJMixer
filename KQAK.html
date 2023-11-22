@@ -625,8 +625,10 @@ console.log(data);
         console.log(url)
         var choose = null;
         for(var index = 0; index <= url.length; index++){
+            console.log(url.substr(index)+url.substr(index+1));
             while(url.substr(index)+url.substr(index+1) !== "c="){
                 console.log("no")
+                index += 1;
             }
             index += 2;
             console.log(url.substr(index))
