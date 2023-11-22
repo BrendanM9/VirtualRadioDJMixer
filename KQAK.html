@@ -626,14 +626,14 @@ console.log(data);
         var choose = null;
         for(var index = 0; index <= url.length; index++){
             console.log(url.substr(index)+url.substr(index+1));
-            while(url.substr(index)+url.substr(index+1) !== "c="){
+            while(str(url.substr(index)+url.substr(index+1)) !== "c="){
                 console.log("no")
                 index += 1;
             }
             index += 2;
             console.log(url.substr(index))
             choose = url.substr(index);
-            while(url.substr(index)+url.substr(index+1) !== "m="){
+            while(str(url.substr(index)+url.substr(index+1)) !== "m="){
                 console.log(no)
             }
             index += 2;
