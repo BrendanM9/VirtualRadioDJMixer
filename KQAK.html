@@ -623,6 +623,19 @@ console.log(data);
         //console.log("Lib: "+lib)
         var url = String(window.location.href);
         console.log(url)
+        var choose = null;
+        for(i = 0; i <= url.length; i++){
+            while(url.substr(i)+url.substr(i+1) !== "c="){
+                console.log(no)
+            }
+            i += 2;
+            console.log(url.substr(i))
+            choose = url.substr(i);
+            while(url.substr(i)+url.substr(i+1) !== "m="){
+                console.log(no)
+            }
+            i += 2;
+        }
         var date = new Date();
         var hour = date.getHours();
         var minute = date.getMinutes();
