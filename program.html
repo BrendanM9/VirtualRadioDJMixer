@@ -18,7 +18,7 @@
         <span onclick="openNav()"><div class="icon"></div><div class="icon"></div><div class="icon"></div></span>
 
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-        <div id="main">
+        <!--<div id="main">
             <div id="j8675309">
                 <p>867-5309 Jenny     -      Tommy Tutone      -      3:51 - 1981</p>
             </div>
@@ -28,9 +28,22 @@
                 <p>2:04 - 1971</p>
             </div>
         </div>
-        <form action="KQAK.html">
-            
-        </form>
+    -->
+        <fieldset>   
+            <form action="KQAK.html">
+                <h2>If you select "Choose For Me", fill all fields with zeros!</h2>
+                <select id="choose" name="c" required>
+                    <option id="y" value="y">Let Me Choose</option>
+                    <option id="n" value="n">Choose For Me</option>
+                </select><br>
+                <input id="minutes" name="m" required>Length in minutes<br>
+                <input id="seconds" name="s" required>Length in seconds<br>
+                <input id="artist" name="a" required>Name of artist<br>
+                <input id="year" name="y" required>Year of song<br>
+                <input id="name" name="sn" required>Name of song<br>
+                <input type="submit" value="Load Program">
+            </form>
+        </fieldset> 
         <script>
             // Make the DIV element draggable:
             dragElement(document.getElementById("j8675309"));
