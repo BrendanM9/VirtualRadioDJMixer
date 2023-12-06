@@ -624,23 +624,24 @@ console.log(data);
         var url = String(window.location.href);
         console.log(url)
         var choose = null;
-        for(var index = 0; index <= url.length; index++){
-            console.log(url.substr(index, index+1));
-            while(String(url.substr(index, index+2)) !== "c="){
-                console.log(String(url.substr(index, index+2)))
-                index += 1;
-            }
-            index += 2;
-            console.log(url.substr(index))
-            choose = url.substr(index);
-            console.log("choose:"+ choose);
+        //for(var index = 0; index <= url.length; index++){
+        index = 0;
+        console.log(url.substr(index, index+1));
+        while(String(url.substr(index, index+2)) !== "c="){
+            console.log(String(url.substr(index, index+2)))
+            index += 1;
+        }
+        index += 2;
+        console.log(url.substr(index))
+        choose = url.substr(index);
+        console.log("choose:"+ choose);
             /*
             while(String(url.substr(index, index+2)) !== "m="){
                 console.log(no)
             }
             index += 2;
             */
-        }
+        //}
         var date = new Date();
         var hour = date.getHours();
         var minute = date.getMinutes();
