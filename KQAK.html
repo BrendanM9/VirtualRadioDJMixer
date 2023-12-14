@@ -626,9 +626,9 @@ console.log(data);
         var choose = null;
         //for(var index = 0; index <= url.length; index++){
         var index = 0;
-        console.log(url.substr(index, index+1));
-        while(String(url.substr(index, index+2)) !== "c="){
-            console.log(String(url.substr(index, index+2)))
+        console.log(url.substring(index, index+1));
+        while(String(url.substring(index, index+2)) !== "c="){
+            console.log(String(url.substring(index, index+2)))
             index += 1;
         }
         index += 2;
