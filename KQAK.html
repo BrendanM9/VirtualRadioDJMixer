@@ -632,9 +632,9 @@ console.log(data);
         var song = null;
         //for(var index = 0; index <= url.length; index++){
         var index = 0;
-        console.log(url.substring(index, index+1));
+        //console.log(url.substring(index, index+1));
         while(String(url.substring(index, index+2)) !== "c="){
-            console.log(String(url.substring(index, index+2)))
+            //console.log(String(url.substring(index, index+2)))
             index += 1;
         }
         index += 2;
@@ -643,12 +643,14 @@ console.log(data);
         console.log("choose:"+ choose);
         if(choose === "y"){
             console.log("Yes");
-            while(url.substring(index, index+2) !== "m="){
+            while(String(url.substring(index, index+2)) !== "m="){
+                console.log(url.substring(index, index+2);
                 index += 1;
             }
             index += 2;
             minuteIndex = index;
-            while(url.substring(index, index + 1) !== "s="){
+            while(String(url.substring(index, index + 1)) !== "s="){
+                console.log(url.substring(index, index+2);
                 index += 1;
             }
             minutes = parseFloat(url.substring(minuteIndex, index-1));
