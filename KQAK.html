@@ -644,13 +644,13 @@ console.log(data);
         if(choose === "y"){
             console.log("Yes");
             while(String(url.substring(index, index+2)) !== "m="){
-                console.log(url.substring(index, index+2);
+                console.log(url.substring(index, index+2));
                 index += 1;
             }
             index += 2;
             minuteIndex = index;
             while(String(url.substring(index, index + 1)) !== "s="){
-                console.log(url.substring(index, index+2);
+                console.log(url.substring(index, index+2));
                 index += 1;
             }
             minutes = parseFloat(url.substring(minuteIndex, index-1));
