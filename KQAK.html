@@ -632,9 +632,14 @@ console.log(data);
             index += 1;
         }
         index += 2;
-        console.log(url.substr(index))
-        choose = url.substr(index);
+        console.log(url.substring(index, index+1))
+        choose = url.substring(index, index+1);
         console.log("choose:"+ choose);
+        if(choose === "y"){
+            console.log("Yes")
+        }else{
+            console.log("No")
+        }
             /*
             while(String(url.substr(index, index+2)) !== "m="){
                 console.log(no)
