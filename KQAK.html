@@ -627,9 +627,13 @@ console.log(data);
         var minutes= null;
         var minuteIndex = 0;
         var seconds = null;
+        var secondIndex = 0;
         var artist = null;
+        var artistIndex = 0;
         var year = null;
+        var yearIndex = 0;
         var song = null;
+        var songIndex = 0;
         //for(var index = 0; index <= url.length; index++){
         var index = 0;
         //console.log(url.substring(index, index+1));
@@ -655,7 +659,34 @@ console.log(data);
             }
             minutes = parseFloat(url.substring(minuteIndex, index-1));
             index += 2;
+            secondIndex = index;
+            while(String(url.substring(index, index + 2)) !== "a="){
+                index += 1
+            }
+            seconds = parseFloat(url.substring(secondIndex, index - 1));
+            index += 2;
+            artistIndex = index;
+            while(String(url.substring(index, index + 2)) !== "y="){
+                index += 1;
+            }
+            artist = url.substring(artistIndex, index-1);
+            index += 2;
+            yearIndex = index;
+            while(String(url.substring(index, index + 3)) !=="sn="){
+                index += 1
+            }
+            year = url.substring(yearIndex, index-1);
+            index += 2;
+            songIndex = index;
+            while(String(url.substring(index, index+1)) !== null){
+                index += 1;
+            }
+            song = url.substring(songIndex, index);
             console.log(minutes)
+            console.log(seconds)
+            console.log(artist)
+            console.log(year)
+            console.log(song)
         }else{
             console.log("No")
         }
