@@ -634,6 +634,11 @@ console.log(data);
         var yearIndex = 0;
         var song = null;
         var songIndex = 0;
+        var r = 0;
+        var date = new Date();
+        var hour = date.getHours();
+        var minute = date.getMinutes();
+        var hour1 = hour + 1;
         //for(var index = 0; index <= url.length; index++){
         var index = 0;
         //console.log(url.substring(index, index+1));
@@ -681,7 +686,7 @@ console.log(data);
                 index += 1
             }
             year = url.substring(yearIndex, index-1);
-            index += 2;
+            index += 3;
             songIndex = index;
             song = url.substring(songIndex);
             console.log(minutes)
@@ -689,6 +694,11 @@ console.log(data);
             console.log(artist)
             console.log(year)
             console.log(song)
+             document.getElementById("Time "+r1).innerHTML = hour1+":"+minutes+"."+seconds;
+                document.getElementById("No. "+ r1).innerHTML = year;
+                document.getElementById("Name "+ r1).innerHTML = song;
+                document.getElementById("Band "+r1).innerHTML = artist;
+            r = 1;
         }else{
             console.log("No")
         }
@@ -699,12 +709,8 @@ console.log(data);
             index += 2;
             */
         //}
-        var date = new Date();
-        var hour = date.getHours();
-        var minute = date.getMinutes();
         console.log(hour);
         console.log(minute);
-        var hour1 = hour + 1;
         const ARRAY_LENGTH = 80;
         const randomArray = [];
         var songno = .1;
@@ -774,7 +780,7 @@ console.log(data);
         document.getElementById("TopOfHour").innerHTML = timeHour+ ":00";
         timeSecond = timeSecond + 20;
        //document.getElementById("No. 1").innerHTML = randomArray[0];
-        for(var r=0; r < ARRAY_LENGTH; r++){
+        for(r=0; r < ARRAY_LENGTH; r++){
             var r1 = r+1;
             while(timeSecond > 59){
                 timeMinute = timeMinute + 1;
