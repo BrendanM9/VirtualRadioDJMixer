@@ -683,10 +683,7 @@ console.log(data);
             year = url.substring(yearIndex, index-1);
             index += 2;
             songIndex = index;
-            while(String(url.substring(index, index+1)) !== null){
-                index += 1;
-            }
-            song = url.substring(songIndex, index);
+            song = url.substring(songIndex);
             console.log(minutes)
             console.log(seconds)
             console.log(artist)
