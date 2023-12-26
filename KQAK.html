@@ -29,6 +29,7 @@ tr:nth-child(even) {
     color:green;
 }
             </style>
+        <div id="timebox">
         <table id="tracklist">
             <thead>Program Log</thead>
             <tr>
@@ -781,7 +782,7 @@ console.log(data);
         document.getElementById("TopOfHour").innerHTML = timeHour+ ":00";
         timeSecond = timeSecond + 20;
        //document.getElementById("No. 1").innerHTML = randomArray[0];
-        for(r=1; r < ARRAY_LENGTH; r++){
+        for(r=1; r < ARRAY_LENGTH-1; r++){
             var r1 = r+1;
             while(timeSecond > 59){
                 timeMinute = timeMinute + 1;
