@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="icon" type="image/x-icon" href="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1950/2020/10/12160146/station-150x150.png">
         <title>KQAK Program Log</title>
         <!--<script type="module" src="KQAK.js"></script>-->
@@ -612,11 +613,11 @@ tr:nth-child(even) {
             var newTime = document.createElement("td")
             newTime.id= "Time "+ a;
             var newName = document.createElement("td")
-            newTime.id= "Name "+ a;
+            newName.id= "Name "+ a;
             var newBand = document.createElement("td")
-            newTime.id= "Band "+ a;
+            newBand.id= "Band "+ a;
             var newLength = document.createElement("td")
-            newTime.id= "Length "+ a;
+            newLength.id= "Length "+ a;
             document.body.getElementById("tracklist").appendChild(newRow)
             document.getElementById("R "+a).appendChild(newTime)
             document.getElementById("R "+a).appendChild(newName)
