@@ -617,7 +617,7 @@ tr:nth-child(even) {
             newTime.id= "Band "+ a;
             var newLength = document.createElement("td")
             newTime.id= "Length "+ a;
-            document.body.appendChild(newRow)
+            document.body.getElementById("tracklist").appendChild(newRow)
             document.getElementById("R "+a).appendChild(newTime)
             document.getElementById("R "+a).appendChild(newName)
             document.getElementById("R "+a).appendChild(newBand)
