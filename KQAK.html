@@ -611,8 +611,17 @@ tr:nth-child(even) {
             newRow.id = "R "+a;
             var newTime = document.createElement("td")
             newTime.id= "Time "+ a;
+            var newName = document.createElement("td")
+            newTime.id= "Name "+ a;
+            var newBand = document.createElement("td")
+            newTime.id= "Band "+ a;
+            var newLength = document.createElement("td")
+            newTime.id= "Length "+ a;
             document.body.appendChild(newRow)
             document.getElementById("R "+a).appendChild(newTime)
+            document.getElementById("R "+a).appendChild(newName)
+            document.getElementById("R "+a).appendChild(newBand)
+            document.getElementById("R "+a).appendChild(newLength)
             //document.getElementById("Time "+a).innerHTML = "yes";
         }
         /*const data1 = require('./lib.json');
