@@ -680,6 +680,14 @@
             "tracklist": "regular"
         },
         {
+            "title": "These Dreams",
+            "band": "Heart",
+            "year": 1986,
+            "minutes": 3,
+            "seconds": 46,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Things Can Only Get Better",
             "band": "Howard Jones",
             "year": 1985,
@@ -1149,6 +1157,14 @@
             "year": 1980,
             "minutes": 3,
             "seconds": 39,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Right Here Waiting",
+            "band": "Richard Marx",
+            "year": 1989,
+            "minutes": 4,
+            "seconds": 28,
             "tracklist": "specialty"
         },
         {
@@ -1637,6 +1653,14 @@
             "year": 1987,
             "minutes": 4,
             "seconds": 49,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Hold On",
+            "band": "Wilson Philips",
+            "year": 1990,
+            "minutes": 3,
+            "seconds": 42,
             "tracklist": "specialty"
         },
         {
