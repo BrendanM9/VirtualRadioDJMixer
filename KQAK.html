@@ -606,6 +606,14 @@ tr:nth-child(even) {
         </table>
         <button id="print1">Print Tracklist</button>
     <script type="module">
+        for(var a=0; a <= 80; a++){
+            var newRow = document.createElement("tr")
+            newRow.id = "R "+a;
+            var newTime = document.createElement("td")
+            newTime.id= "Time "+ a;
+            document.body.appendChild(newRow)
+            document.body.newRow.appendChild(newTime)
+        }
         /*const data1 = require('./lib.json');
         console.log("data1 \n", data1);
         document.getElementById("Song1").innerHTML = "data1[1].song"
