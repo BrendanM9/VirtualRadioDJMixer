@@ -425,6 +425,14 @@
             "tracklist": "regular"
         },
         {
+            "title": "Party All The Time",
+            "band": "Eddie Murphy",
+            "year": 1985,
+            "minutes": 4,
+            "seconds": 8,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Don't Bring Me Down",
             "band": "ELO",
             "year": 1979,
@@ -840,6 +848,22 @@
             "tracklist": "regular"
         },
         {
+            "title": "Footloose",
+            "band": "Kenny Loggins",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 42,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "I'm Alright",
+            "band": "Kenny Loggins",
+            "year": 1980,
+            "minutes": 3,
+            "seconds": 46,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Too Hot",
             "band": "Kool & The Gang",
             "year": 1979,
@@ -1013,6 +1037,14 @@
             "year": 1986,
             "minutes": 4,
             "seconds": 40,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Every Time You Go Away",
+            "band": "Paul Young",
+            "year": 1984,
+            "minutes": 4,
+            "seconds": 15,
             "tracklist": "specialty"
         },
         {
