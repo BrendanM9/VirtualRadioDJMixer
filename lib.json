@@ -1040,6 +1040,14 @@
             "tracklist": "specialty"
         },
         {
+            "title": "Love is a Battlefield",
+            "band": "Pat Benetar",
+            "year": 1983,
+            "minutes": 4,
+            "seconds": 11,
+            "tracklist": "regular"
+        },
+        {
             "title": "You Can Call Me Al",
             "band": "Paul Simon",
             "year": 1986,
