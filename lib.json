@@ -577,6 +577,14 @@
             "tracklist": "regular"
         },
         {
+            "title": "Landslide",
+            "band": "Fleetwood Mac",
+            "year": 1975,
+            "minutes": 3,
+            "seconds": 19,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Little Lies",
             "band": "Fleetwood Mac",
             "year": 1987,
@@ -952,6 +960,14 @@
             "tracklist": "specialty"
         },
         {
+            "title": "Who Can It Be Now?",
+            "band": "Men at Work",
+            "year": 1981,
+            "minutes": 3,
+            "seconds": 23,
+            "tracklist": "specialty"
+        },
+        {
             "title": "Bad",
             "band": "Michael Jackson",
             "year": 1987,
@@ -1101,6 +1117,14 @@
             "year": 1986,
             "minutes": 5,
             "seconds": 12,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "Against All Odds",
+            "band": "Phil Collins",
+            "year": 1984,
+            "minutes": 3,
+            "seconds": 23,
             "tracklist": "specialty"
         },
         {
