@@ -177,6 +177,14 @@
             "tracklist": "regular"
         },
         {
+            "title": "You Give Love A Bad Name",
+            "band": "Bon Jovi",
+            "year": 1986,
+            "minutes": 3,
+            "seconds": 42,
+            "tracklist": "1"
+        },
+        {
             "title": "Total Eclipse of the Heart",
             "band": "Bonnie Tyler",
             "year": 1983,
@@ -214,7 +222,7 @@
             "year": 1989,
             "minutes": 3,
             "seconds": 59,
-            "tracklist": "specialty"
+            "tracklist": "1"
         },
         {
             "title": "Hard to Say I'm Sorry/ Get Away",
@@ -262,7 +270,7 @@
             "year": 1986,
             "minutes": 3,
             "seconds": 59,
-            "tracklist": "regular"
+            "tracklist": "1"
         },
         {
             "title": "Karma Chameleon",
@@ -318,7 +326,7 @@
             "year": 1981,
             "minutes": 3,
             "seconds": 38,
-            "tracklist": "regular"
+            "tracklist": "specialty"
         },
         {
             "title": "Rich Girl",
@@ -382,7 +390,7 @@
             "year": 1982,
             "minutes": 3,
             "seconds": 42,
-            "tracklist": "regular"
+            "tracklist": "3"
         },
         {
             "title": "Ordinary World",
