@@ -223,7 +223,8 @@ console.log(data);
        var specialties = [];
         var blocks = 3
         for(s =0; s <=7; s++){
-            specialties.append(floor(Math.random() * blocks))
+            var newSpecialty = floor(Math.random() * blocks)
+            specialties.append(newSpecialty)
         }
         console.log(specialties)
        const title1 = [];
