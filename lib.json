@@ -1069,6 +1069,14 @@
             "year": 1983,
             "minutes": 4,
             "seconds": 11,
+            "tracklist": "1"
+        },
+        {
+            "title": "Heartbreaker",
+            "band": "Pat Benetar",
+            "year": 1979,
+            "minutes": 3,
+            "seconds": 29,
             "tracklist": "regular"
         },
         {
@@ -1093,7 +1101,7 @@
             "year": 1988,
             "minutes": 4,
             "seconds": 11,
-            "tracklist": "regular"
+            "tracklist": "1"
         },
         {
             "title": "West End Girls",
@@ -1101,7 +1109,7 @@
             "year": 1984,
             "minutes": 4,
             "seconds": 45,
-            "tracklist": "regular"
+            "tracklist": "3"
         },
         {
             "title": "Glory of Love",
@@ -1221,7 +1229,7 @@
             "year": 1981,
             "minutes": 4,
             "seconds": 8,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "Losing My Religion",
@@ -1229,7 +1237,7 @@
             "year": 1991,
             "minutes": 4,
             "seconds": 28,
-            "tracklist": "specialty"
+            "tracklist": "5"
         },
         {
             "title": "Take It on the Run",
@@ -1261,7 +1269,7 @@
             "year": 1984,
             "minutes": 3,
             "seconds": 57,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "It Must Have Been Love",
@@ -1293,7 +1301,7 @@
             "year": 1968,
             "minutes": 4,
             "seconds": 2,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "Don't You (Forget About Me)",
@@ -1301,7 +1309,7 @@
             "year": 1985,
             "minutes": 4,
             "seconds": 20,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "Hot Fun in the Summertime",
@@ -1317,7 +1325,7 @@
             "year": 1983,
             "minutes": 5,
             "seconds": 39,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "We Built This City",
@@ -1509,7 +1517,7 @@
             "year": 1972,
             "minutes": 3,
             "seconds": 30,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "One Thing Leads To Another",
@@ -1533,7 +1541,7 @@
             "year": 1967,
             "minutes": 3,
             "seconds": 0,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "I'm a Believer",
@@ -1541,7 +1549,7 @@
             "year": 1966,
             "minutes": 2,
             "seconds": 47,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "Every Little Thing She Does Is Magic",
@@ -1661,7 +1669,7 @@
             "year": 1978,
             "minutes": 3,
             "seconds": 29,
-            "tracklist": "specialty"
+            "tracklist": "regular"
         },
         {
             "title": "Rosanna",
@@ -1693,6 +1701,14 @@
             "year": 1987,
             "minutes": 4,
             "seconds": 46,
+            "tracklist": "specialty"
+        },
+        {
+            "title": "With or Without You",
+            "band": "U2",
+            "year": 1987,
+            "minutes": 5,
+            "seconds": 0,
             "tracklist": "regular"
         },
         {
