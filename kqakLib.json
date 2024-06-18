@@ -1,148 +1,228 @@
 {
     "library": [
         {
-            "title": "I Ran (So Far Away)",
-            "band": "A Flock of Seagulls",
-            "year": 1982,
-            "minutes": 3,
-            "seconds": 43,
-            "tracklist": "80s"
-        },
-        {
-            "title": "Take on Me",
-            "band": "a-ha",
-            "year": 1984,
-            "minutes": 3,
-            "seconds": 48,
-            "tracklist": "80s"
-        },
-        {
-            "title": "Dancing Queen",
-            "band": "Abba",
-            "year": 1976,
-            "minutes": 3,
-            "seconds": 50,
-            "tracklist": "disco"
-        },
-        {
-            "title": "Take A Chance On Me",
-            "band": "Abba",
-            "year": 1978,
-            "minutes": 4,
-            "seconds": 5,
-            "tracklist": "disco"
-        },
-        {
-            "title": "All That She Wants",
-            "band": "Ace of Base",
-            "year": 1992,
-            "minutes": 3,
-            "seconds": 30,
-            "tracklist": "specialty"
-        },
-        {
-            "title": "Der Kommissar",
-            "band": "After the Fire",
-            "year": 1982,
-            "minutes": 4,
-            "seconds": 15,
-            "tracklist": "rested"
-        },
-        {
-            "title": "Black Velvet",
-            "band": "Alannah Myles",
-            "year": 1989,
-            "minutes": 4,
-            "seconds": 47,
-            "tracklist": "90s"
-        },
-        {
-            "title": "A Horse With No Name",
-            "band": "America",
-            "year": 1971,
-            "minutes": 4,
-            "seconds": 8,
-            "tracklist": "70s"
-        },
-        {
-            "title": "Ventura Highway",
-            "band": "America",
-            "year": 1972,
-            "minutes": 3,
-            "seconds": 32,
-            "tracklist": "summer"
-        },
-        {
-            "title": "Sister Golden Hair",
-            "band": "America",
-            "year": 1975,
-            "minutes": 3,
-            "seconds": 16,
-            "tracklist": "70s"
-        },
-        {
-            "title": "Heat Of The Moment",
-            "band": "Asia",
-            "year": 1982,
-            "minutes": 3,
-            "seconds": 25,
-            "tracklist": "specialty"
-        },
-        {
-            "title": "Cruel Summer",
-            "band": "Bananarama",
-            "year": 1983,
-            "minutes": 3,
-            "seconds": 35,
-            "tracklist": "summer"
-        },
-        {
-            "title": "I Get Around",
-            "band": "Beach Boys",
-            "year": 1964,
-            "minutes": 2,
-            "seconds": 15,
-            "tracklist": "summer"
-        },
-        {
-            "title": "Good Vibrations",
-            "band": "Beach Boys",
-            "year": 1966,
-            "minutes": 3,
-            "seconds": 40,
-            "tracklist": "summer"
-        },
-        {
-            "title": "Wouldn't It Be Nice",
-            "band":"Beach Boys",
-            "year": 1966,
-            "minutes": 2,
-            "seconds": 34,
-            "tracklist": "summer"
-        },
-        {
-            "title": "Movin' Out (Anthony's Song)",
-            "band": "Billy Joel",
-            "year": 1977,
-            "minutes": 3,
-            "seconds": 33,
-            "tracklist": "70s"
-        },
-        {
-            "title": "My Life",
-            "band": "Billy Joel",
-            "year": 1978,
-            "minutes": 4,
-            "seconds": 46,
-            "tracklist": "70s"
-        },
-        {
-            "title": "Tell Her About It",
-            "band": "Billy Joel",
-            "year": 1983,
-            "minutes": 3,
-            "seconds": 53,
-            "tracklist": "rested"
+            "70s": [
+                {
+                    "title": "A Horse With No Name",
+                    "band": "America",
+                    "year": 1971,
+                    "minutes": 4,
+                    "seconds": 8,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Sister Golden Hair",
+                    "band": "America",
+                    "year": 1975,
+                    "minutes": 3,
+                    "seconds": 16,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Movin' Out (Anthony's Song)",
+                    "band": "Billy Joel",
+                    "year": 1977,
+                    "minutes": 3,
+                    "seconds": 33,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "My Life",
+                    "band": "Billy Joel",
+                    "year": 1978,
+                    "minutes": 4,
+                    "seconds": 46,
+                    "tracklist": "70s"
+                }
+            ],
+            "80s": [
+                {
+                    "title": "I Ran (So Far Away)",
+                    "band": "A Flock of Seagulls",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 43,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Take on Me",
+                    "band": "a-ha",
+                    "year": 1984,
+                    "minutes": 3,
+                    "seconds": 48,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Livin' On A Prayer",
+                    "band": "Bon Jovi",
+                    "year": 1986,
+                    "minutes": 4,
+                    "seconds": 10,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "You Give Love A Bad Name",
+                    "band": "Bon Jovi",
+                    "year": 1986,
+                    "minutes": 3,
+                    "seconds": 42,
+                    "tracklist": "80s"
+                }
+            ],
+            "90s": [
+                {
+                    "title": "Black Velvet",
+                    "band": "Alannah Myles",
+                    "year": 1989,
+                    "minutes": 4,
+                    "seconds": 47,
+                    "tracklist": "90s"
+                },
+                {
+                    "title": "No Rain",
+                    "band": "Blind Mellon",
+                    "year": 1992,
+                    "minutes": 3,
+                    "seconds": 38,
+                    "tracklist": "90s"
+                },
+                {
+                    "title": "Run-Around",
+                    "band": "Blues Traveler",
+                    "year": 1994,
+                    "minutes": 4,
+                    "seconds": 14,
+                    "tracklist": "90s"
+                }
+            ],
+            "disco": [
+                {
+                    "title": "Dancing Queen",
+                    "band": "Abba",
+                    "year": 1976,
+                    "minutes": 3,
+                    "seconds": 50,
+                    "tracklist": "disco"
+                },
+                {
+                    "title": "Take A Chance On Me",
+                    "band": "Abba",
+                    "year": 1978,
+                    "minutes": 4,
+                    "seconds": 5,
+                    "tracklist": "disco"
+                }
+            ],
+            "specialty": [
+                {
+                    "title": "All That She Wants",
+                    "band": "Ace of Base",
+                    "year": 1992,
+                    "minutes": 3,
+                    "seconds": 30,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Heat Of The Moment",
+                    "band": "Asia",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 25,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Run To You",
+                    "band": "Bryan Adams",
+                    "year": 1984,
+                    "minutes": 3,
+                    "seconds": 54,
+                    "tracklist": "specialty"
+                }
+            ],
+            "summer": [
+                {
+                    "title": "Ventura Highway",
+                    "band": "America",
+                    "year": 1972,
+                    "minutes": 3,
+                    "seconds": 32,
+                    "tracklist": "summer"
+                },
+                {
+                    "title": "Cruel Summer",
+                    "band": "Bananarama",
+                    "year": 1983,
+                    "minutes": 3,
+                    "seconds": 35,
+                    "tracklist": "summer"
+                },
+                {
+                    "title": "I Get Around",
+                    "band": "Beach Boys",
+                    "year": 1964,
+                    "minutes": 2,
+                    "seconds": 15,
+                    "tracklist": "summer"
+                },
+                {
+                    "title": "Good Vibrations",
+                    "band": "Beach Boys",
+                    "year": 1966,
+                    "minutes": 3,
+                    "seconds": 40,
+                    "tracklist": "summer"
+                },
+                {
+                    "title": "Wouldn't It Be Nice",
+                    "band":"Beach Boys",
+                    "year": 1966,
+                    "minutes": 2,
+                    "seconds": 34,
+                    "tracklist": "summer"
+                }
+            ],
+            "rested":[
+                {
+                    "title": "Der Kommissar",
+                    "band": "After the Fire",
+                    "year": 1982,
+                    "minutes": 4,
+                    "seconds": 15,
+                    "tracklist": "rested"
+                },
+                {
+                    "title": "Tell Her About It",
+                    "band": "Billy Joel",
+                    "year": 1983,
+                    "minutes": 3,
+                    "seconds": 53,
+                    "tracklist": "rested"
+                },
+                {
+                    "title": "Total Eclipse of the Heart",
+                    "band": "Bonnie Tyler",
+                    "year": 1983,
+                    "minutes": 4,
+                    "seconds": 30,
+                    "tracklist": "rested"
+                },
+                {
+                    "title": "Lowdown",
+                    "band": "Boz Scaggs",
+                    "year": 1976,
+                    "minutes": 5,
+                    "seconds": 15,
+                    "tracklist": "rested"
+                },
+                {
+                    "title": "If I Could Turn Back Time",
+                    "band": "Cher",
+                    "year": 1989,
+                    "minutes": 3,
+                    "seconds": 59,
+                    "tracklist": "rested"
+                }
+            ]
         },
         {
             "title": "Caribbean Queen",
@@ -150,55 +230,7 @@
             "year": 1984,
             "minutes": 3,
             "seconds": 41,
-            "tracklist": "specialty"
-        },
-        {
-            "title": "No Rain",
-            "band": "Blind Mellon",
-            "year": 1992,
-            "minutes": 3,
-            "seconds": 38,
-            "tracklist": "90s"
-        },
-        {
-            "title": "Run-Around",
-            "band": "Blues Traveler",
-            "year": 1994,
-            "minutes": 4,
-            "seconds": 14,
-            "tracklist": "90s"
-        },
-        {
-            "title": "Livin' On A Prayer",
-            "band": "Bon Jovi",
-            "year": 1986,
-            "minutes": 4,
-            "seconds": 10,
-            "tracklist": "80s"
-        },
-        {
-            "title": "You Give Love A Bad Name",
-            "band": "Bon Jovi",
-            "year": 1986,
-            "minutes": 3,
-            "seconds": 42,
-            "tracklist": "80s"
-        },
-        {
-            "title": "Total Eclipse of the Heart",
-            "band": "Bonnie Tyler",
-            "year": 1983,
-            "minutes": 4,
-            "seconds": 30,
-            "tracklist": "rested"
-        },
-        {
-            "title": "Lowdown",
-            "band": "Boz Scaggs",
-            "year": 1976,
-            "minutes": 5,
-            "seconds": 15,
-            "tracklist": "rested"
+            "tracklist": "regular"
         },
         {
             "title": "Heaven",
@@ -206,23 +238,7 @@
             "year": 1985,
             "minutes": 4,
             "seconds": 3,
-            "tracklist": "specialty"
-        },
-        {
-            "title": "Run To You",
-            "band": "Bryan Adams",
-            "year": 1984,
-            "minutes": 3,
-            "seconds": 54,
-            "tracklist": "specialty"
-        },
-        {
-            "title": "If I Could Turn Back Time",
-            "band": "Cher",
-            "year": 1989,
-            "minutes": 3,
-            "seconds": 59,
-            "tracklist": "rested"
+            "tracklist": "regular"
         },
         {
             "title": "Hard to Say I'm Sorry/ Get Away",
