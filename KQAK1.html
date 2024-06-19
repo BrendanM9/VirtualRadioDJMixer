@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/x-icon" href="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1950/2020/10/12160146/station-150x150.png">
+        <title>KQAK Program Log</title>
+        <!--<script type="module" src="KQAK.js"></script>-->
+    </head>
+    <body>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              /*border: 1px solid #dddddd;*/
+              text-align: left;
+              padding: 4px;
+            }
+            
+            /*tr :nth-child(even) {
+              /*background-color: #dddddd;*
+            }*/
+            #TopOfHourText{
+                font-size: 50px;
+                color:green;
+            }
+        </style>
+        <div id="timebox">
+        <table id="tracklist">
+            <thead>Program Log</thead>
+            <tr>
+                <td>Time:</td>
+                <!--<td>Year:</td>-->
+                <td>Song Title:</td>
+                <td>Band/Artist:</td>
+                <td>Song Length:</td>
+            </tr>
+            <tr>
+                <td id="TopOfHour">XX:00</td>
+                <!--<td>N/A</td>-->
+                <td id="TopOfHourText">Top of the Hour</td>
+                <td>KQAK</td>
+                <td>:20</td>
+            </tr>
+        </table>
+        <button id="print1">Print Tracklist</button>
+    <script type="module">
+        for(var a=0; a <= 200; a++){
+            var newRow = document.createElement("tr")
+            newRow.id = "R "+a;
+            var newTime = document.createElement("td")
+            newTime.id= "Time "+ a;
+            var newName = document.createElement("td")
+            newName.id= "Name "+ a;
+            var newBand = document.createElement("td")
+            newBand.id= "Band "+ a;
+            var newLength = document.createElement("td")
+            newLength.id= "Length "+ a;
+            document.getElementById("tracklist").appendChild(newRow)
+            document.getElementById("R "+a).appendChild(newTime)
+            document.getElementById("R "+a).appendChild(newName)
+            document.getElementById("R "+a).appendChild(newBand)
+            document.getElementById("R "+a).appendChild(newLength)
+            //document.getElementById("Time "+a).innerHTML = "yes";
+        }
+        /*const data1 = require('./lib.json');
+        console.log("data1 \n", data1);
+        document.getElementById("Song1").innerHTML = "data1[1].song"
+
+    import data from './lib.json' assert { type: 'json' };
+console.log(data);
+*/        
+        /*fetch('./lib.json')
+        .then(response => {
+            return(response.json());
+        })
+        .then(data => console.log(data));*/
+        import data from "./kqakLib.json" assert { type: 'json' };
+        console.log(data);
+        //var lib = data.library[0].title;
+        //console.log("Lib: "+lib)
+        function formatList(list, rows1){
+                console.log(list, rows1)
+            var thisOrder = []
+            console.log(rows1.length)
+            for(var i = 0;i <= rows1.length-1; i++){
+                //var AAA = list.bmLive[0].aaa[0]
+                console.log("hello")
+                var thisBlock = rows1[i]
+                thisBlockAlphabet = null;
+                /*if(thisBlock === "000"){
+                    thisBlockAlphabet = list.bmLive[0].aaa
+                } else if(thisBlock === "001"){
+                    thisBlockAlphabet = list.bmLive[0].aab
+                } else if(thisBlock === "002"){
+                    thisBlockAlphabet = list.bmLive[0].aac
+                } else if(thisBlock === "003"){
+                    thisBlockAlphabet = list.bmLive[0].aad
+                } else if(thisBlock === "004"){
+                    thisBlockAlphabet = list.bmLive[0].aae
+                } else if(thisBlock === "005"){
+                    thisBlockAlphabet = list.bmLive[0].aaf
+                } else if(thisBlock === "006"){
+                    thisBlockAlphabet = list.bmLive[0].aag
+                } else if(thisBlock === "007"){
+                    thisBlockAlphabet = list.bmLive[0].aah
+                } else if(thisBlock === "008"){
+                    thisBlockAlphabet = list.bmLive[0].aai
+                } else if(thisBlock === "009"){
+                    thisBlockAlphabet = list.bmLive[0].aaj
+                } else if(thisBlock === "010"){
+                    thisBlockAlphabet = list.bmLive[0].aba
+                } else if(thisBlock === "011"){
+                    thisBlockAlphabet = list.bmLive[0].abb
+                } else if(thisBlock === "012"){
+                    thisBlockAlphabet = list.bmLive[0].abc
+                } else if(thisBlock === "013"){
+                    thisBlockAlphabet = list.bmLive[0].abd
+                } else if(thisBlock === "014"){
+                    thisBlockAlphabet = list.bmLive[0].abe
+                } else if(thisBlock === "015"){
+                    thisBlockAlphabet = list.bmLive[0].abf
+                } else if(thisBlock === "016"){
+                    thisBlockAlphabet = list.bmLive[0].abg
+                } else if(thisBlock === "017"){
+                    thisBlockAlphabet = list.bmLive[0].abh
+                } else if(thisBlock === "020"){
+                    thisBlockAlphabet = list.bmLive[0].aca
+                } else if(thisBlock === "021"){
+                    thisBlockAlphabet = list.bmLive[0].acb
+                } else if(thisBlock === "022"){
+                    thisBlockAlphabet = list.bmLive[0].acc
+                } else if(thisBlock === "104"){
+                    thisBlockAlphabet = list.bmLive[0].aae
+                } else if(thisBlock === "106"){
+                    thisBlockAlphabet = list.bmLive[0].aag
+                }*/
+                //it doesn't like the 000 format.
+                console.log(thisBlock)
+                console.log(thisBlockAlphabet)
+                //thisBlockAlphabet = toString(thisBlockAlphabet)
+                //console.log(list.bmLive[0].AAA[0])
+                var thisLength = Object.keys(thisBlock).length
+                console.log(thisLength)
+                var thisChoice = Math.floor(Math.random()*thisLength)
+                console.log(thisChoice)
+                //console.log(list.bmLive[0].aaa[0])
+                console.log(thisOrder)
+                console.log(thisBlock[0])
+                thisOrder.push(list.library[0].thisBlock[thisChoice])
+            }
+            console.log(thisOrder)
+            for(j = 0; j<=thisOrder.length; j++){
+                var thisArtist = document.createElement("p")
+                thisArtist.classList.add("artist")
+                thisArtist.id="thisId"
+                if(thisOrder[j].artist === ""){
+                    thisArtist.innerHTML = "<br>"
+                } else {
+                    thisArtist.textContent = thisOrder[j].artist
+                }
+                var thisTitle = document.createElement("p")
+                thisTitle.classList.add("title")
+                thisTitle.textContent = thisOrder[j].title
+                if(thisTitle.textContent === "Top Of The Hour Ramp"){
+                    thisTitle.id = "topOfHour"
+                }
+                var thisTime = document.createElement("p")
+                thisTime.classList.add("time")
+                thisTime.textContent = thisOrder[j].minutes+":"+thisOrder[j].seconds
+                var thisDiv = document.createElement("div")
+                //thisDiv.innerHTML = 
+                //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
+                //thisDiv.appendChild(song)
+                //document.body.appendChild(thisDiv)
+                document.getElementById("column1").appendChild(thisArtist)
+                document.getElementById("column2").appendChild(thisTitle)
+                document.getElementById("column3").appendChild(thisTime)
+            }
+            }
+            function parseProgramPlan(plan){
+                var programPlanTxt = programPlan/*.toString()*/
+            console.log(programPlan)
+            console.log(programPlanTxt)
+            var rows = programPlanTxt.split(',\n')
+            console.log(rows)
+            $.getJSON("/kqakLib.json", function(data){
+                var libraryJson = data
+                formatList(libraryJson, rows)
+            })
+            //console.log(libraryJson)
+            
+            
+            }
+            var programPlan = null
+            $.get("/programPlanKQAK.txt", function(data){
+                programPlan = data
+                console.log(programPlan)
+                parseProgramPlan(data)
+            })
+            
+            //while(programPlan === null){
+                console.log("waiting...")
+        document.getElementById("print1").addEventListener("click", function(){
+            console.log("print");
+            print(list);
+        });
+    </script>
+    </body>
+</html>
