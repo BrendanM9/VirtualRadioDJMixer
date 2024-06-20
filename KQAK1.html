@@ -151,14 +151,14 @@ console.log(data);
                 console.log(list.library[0])
                 console.log(list.library[0].thisBlock)
                 console.log(list.library[0].topOfHour)
-                var thisLength = list.library[0].thisBlock.length
+                var thisLength = thisBlockAlphabet.length
                 console.log(thisLength)
                 var thisChoice = Math.floor(Math.random()*thisLength)
                 console.log(thisChoice)
                 //console.log(list.bmLive[0].aaa[0])
                 console.log(thisOrder)
                 console.log(thisBlock[0])
-                thisOrder.push(list.library[0].thisBlock[thisChoice])
+                thisOrder.push(thisBlockAlphabet[thisChoice])
             }
             console.log(thisOrder)
             for(var j = 0; j<=thisOrder.length; j++){
