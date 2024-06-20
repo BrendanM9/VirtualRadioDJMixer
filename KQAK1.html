@@ -188,18 +188,19 @@ console.log(data);
                 var programPlanTxt = programPlan/*.toString()*/
             console.log(programPlan)
             console.log(programPlanTxt)
-            var rows = programPlanTxt.split(',\n')
-            console.log(rows)
+            programPlanTxt = plan.kqak
+            //var rows = programPlanTxt.split(',\n')
+            //console.log(rows)
             $.getJSON("/kqakLib.json", function(data){
                 var libraryJson = data
-                formatList(libraryJson, rows)
+                formatList(libraryJson, programPlan)
             })
             //console.log(libraryJson)
             
             
             }
             var programPlan = null
-            $.get("/static/programPlanKQAK.txt", function(data){
+            $.getJSON("static/programPlanKQAK.json", function(data){
                 programPlan = data
                 console.log(programPlan)
                 parseProgramPlan(data)
