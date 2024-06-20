@@ -25,6 +25,9 @@
             "block": "90s"
         },
         {
+            "block": "80s"
+        },
+        {
             "block": "specialty"
         },
         {
@@ -98,6 +101,9 @@
         },
         {
             "block": "80s"
+        },
+        {
+            "block": "70s"
         },
         {
             "block": "spotBlock"
