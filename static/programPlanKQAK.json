@@ -10,10 +10,16 @@
             "block": "70s"
         },
         {
+            "block": "dce"
+        },
+        {
             "block": "spotBlock"
         },
         {
             "block": "80s"
+        },
+        {
+            "block": "mco"
         },
         {
             "block": "90s"
@@ -29,6 +35,9 @@
         },
         {
             "block": "80s"
+        },
+        {
+            "block": "contest"
         },
         {
             "block": "summer"
@@ -73,10 +82,16 @@
             "block": "70s"
         },
         {
+            "block": "dce"
+        },
+        {
             "block": "spotBlock"
         },
         {
             "block": "80s"
+        },
+        {
+            "block": "mco"
         },
         {
             "block": "disco"
@@ -92,6 +107,9 @@
         },
         {
             "block": "80s"
+        },
+        {
+            "block": "contest"
         },
         {
             "block": "summer"
