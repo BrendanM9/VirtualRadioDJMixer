@@ -357,6 +357,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Call Me",
+                    "band": "Blondie",
+                    "year": 1981,
+                    "minutes": 0,
+                    "seconds": 0,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Livin' On A Prayer",
                     "band": "Bon Jovi",
                     "year": 1986,
@@ -741,6 +749,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "The One I Love",
+                    "band": "REM",
+                    "year": 0,
+                    "minutes": 0,
+                    "seconds": 0,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Take It on the Run",
                     "band": "REO Speedwagon",
                     "year": 1980,
@@ -771,6 +787,22 @@
                     "minutes": 3,
                     "seconds": 57,
                     "tracklist": "80s"
+                },
+                {
+                   "title": "Listen To Your Heart",
+                    "band": "Roxette",
+                    "year": 1988,
+                    "minutes": 0,
+                    "seconds": 0,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "The Look",
+                    "band": "Roxette",
+                    "year": 1988,
+                    "minutes": 0,
+                    "seconds": 0,
+                    "tracklist": "80s" 
                 },
                 {
                     "title": "Don't You (Forget About Me)",
@@ -810,6 +842,14 @@
                     "year": 1981,
                     "minutes": 4,
                     "seconds": 28,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "I Just Called To Say I Love You",
+                    "band": "Stevie Wonder",
+                    "year": 1980,
+                    "minutes": 0,
+                    "seconds": 0,
                     "tracklist": "80s"
                 },
                 {
