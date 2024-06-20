@@ -191,7 +191,7 @@ console.log(data);
             programPlanTxt = plan.kqak
             //var rows = programPlanTxt.split(',\n')
             //console.log(rows)
-            $.getJSON("/kqakLib.json", function(data){
+            $.getJSON("static/kqakLib.json", function(data){
                 var libraryJson = data
                 formatList(libraryJson, programPlan)
             })
