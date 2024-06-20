@@ -92,7 +92,7 @@ console.log(data);
             for(var i = 0;i <= rows1.length-1; i++){
                 //var AAA = list.bmLive[0].aaa[0]
                 console.log("hello")
-                var thisBlock = rows1[i]
+                var thisBlock = rows1[i].block
                 var thisBlockAlphabet = null;
                 /*if(thisBlock === "000"){
                     thisBlockAlphabet = list.bmLive[0].aaa
@@ -146,7 +146,7 @@ console.log(data);
                 console.log(thisBlockAlphabet)
                 //thisBlockAlphabet = toString(thisBlockAlphabet)
                 //console.log(list.bmLive[0].AAA[0])
-                var thisLength = Object.keys(thisBlock).length
+                var thisLength = thisBlock.length
                 console.log(thisLength)
                 var thisChoice = Math.floor(Math.random()*thisLength)
                 console.log(thisChoice)
