@@ -1,7 +1,7 @@
 {
     "library": [
         {
-            "70s": [
+            "a70s": [
                 {
                     "title": "A Horse With No Name",
                     "band": "America",
@@ -339,7 +339,7 @@
                     "tracklist": "70s"
                 }
             ],
-            "80s": [
+            "a80s": [
                 {
                     "title": "I Ran (So Far Away)",
                     "band": "A Flock of Seagulls",
@@ -893,7 +893,7 @@
                     "tracklist": "80s"
                 }
             ],
-            "90s": [
+            "a90s": [
                 {
                     "title": "Black Velvet",
                     "band": "Alannah Myles",
