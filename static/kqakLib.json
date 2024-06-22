@@ -735,9 +735,9 @@
                 {
                     "title": "The One I Love",
                     "band": "REM",
-                    "year": 0,
-                    "minutes": 0,
-                    "seconds": 0,
+                    "year": 1987,
+                    "minutes": 3,
+                    "seconds": 17,
                     "tracklist": "80s"
                 },
                 {
@@ -776,16 +776,16 @@
                    "title": "Listen To Your Heart",
                     "band": "Roxette",
                     "year": 1988,
-                    "minutes": 0,
-                    "seconds": 0,
+                    "minutes": 4,
+                    "seconds": 5,
                     "tracklist": "80s"
                 },
                 {
                     "title": "The Look",
                     "band": "Roxette",
                     "year": 1988,
-                    "minutes": 0,
-                    "seconds": 0,
+                    "minutes": 3,
+                    "seconds": 57,
                     "tracklist": "80s" 
                 },
                 {
@@ -831,9 +831,9 @@
                 {
                     "title": "I Just Called To Say I Love You",
                     "band": "Stevie Wonder",
-                    "year": 1980,
-                    "minutes": 0,
-                    "seconds": 0,
+                    "year": 1984,
+                    "minutes": 4,
+                    "seconds": 25,
                     "tracklist": "80s"
                 },
                 {
@@ -858,14 +858,6 @@
                     "year": 1982,
                     "minutes": 3,
                     "seconds": 42,
-                    "tracklist": "80s"
-                },
-                {
-                    "title": "Talking In Your Sleep",
-                    "band": "The Romantics",
-                    "year": 1983,
-                    "minutes": 3,
-                    "seconds": 54,
                     "tracklist": "80s"
                 }, 
                 {
@@ -1296,6 +1288,14 @@
                     "year": 1984,
                     "minutes": 4,
                     "seconds": 5,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Talking In Your Sleep",
+                    "band": "The Romantics",
+                    "year": 1983,
+                    "minutes": 3,
+                    "seconds": 54,
                     "tracklist": "specialty"
                 },
                 {
