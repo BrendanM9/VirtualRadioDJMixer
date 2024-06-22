@@ -315,22 +315,6 @@
                     "tracklist": "70s"
                 },
                 {
-                    "title": "Free Fallin'",
-                    "band": "Tom Petty",
-                    "year": 1989,
-                    "minutes": 4,
-                    "seconds": 14,
-                    "tracklist": "70s"
-                },
-                {
-                    "title": "I Won't Back Down",
-                    "band": "Tom Petty",
-                    "year": 1989,
-                    "minutes": 2,
-                    "seconds": 59,
-                    "tracklist": "70s"
-                },
-                {
                     "title": "Hold the Line",
                     "band": "Toto",
                     "year": 1978,
@@ -883,7 +867,23 @@
                     "minutes": 3,
                     "seconds": 54,
                     "tracklist": "80s"
-                },        
+                }, 
+                {
+                    "title": "Free Fallin'",
+                    "band": "Tom Petty",
+                    "year": 1989,
+                    "minutes": 4,
+                    "seconds": 14,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "I Won't Back Down",
+                    "band": "Tom Petty",
+                    "year": 1989,
+                    "minutes": 2,
+                    "seconds": 59,
+                    "tracklist": "70s"
+                },
                 {
                     "title": "Africa",
                     "band": "Toto",
