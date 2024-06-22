@@ -341,6 +341,22 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Uptown Girl",
+                    "band": "Billy Joel",
+                    "year": 1983,
+                    "minutes": 3,
+                    "seconds": 18,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "We Didn't Start The Fire",
+                    "band": "Billy Joel",
+                    "year": 1989,
+                    "minutes": 4,
+                    "seconds": 29,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Call Me",
                     "band": "Blondie",
                     "year": 1980,
@@ -365,6 +381,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Cuts Like A Knife",
+                    "band": "Bryan Adams",
+                    "year": 1983,
+                    "minutes": 4,
+                    "seconds": 5,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Hard to Say I'm Sorry/ Get Away",
                     "band": "Chicago",
                     "year": 1982,
@@ -386,6 +410,14 @@
                     "year": 1986,
                     "minutes": 4,
                     "seconds": 46,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Time After Time",
+                    "band": "Cyndi Lauper",
+                    "year": 1984,
+                    "minutes": 4,
+                    "seconds": 1,
                     "tracklist": "80s"
                 },
                 {
@@ -461,6 +493,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Here Comes the Rain Again",
+                    "band": "Eurythmics",
+                    "year": 1984,
+                    "minutes": 4,
+                    "seconds": 54,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Sweet Dreams (Are Made of These)",
                     "band": "Eurythmics",
                     "year": 1983,
@@ -509,11 +549,27 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Sweet Child O' Mine",
+                    "band": "Guns N' Roses",
+                    "year": 1988,
+                    "minutes": 4,
+                    "seconds": 53,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "These Dreams",
                     "band": "Heart",
                     "year": 1986,
                     "minutes": 3,
                     "seconds": 46,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "What About Love?",
+                    "band": "Heart",
+                    "year": 1983,
+                    "minutes": 3,
+                    "seconds": 41,
                     "tracklist": "80s"
                 },
                 {
@@ -581,6 +637,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Our House",
+                    "band": "Madness",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 23,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Borderline",
                     "band": "Madonna",
                     "year": 1983,
@@ -637,11 +701,27 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "The Way You Make Me Feel",
+                    "band": "Michael Jackson",
+                    "year": 1987,
+                    "minutes": 4,
+                    "seconds": 26,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Broken Wings",
-                    "band": "Mister Mister",
+                    "band": "Mr. Mister",
                     "year": 1984,
                     "minutes": 4,
                     "seconds": 43,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Always Something There to Remind Me",
+                    "band": "Naked Eyes",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 18,
                     "tracklist": "80s"
                 },
                 {
@@ -741,6 +821,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Can't Fight This Feeling",
+                    "band": "REO Speedwagon",
+                    "year": 1984,
+                    "minutes": 4,
+                    "seconds": 54,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Take It on the Run",
                     "band": "REO Speedwagon",
                     "year": 1980,
@@ -754,6 +842,22 @@
                     "year": 1989,
                     "minutes": 4,
                     "seconds": 28,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Never Gonna Give You Up",
+                    "band": "Rick Astley",
+                    "year": 1987,
+                    "minutes": 3,
+                    "seconds": 35,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Together Forever",
+                    "band": "Rick Astley",
+                    "year": 1988,
+                    "minutes": 3,
+                    "seconds": 24,
                     "tracklist": "80s"
                 },
                 {
@@ -805,6 +909,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Nothing's Gonna Stop Us Now",
+                    "band": "Starship",
+                    "year": 1987,
+                    "minutes": 4,
+                    "seconds": 29,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "We Built This City",
                     "band": "Starship",
                     "year": 1985,
@@ -837,6 +949,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Eye of the Tiger",
+                    "band": "Survivor",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 45,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Everybody Wants To Rule The World",
                     "band": "Tears For Fears",
                     "year": 1985,
@@ -853,13 +973,45 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Hey Jude",
+                    "band": "The Beatles",
+                    "year": 1968,
+                    "minutes": 7,
+                    "seconds": 12,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Rock the Casbah",
                     "band": "The Clash",
                     "year": 1982,
                     "minutes": 3,
                     "seconds": 42,
                     "tracklist": "80s"
-                }, 
+                },
+                {
+                    "title": "Heartache Tonight",
+                    "band": "The Eagles",
+                    "year": 1979,
+                    "minutes": 4,
+                    "seconds": 25,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Your Love",
+                    "band": "The Outfield",
+                    "year": 1986,
+                    "minutes": 3,
+                    "seconds": 36,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Hold Me Now",
+                    "band": "Thompson Twins",
+                    "year": 1984,
+                    "minutes": 4,
+                    "seconds": 44,
+                    "tracklist": "80s"
+                },
                 {
                     "title": "Free Fallin'",
                     "band": "Tom Petty",
@@ -882,6 +1034,14 @@
                     "year": 1982,
                     "minutes": 4,
                     "seconds": 55,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Fast Car",
+                    "band": "Tracy Chapman",
+                    "year": 1988,
+                    "minutes": 4,
+                    "seconds": 26,
                     "tracklist": "80s"
                 },
                 {
