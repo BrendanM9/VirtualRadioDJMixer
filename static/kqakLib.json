@@ -35,6 +35,14 @@
                     "tracklist": "70s"
                 },
                 {
+                    "title": "One Way Or Another",
+                    "band": "Blondie",
+                    "year": 1979,
+                    "minutes": 3,
+                    "seconds": 31,
+                    "tracklist": "70s"
+                },
+                {
                     "title": "Bad Moon Rising",
                     "band": "Creedence Clearwater Revival",
                     "year": 1969,
@@ -64,6 +72,14 @@
                     "year": 1979,
                     "minutes": 4,
                     "seconds": 5,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Evil Woman",
+                    "band": "ELO",
+                    "year": 1975,
+                    "minutes": 3,
+                    "seconds": 15,
                     "tracklist": "70s"
                 },
                 {
@@ -179,6 +195,22 @@
                     "tracklist": "70s"
                 },
                 {
+                    "title": "Carry On Wayward Son",
+                    "band": "Kansas",
+                    "year": 1976,
+                    "minutes": 3,
+                    "seconds": 26,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Dust in the Wind",
+                    "band": "Kansas",
+                    "year": 1978,
+                    "minutes": 3,
+                    "seconds": 27,
+                    "tracklist": "70s"
+                },
+                {
                     "title": "I'm Alright",
                     "band": "Kenny Loggins",
                     "year": 1980,
@@ -211,11 +243,35 @@
                     "tracklist": "70s"
                 },
                 {
+                    "title": "Bohemian Rhapsody",
+                    "band": "Queen",
+                    "year": 1975,
+                    "minutes": 5,
+                    "seconds": 55,
+                    "tracklist": "70s"
+                },
+                {
                     "title": "Crazy Little Thing Called Love",
                     "band": "Queen",
                     "year": 1979,
                     "minutes": 2,
                     "seconds": 42,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Don't Stop Me Now",
+                    "band": "Queen",
+                    "year": 1979,
+                    "minutes": 3,
+                    "seconds": 29,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Killer Queen",
+                    "band": "Queen",
+                    "year": 1974,
+                    "minutes": 3,
+                    "seconds": 0,
                     "tracklist": "70s"
                 },
                 {
@@ -232,6 +288,14 @@
                     "year": 1976,
                     "minutes": 3,
                     "seconds": 20,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Renegade",
+                    "band": "Styx",
+                    "year": 1979,
+                    "minutes": 4,
+                    "seconds": 15,
                     "tracklist": "70s"
                 },
                 {
@@ -264,6 +328,14 @@
                     "year": 1978,
                     "minutes": 3,
                     "seconds": 44,
+                    "tracklist": "70s"
+                },
+                {
+                    "title": "Hotel California",
+                    "band": "The Eagles",
+                    "year": 1977,
+                    "minutes": 6,
+                    "seconds": 8,
                     "tracklist": "70s"
                 },
                 {
@@ -1880,6 +1952,14 @@
                     "title": "Summer Breeze",
                     "band": "Seals and Crofts",
                     "year": 1972,
+                    "minutes": 3,
+                    "seconds": 25,
+                    "tracklist": "summer"
+                },
+                {
+                    "title": "Soak Up The Sun",
+                    "band": "Sheryl Crow",
+                    "year": 2002,
                     "minutes": 3,
                     "seconds": 25,
                     "tracklist": "summer"
