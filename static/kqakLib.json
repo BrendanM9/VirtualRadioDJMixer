@@ -155,6 +155,14 @@
                     "tracklist": "70s"
                 },
                 {
+                    "title": "Rhiannon",
+                    "band": "Fleetwood Mac",
+                    "year": 1976,
+                    "minutes": 4,
+                    "seconds": 13,
+                    "tracklist": "70s"
+                },
+                {
                     "title": "Sara",
                     "band": "Fleetwood Mac",
                     "year": 1979,
@@ -490,6 +498,14 @@
                     "year": 1986,
                     "minutes": 3,
                     "seconds": 59,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Karma Chameleon",
+                    "band": "Culture Club",
+                    "year": 1983,
+                    "minutes": 4,
+                    "seconds": 13,
                     "tracklist": "80s"
                 },
                 {
@@ -2313,14 +2329,6 @@
                     "tracklist": "regular"
                 },
                 {
-                    "title": "Karma Chameleon",
-                    "band": "Culture Club",
-                    "year": 1983,
-                    "minutes": 4,
-                    "seconds": 13,
-                    "tracklist": "regular"
-                },
-                {
                     "title": "Rhythym of the Night",
                     "band": "DeBarge",
                     "year": 1984,
@@ -2334,14 +2342,6 @@
                     "year": 1988,
                     "minutes": 3,
                     "seconds": 38,
-                    "tracklist": "regular"
-                },
-                {
-                    "title": "Rhiannon",
-                    "band": "Fleetwood Mac",
-                    "year": 1976,
-                    "minutes": 4,
-                    "seconds": 13,
                     "tracklist": "regular"
                 },
                 {
