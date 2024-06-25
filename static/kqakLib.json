@@ -1249,6 +1249,14 @@
                     "tracklist": "disco"
                 },
                 {
+                    "title": "Got to Be Real",
+                    "band": "Cheryl Lynn",
+                    "year": 1978,
+                    "minutes": 3,
+                    "seconds": 43,
+                    "tracklist": "disco"
+                },
+                {
                     "title": "Let's Groove",
                     "band": "Earth, Wind, & Fire",
                     "year": 1975,
@@ -1270,6 +1278,22 @@
                     "year": 1975,
                     "minutes": 3,
                     "seconds": 5,
+                    "tracklist": "disco"
+                },
+                {
+                    "title": "Night Fever",
+                    "band": "The Bee Gees",
+                    "year": 1978,
+                    "minutes": 3,
+                    "seconds": 32,
+                    "tracklist": "disco"
+                },
+                {
+                    "title": "Stayin' Alive",
+                    "band": "The Bee Gees",
+                    "year": 1977,
+                    "minutes": 3,
+                    "seconds": 25,
                     "tracklist": "disco"
                 },
                 {
