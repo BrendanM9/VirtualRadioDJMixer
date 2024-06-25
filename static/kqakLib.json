@@ -717,6 +717,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Footloose",
+                    "band": "Kenny Loggins",
+                    "year": 1984,
+                    "minutes": 3,
+                    "seconds": 42,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Dancing On The Ceiling",
                     "band": "Lionel Richie",
                     "year": 1986,
@@ -2345,12 +2353,20 @@
                     "tracklist": "regular"
                 },
                 {
-                    "title": "Footloose",
-                    "band": "Kenny Loggins",
-                    "year": 1984,
+                    "title": "Open Arms",
+                    "band": "Journey",
+                    "year": 1981,
                     "minutes": 3,
-                    "seconds": 42,
-                    "tracklist": "regular"
+                    "seconds": 18,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "Seperate Ways (Worlds Apart)",
+                    "band": "Journey",
+                    "year": 1983,
+                    "minutes": 4,
+                    "seconds": 21,
+                    "tracklist": "80s"
                 },
                 {
                     "title": "La Isla Bonita",
@@ -2359,6 +2375,14 @@
                     "minutes": 4,
                     "seconds": 3,
                     "tracklist": "regular"
+                },
+                {
+                    "title": "3AM",
+                    "band": "Matchbox Twenty",
+                    "year": 1997,
+                    "minutes": 3,
+                    "seconds": 46,
+                    "tracklist": "90s"
                 },
                 {
                     "title": "Roxanne",
