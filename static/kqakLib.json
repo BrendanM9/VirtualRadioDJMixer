@@ -725,6 +725,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Open Arms",
+                    "band": "Journey",
+                    "year": 1981,
+                    "minutes": 3,
+                    "seconds": 18,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Danger Zone",
                     "band": "Kenny Loggins",
                     "year": 1986,
@@ -2351,14 +2359,6 @@
                     "minutes": 3,
                     "seconds": 53,
                     "tracklist": "regular"
-                },
-                {
-                    "title": "Open Arms",
-                    "band": "Journey",
-                    "year": 1981,
-                    "minutes": 3,
-                    "seconds": 18,
-                    "tracklist": "80s"
                 },
                 {
                     "title": "Seperate Ways (Worlds Apart)",
