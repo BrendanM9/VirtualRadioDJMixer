@@ -22,7 +22,7 @@
               padding: 4px;
             }
             .column{
-    width: 33%;
+    width: 25%;
     float: left;
 }
 #topOfHour{
@@ -55,6 +55,7 @@
                 <td>:20</td>
             </tr>
         </table>-->
+            <div id="column0" class="column"></div>
             <div id="column1" class="column"></div>
             <div id="column2" class="column"></div>
             <div id="column3" class="column"></div>
@@ -170,7 +171,21 @@ console.log(data);
                 thisOrder.push(thisBlockAlphabet[thisChoice])
             }
             console.log(thisOrder)
+            var clockH = 3;
+            var clockM = 0;
+            var clockS = 0
             for(var j = 0; j<=thisOrder.length-1; j++){
+                var thisClock = document.createElement("p")
+                thisClock.classList.add("clock")
+                thisMinute = clockM
+                thisSecond = clockS
+                if(thisMinute <= 9){
+                    thisMinute = "0"+thisMinute
+                }
+                if(thisSecond <= 9){
+                    thisSecond = "0"+thisSecond
+                }
+                thisClock.textContent = clockH + ":" + clockM + "." + clockS
                 var thisArtist = document.createElement("p")
                 thisArtist.classList.add("artist")
                 thisArtist.id="thisId"
@@ -189,12 +204,21 @@ console.log(data);
                 }
                 var thisTime = document.createElement("p")
                 thisTime.classList.add("time")
+                var seconds
+                if(thisOrder[j].seconds <= 9){
+                    seconds = "0"+thisOrder[j].seconds
+                } else {
+                    seconds = thisOrder[j].seconds
+                }
                 thisTime.textContent = thisOrder[j].minutes+":"+thisOrder[j].seconds
+                clockM = clockM + thisOrder[j].minutes
+                clockS = clockS + thisOrder[j].seconds
                 var thisDiv = document.createElement("div")
                 //thisDiv.innerHTML = 
                 //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
                 //thisDiv.appendChild(song)
                 //document.body.appendChild(thisDiv)
+                document.getElementById("column0").appendChild(thisClock)
                 document.getElementById("column1").appendChild(thisArtist)
                 document.getElementById("column2").appendChild(thisTitle)
                 document.getElementById("column3").appendChild(thisTime)
