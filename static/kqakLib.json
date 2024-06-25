@@ -1235,11 +1235,27 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "The Way It Is",
+                    "band": "Bruce Hornsby & The Range",
+                    "year": 1986,
+                    "minutes": 4,
+                    "seconds": 58,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "Run To You",
                     "band": "Bryan Adams",
                     "year": 1984,
                     "minutes": 3,
                     "seconds": 54,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Do You Really Want To Hurt Me",
+                    "band": "Culture Club",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 38,
                     "tracklist": "specialty"
                 },
                 {
@@ -1275,11 +1291,43 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "Let's Hear It for the Boy",
+                    "band": "Deniece Williams",
+                    "year": 1984,
+                    "minutes": 4,
+                    "seconds": 20,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Cars",
+                    "band": "Gary Numan",
+                    "year": 1979,
+                    "minutes": 3,
+                    "seconds": 58,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "In Too Deep",
+                    "band": "Genesis",
+                    "year": 1986,
+                    "minutes": 4,
+                    "seconds": 58,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "Invisible Touch",
                     "band": "Genesis",
                     "year": 1986,
                     "minutes": 3,
                     "seconds": 28,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Throwing It All Away",
+                    "band": "Genesis",
+                    "year": 1986,
+                    "minutes": 3,
+                    "seconds": 51,
                     "tracklist": "specialty"
                 },
                 {
@@ -1307,6 +1355,14 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "I Want A New Drug",
+                    "band": "Huey Lewis and The News",
+                    "year": 1984,
+                    "minutes": 4,
+                    "seconds": 46,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "Stuck With You",
                     "band": "Huey Lewis and The News",
                     "year": 1986,
@@ -1331,11 +1387,35 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "Bette Davis Eyes",
+                    "band": "Kim Carnes",
+                    "year": 1981,
+                    "minutes": 3,
+                    "seconds": 48,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "You Keep Me Hangin' On",
                     "band": "Kim Wilde",
                     "year": 1986,
                     "minutes": 4,
                     "seconds": 15,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Something About You",
+                    "band": "Level 42",
+                    "year": 1985,
+                    "minutes": 3,
+                    "seconds": 44,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "La Bamba",
+                    "band": "Los Lobos",
+                    "year": 1987,
+                    "minutes": 2,
+                    "seconds": 54,
                     "tracklist": "specialty"
                 },
                 {
@@ -1352,6 +1432,14 @@
                     "year": 1983,
                     "minutes": 5,
                     "seconds": 37,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Papa Don't Preach",
+                    "band": "Madonna",
+                    "year": 1986,
+                    "minutes": 4,
+                    "seconds": 29,
                     "tracklist": "specialty"
                 },
                 {
@@ -1435,6 +1523,14 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "Don't Lose My Number",
+                    "band": "Phil Collins",
+                    "year": 1985,
+                    "minutes": 4,
+                    "seconds": 48,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "Take Me Home",
                     "band": "Phil Collins",
                     "year": 1985,
@@ -1456,6 +1552,30 @@
                     "year": 1983,
                     "minutes": 3,
                     "seconds": 54,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "What I Like About You",
+                    "band": "The Romantics",
+                    "year": 1979,
+                    "minutes": 2,
+                    "seconds": 55,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "The Warrior",
+                    "band": "Scandal",
+                    "year": 1984,
+                    "minutes": 3,
+                    "seconds": 35,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "No One Like You",
+                    "band": "Scorpions",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 57,
                     "tracklist": "specialty"
                 },
                 {
@@ -1491,6 +1611,22 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "Should I Stay or Should I Go",
+                    "band": "The Clash",
+                    "year": 1982,
+                    "minutes": 3,
+                    "seconds": 6,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Just Like Heaven",
+                    "band": "The Cure",
+                    "year": 1987,
+                    "minutes": 3,
+                    "seconds": 32,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "One Thing Leads To Another",
                     "band": "The Fixx",
                     "year": 1983,
@@ -1507,6 +1643,14 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "Voices Carry",
+                    "band": "Til Tuesday",
+                    "year": 1985,
+                    "minutes": 4,
+                    "seconds": 20,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "867-5309/Jenny",
                     "band": "Tommy Tutone",
                     "year": 1981,
@@ -1520,6 +1664,30 @@
                     "year": 1982,
                     "minutes": 3,
                     "seconds": 59,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Pride (In The Name Of Love)",
+                    "band": "U2",
+                    "year": 1984,
+                    "minutes": 3,
+                    "seconds": 48,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Is This Love",
+                    "band": "Whitesnake",
+                    "year": 1987,
+                    "minutes": 4,
+                    "seconds": 48,
+                    "tracklist": "specialty"
+                },
+                {
+                    "title": "Baby, I Love Your Way / Freebird",
+                    "band": "Will To Power",
+                    "year": 1988,
+                    "minutes": 4,
+                    "seconds": 7,
                     "tracklist": "specialty"
                 },
                 {
