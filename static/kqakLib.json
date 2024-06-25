@@ -1255,6 +1255,14 @@
                     "tracklist": "90s"
                 },
                 {
+                    "title": "3AM",
+                    "band": "Matchbox Twenty",
+                    "year": 1997,
+                    "minutes": 3,
+                    "seconds": 46,
+                    "tracklist": "90s"
+                },
+                {
                     "title": "This Is How We Do It",
                     "band": "Montell Jordan",
                     "year": 1995,
@@ -2375,14 +2383,6 @@
                     "minutes": 4,
                     "seconds": 3,
                     "tracklist": "regular"
-                },
-                {
-                    "title": "3AM",
-                    "band": "Matchbox Twenty",
-                    "year": 1997,
-                    "minutes": 3,
-                    "seconds": 46,
-                    "tracklist": "90s"
                 },
                 {
                     "title": "Roxanne",
