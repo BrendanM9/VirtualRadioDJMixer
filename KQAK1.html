@@ -181,12 +181,6 @@ console.log(data);
                 thisClock.classList.add("clock")
                 thisMinute = clockM
                 thisSecond = clockS
-                if(thisMinute <= 9){
-                    thisMinute = "0"+thisMinute
-                }
-                if(thisSecond <= 9){
-                    thisSecond = "0"+thisSecond
-                }
                 if(parseFloat(thisSecond) >= 60){
                     thisSecond -= 60;
                     thisMinute += 1
@@ -197,6 +191,12 @@ console.log(data);
                     thisMinute -= 60;
                     clockH += 1
                     clockM -= 60
+                }
+                if(thisMinute <= 9){
+                    thisMinute = "0"+thisMinute
+                }
+                if(thisSecond <= 9){
+                    thisSecond = "0"+thisSecond
                 }
                 thisClock.textContent = clockH + ":" + thisMinute + "." + thisSecond
                 var thisArtist = document.createElement("p")
