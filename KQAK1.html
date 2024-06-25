@@ -187,13 +187,16 @@ console.log(data);
                 if(thisSecond <= 9){
                     thisSecond = "0"+thisSecond
                 }
-                if(thisSecond >= 60){
+                if(parseFloat(thisSecond) >= 60){
                     thisSecond -= 60;
                     thisMinute += 1
+                    clockS -= 60
+                    clockM += 1
                 }
-                if(thisMinute >= 60){
+                if(parseFloat(thisMinute) >= 60){
                     thisMinute -= 60;
                     clockH += 1
+                    clockM -= 60
                 }
                 thisClock.textContent = clockH + ":" + thisMinute + "." + thisSecond
                 var thisArtist = document.createElement("p")
