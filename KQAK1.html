@@ -55,10 +55,12 @@
                 <td>:20</td>
             </tr>
         </table>-->
+        <div id="log">
             <div id="column0" class="column"></div>
             <div id="column1" class="column"></div>
             <div id="column2" class="column"></div>
             <div id="column3" class="column"></div>
+        </div>
         <button id="print1">Print Tracklist</button>
     <script type="module">
         /*for(var a=0; a <= 200; a++){
@@ -261,6 +263,7 @@ console.log(data);
             
             //while(programPlan === null){
                 console.log("waiting...")
+        var list = document.getElementById("log")
         document.getElementById("print1").addEventListener("click", function(){
             console.log("print");
             print(list);
