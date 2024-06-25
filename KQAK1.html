@@ -224,8 +224,8 @@ console.log(data);
                     seconds = thisOrder[j].seconds
                 }
                 thisTime.textContent = thisOrder[j].minutes+":"+thisOrder[j].seconds
-                clockM = thisMinute + thisOrder[j].minutes
-                clockS = thisSecond + thisOrder[j].seconds
+                clockM = clockM + thisOrder[j].minutes
+                clockS = clockS + thisOrder[j].seconds
                 var thisDiv = document.createElement("div")
                 //thisDiv.innerHTML = 
                 //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
