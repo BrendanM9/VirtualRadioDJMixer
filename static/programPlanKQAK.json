@@ -1,154 +1,204 @@
 {
     "kqak": [
         {
-            "block": "topOfHour"
+            "block": "topOfHour",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "70s"
+            "block": "70s",
+            "resync": "false"
         },
         {
-            "block": "dce"
+            "block": "dce",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "mco"
+            "block": "90s",
+            "resync": "false"
         },
         {
-            "block": "90s"
+            "block": "mco",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "specialty"
+            "block": "specialty",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "wx"
+            "block": "wx",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "contest"
+            "block": "contest",
+            "resync": "false"
         },
         {
-            "block": "summer"
+            "block": "summer",
+            "resync": "false"
         },
         {
-            "block": "70s"
+            "block": "70s",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "psa"
+            "block": "psa",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "disco"
+            "block": "disco",
+            "resync": "false"
         },
         {
-            "block": "70s"
+            "block": "70s",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "legalID"
+            "block": "legalID",
+            "resync": "false"
         },
         {
-            "block": "wx"
+            "block": "wx",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "topOfHour"
+            "block": "topOfHour",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "70s"
+            "block": "70s",
+            "resync": "false"
         },
         {
-            "block": "dce"
+            "block": "dce",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "mco"
+            "block": "disco",
+            "resync": "false"
         },
         {
-            "block": "disco"
+            "block": "mco",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "70s"
+            "block": "70s",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "wx"
+            "block": "wx",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "contest"
+            "block": "contest",
+            "resync": "false"
         },
         {
-            "block": "summer"
+            "block": "summer",
+            "resync": "false"
         },
         {
-            "block": "70s"
+            "block": "70s",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "psa"
+            "block": "psa",
+            "resync": "false"
         },
         {
-            "block": "specialty"
+            "block": "specialty",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "90s"
+            "block": "90s",
+            "resync": "false"
         },
         {
-            "block": "spotBlock"
+            "block": "spotBlock",
+            "resync": "false"
         },
         {
-            "block": "legalID"
+            "block": "legalID",
+            "resync": "false"
         },
         {
-            "block": "80s"
+            "block": "80s",
+            "resync": "false"
         },
         {
-            "block": "specialty"
+            "block": "specialty",
+            "resync": "false"
         }
     ]
 }
