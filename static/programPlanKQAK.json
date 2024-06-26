@@ -85,6 +85,10 @@
             "resync": "false"
         },
         {
+            "block": "station",
+            "resync": "false"
+        },
+        {
             "block": "disco",
             "resync": "false"
         },
@@ -210,6 +214,10 @@
         },
         {
             "block": "specialty",
+            "resync": "false"
+        },
+        {
+            "block": "station",
             "resync": "false"
         },
         {
