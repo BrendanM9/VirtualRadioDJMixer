@@ -237,7 +237,7 @@ console.log(data);
                 } else {
                     seconds = thisOrder[j].seconds
                 }
-                thisTime.textContent = thisOrder[j].minutes+":"+thisOrder[j].seconds
+                thisTime.textContent = thisOrder[j].minutes+":"+seconds
                 console.log(thisResyncList[j])
                 if(thisResyncList[j] !== "true"){
                     clockM = clockM + thisOrder[j].minutes
