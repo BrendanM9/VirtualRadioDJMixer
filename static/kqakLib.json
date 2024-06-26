@@ -2471,6 +2471,15 @@
                     "minutes": 0,
                     "seconds": 20
                 }
+            ],
+            "station": [
+                {
+                    "title": "Station Promo",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 0,
+                    "seconds": 30
+                }
             ]
         }
     ]
