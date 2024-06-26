@@ -229,9 +229,12 @@ console.log(data);
                     seconds = thisOrder[j].seconds
                 }
                 thisTime.textContent = thisOrder[j].minutes+":"+thisOrder[j].seconds
+                console.log(thisResync[j])
                 if(thisResync[j] !== "true"){
                     clockM = clockM + thisOrder[j].minutes
                     clockS = clockS + thisOrder[j].seconds
+                } else {
+                    thisTime.textContent = "ReSync";
                 }
                 var thisDiv = document.createElement("div")
                 //thisDiv.innerHTML = 
