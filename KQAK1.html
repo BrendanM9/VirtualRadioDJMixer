@@ -166,6 +166,7 @@ console.log(data);
                 //console.log(list, rows1)
             var thisOrder = []
             var thisResyncList = []
+            var thisTitleList = []
             //console.log(rows1.length)
             for(var i = 0;i <= rows1.length-1; i++){
                 //var AAA = list.bmLive[0].aaa[0]
@@ -239,12 +240,13 @@ console.log(data);
                 //console.log(thisBlock[0])
                 if(i > 0){
                     thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice);
-                    if(thisBlockAlphabet[thisChoice].title in thisOrder.title){
+                    if(thisBlockAlphabet[thisChoice].title in thisTitleList){
                         console.log("help")
                         thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice);
                     }
                 }
                 thisOrder.push(thisBlockAlphabet[thisChoice])
+                thisTitleList.push(thisBlockAlphabet[thisChoice].title);
                 thisResyncList.push(thisResync)
             }
             console.log(thisOrder)
