@@ -22,7 +22,7 @@
               padding: 4px;
             }
             .column{
-                width: 25%;
+                width: 20%;
                 float: left;
             }
             /*.column0{
@@ -84,6 +84,7 @@
             <div id="column1" class="column"></div>
             <div id="column2" class="column"></div>
             <div id="column3" class="column"></div>
+            <div id="column4" class="column"></div>
         </div>
         <button id="print1">Print Tracklist</button>
     <script type="module">
@@ -338,10 +339,19 @@ console.log(data);
                 //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
                 //thisDiv.appendChild(song)
                 //document.body.appendChild(thisDiv)
+                var thisResyncCheck = document.createElement("input")
+                thisResyncCheck.type = "checkbox"
+                thisResyncCheck.value = "resync"+j
+                thisResyncCheck.addEventListener('change', e => {
+                    if(e.target.checked){
+                        console.log("checked "+ e);
+                    }
+                })
                 document.getElementById("column0").appendChild(thisClock)
                 document.getElementById("column1").appendChild(thisTitle)
                 document.getElementById("column2").appendChild(thisArtist)
                 document.getElementById("column3").appendChild(thisTime)
+                document.getElementById("column4").appendChild(thisResyncCheck)
             }
             }
             function parseProgramPlan(plan){
