@@ -41,6 +41,10 @@
             "resync": "false"
         },
         {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
             "block": "spotBlock",
             "resync": "false"
         },
@@ -61,7 +65,11 @@
             "resync": "false"
         },
         {
-            "block": "70s",
+            "block": "90s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
             "resync": "false"
         },
         {
@@ -82,6 +90,10 @@
         },
         {
             "block": "70s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
             "resync": "false"
         },
         {
@@ -157,6 +169,10 @@
             "resync": "false"
         },
         {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
             "block": "spotBlock",
             "resync": "false"
         },
@@ -181,6 +197,10 @@
             "resync": "false"
         },
         {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
             "block": "spotBlock",
             "resync": "false"
         },
@@ -198,6 +218,10 @@
         },
         {
             "block": "90s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
             "resync": "false"
         },
         {
@@ -231,6 +255,10 @@
         {
             "block": "summer",
             "resync": "true"
+        },
+        {
+            "block": "topOfHour",
+            "resync": "false"
         }
     ]
 }
