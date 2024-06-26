@@ -477,6 +477,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Heaven",
+                    "band": "Bryan Adams",
+                    "year": 1985,
+                    "minutes": 4,
+                    "seconds": 3,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Hard to Say I'm Sorry/ Get Away",
                     "band": "Chicago",
                     "year": 1982,
@@ -674,6 +682,14 @@
                     "year": 1983,
                     "minutes": 3,
                     "seconds": 41,
+                    "tracklist": "80s"
+                },
+                {
+                    "title": "The Power Of Love",
+                    "band": "Huey Lewis and The News",
+                    "year": 1985,
+                    "minutes": 3,
+                    "seconds": 53,
                     "tracklist": "80s"
                 },
                 {
@@ -1507,6 +1523,14 @@
                     "tracklist": "specialty"
                 },
                 {
+                    "title": "She Drives Me Crazy",
+                    "band": "Fine Young Cannibals",
+                    "year": 1988,
+                    "minutes": 3,
+                    "seconds": 38,
+                    "tracklist": "specialty"
+                },
+                {
                     "title": "Cars",
                     "band": "Gary Numan",
                     "year": 1979,
@@ -2325,6 +2349,27 @@
                     "minutes": 4,
                     "seconds": 46,
                     "tracklist": "rested"
+                },
+                {
+                    "title": "Team Hyundai",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 1,
+                    "seconds": 0
+                },
+                {
+                    "title": "Horizon Broadcasting",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 0,
+                    "seconds": 30
+                },
+                {
+                    "title": "Free Golf Fridays",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 0,
+                    "seconds": 30
                 }
             ],
             "unsorted": [
@@ -2337,35 +2382,11 @@
                     "tracklist": "regular"
                 },
                 {
-                    "title": "Heaven",
-                    "band": "Bryan Adams",
-                    "year": 1985,
-                    "minutes": 4,
-                    "seconds": 3,
-                    "tracklist": "regular"
-                },
-                {
                     "title": "Rhythym of the Night",
                     "band": "DeBarge",
                     "year": 1984,
                     "minutes": 3,
                     "seconds": 49,
-                    "tracklist": "regular"
-                },
-                {
-                    "title": "She Drives Me Crazy",
-                    "band": "Fine Young Cannibals",
-                    "year": 1988,
-                    "minutes": 3,
-                    "seconds": 38,
-                    "tracklist": "regular"
-                },
-                {
-                    "title": "The Power Of Love",
-                    "band": "Huey Lewis and The News",
-                    "year": 1985,
-                    "minutes": 3,
-                    "seconds": 53,
                     "tracklist": "regular"
                 },
                 {
@@ -2405,27 +2426,6 @@
             "spotBlock": [
                 {
                     "title": "Empty Spot Block",
-                    "band": "",
-                    "year": 0,
-                    "minutes": 0,
-                    "seconds": 30
-                },
-                {
-                    "title": "Team Hyundai",
-                    "band": "",
-                    "year": 0,
-                    "minutes": 1,
-                    "seconds": 0
-                },
-                {
-                    "title": "Horizon Broadcasting",
-                    "band": "",
-                    "year": 0,
-                    "minutes": 0,
-                    "seconds": 30
-                },
-                {
-                    "title": "Free Golf Fridays",
                     "band": "",
                     "year": 0,
                     "minutes": 0,
