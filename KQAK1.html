@@ -26,10 +26,13 @@
                 float: left;
             }
             .column1{
-                width: 30%;
+                width: 40%;
             }
             .column2{
                 width:20%;
+            }
+            .column3{
+                width: 10%;
             }
             #topOfHour{
                 color:green;
@@ -236,6 +239,10 @@ console.log(data);
                 //console.log(thisBlock[0])
                 if(i > 0){
                     thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice);
+                    if(thisBlockAlphabet[thisChoice].title in thisOrder.title){
+                        console.log("help")
+                        thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice);
+                    }
                 }
                 thisOrder.push(thisBlockAlphabet[thisChoice])
                 thisResyncList.push(thisResync)
