@@ -50,6 +50,9 @@
             .vt {
                 color: red;
             }
+            .img {
+                color: orange;
+            }
         </style>
         <div id="timebox">
             <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -238,6 +241,14 @@ console.log(data);
                     thisTitle.classList.add("spotBlock")
                 } else if(thisTitle.textContent === "Voice Track"){
                     thisTitle.classList.add("vt")
+                } else if(thisTitle.textContent === "WX Donut"){
+                    thisTitle.classList.add("vt")
+                } else if(thisTitle.textContent === "PSA Donut"){
+                    thisTitle.classList.add("vt")
+                } else if(thisTitle.textContent === "DCE Rewind"){
+                    thisTitle.classList.add("img")
+                } else if(thisTitle.textContent === "Contest Promo"){
+                    thisTitle.classList.add("img")
                 }
                 var thisTime = document.createElement("p")
                 thisTime.classList.add("time")
