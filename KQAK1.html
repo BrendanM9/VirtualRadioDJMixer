@@ -100,11 +100,13 @@ console.log(data);
         function formatList(list, rows1){
                 console.log(list, rows1)
             var thisOrder = []
+            var thisResyncList = []
             console.log(rows1.length)
             for(var i = 0;i <= rows1.length-1; i++){
                 //var AAA = list.bmLive[0].aaa[0]
                 console.log("hello")
                 var thisBlock = rows1[i].block
+                var thisResync = rows1[i].resync
                 var thisBlockAlphabet = null;
                 if(thisBlock === "topOfHour"){
                     thisBlockAlphabet = list.library[0].topOfHour
@@ -161,7 +163,7 @@ console.log(data);
                 console.log(list)
                 console.log(list.library)
                 console.log(list.library[0])
-                console.log(list.library[0].thisBlock)
+                //console.log(list.library[0].thisBlock)
                 console.log(list.library[0].topOfHour)
                 var thisLength = thisBlockAlphabet.length
                 console.log(thisLength)
@@ -171,6 +173,7 @@ console.log(data);
                 console.log(thisOrder)
                 console.log(thisBlock[0])
                 thisOrder.push(thisBlockAlphabet[thisChoice])
+                thisResyncList.push(thisResync)
             }
             console.log(thisOrder)
             var clockH = 3;
@@ -226,8 +229,10 @@ console.log(data);
                     seconds = thisOrder[j].seconds
                 }
                 thisTime.textContent = thisOrder[j].minutes+":"+thisOrder[j].seconds
-                clockM = clockM + thisOrder[j].minutes
-                clockS = clockS + thisOrder[j].seconds
+                if(thisResync[j] !== "true"){
+                    clockM = clockM + thisOrder[j].minutes
+                    clockS = clockS + thisOrder[j].seconds
+                }
                 var thisDiv = document.createElement("div")
                 //thisDiv.innerHTML = 
                 //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
