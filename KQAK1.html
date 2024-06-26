@@ -342,7 +342,7 @@ console.log(data);
                 //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
                 //thisDiv.appendChild(song)
                 //document.body.appendChild(thisDiv)
-                var thisResyncCheck = document.createElement("input")
+                /*var thisResyncCheck = document.createElement("input")
                 thisResyncCheck.type = "checkbox"
                 thisResyncCheck.value = "resync"+j
                 thisResyncCheck.addEventListener('change', e => {
@@ -350,13 +350,13 @@ console.log(data);
                         console.log("checked");
                     }
                 })
-                var thisBr = document.createElement("br")
+                var thisBr = document.createElement("br")*/
                 document.getElementById("column0").appendChild(thisClock)
                 document.getElementById("column1").appendChild(thisTitle)
                 document.getElementById("column2").appendChild(thisArtist)
                 document.getElementById("column3").appendChild(thisTime)
-                document.getElementById("column4").appendChild(thisResyncCheck)
-                document.getElementById("column4").appendChild(thisBr);
+                //document.getElementById("column4").appendChild(thisResyncCheck)
+                //document.getElementById("column4").appendChild(thisBr);
             }
             }
             function parseProgramPlan(plan){
