@@ -2480,6 +2480,15 @@
                     "minutes": 0,
                     "seconds": 30
                 }
+            ],
+            "vt": [
+                {
+                    "title": "Voice Track",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 1,
+                    "seconds": 0
+                }
             ]
         }
     ]
