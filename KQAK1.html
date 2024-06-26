@@ -115,6 +115,13 @@ console.log(data);
         console.log(data);*/
         //var lib = data.library[0].title;
         //console.log("Lib: "+lib)
+        function repeatCheckSong(thisSong, songList){
+            for(var s = 0; s <= songList.length; s++){
+                if(thisSong === songList.title){
+                    console.log("REPEAT:"+thisSong);
+                }
+            }
+        }
         function formatList(list, rows1){
                 console.log(list, rows1)
             var thisOrder = []
