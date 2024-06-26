@@ -123,13 +123,13 @@ console.log(data);
             }
         }
         function formatList(list, rows1){
-                console.log(list, rows1)
+                //console.log(list, rows1)
             var thisOrder = []
             var thisResyncList = []
-            console.log(rows1.length)
+            //console.log(rows1.length)
             for(var i = 0;i <= rows1.length-1; i++){
                 //var AAA = list.bmLive[0].aaa[0]
-                console.log("hello")
+                //console.log("hello")
                 var thisBlock = rows1[i].block
                 var thisResync = rows1[i].resync
                 var thisBlockAlphabet = null;
@@ -181,22 +181,22 @@ console.log(data);
                     thisBlockAlphabet = list.bmLive[0].aag
                 }*/
                 //it doesn't like the 000 format.
-                console.log(thisBlock)
-                console.log(thisBlockAlphabet)
+                //console.log(thisBlock)
+                //console.log(thisBlockAlphabet)
                 //thisBlockAlphabet = toString(thisBlockAlphabet)
                 //console.log(list.bmLive[0].AAA[0])
-                console.log(list)
-                console.log(list.library)
-                console.log(list.library[0])
+                //console.log(list)
+                //console.log(list.library)
+                //console.log(list.library[0])
                 //console.log(list.library[0].thisBlock)
-                console.log(list.library[0].topOfHour)
+                //console.log(list.library[0].topOfHour)
                 var thisLength = thisBlockAlphabet.length
-                console.log(thisLength)
+                //console.log(thisLength)
                 var thisChoice = Math.floor(Math.random()*thisLength)
-                console.log(thisChoice)
+                //console.log(thisChoice)
                 //console.log(list.bmLive[0].aaa[0])
-                console.log(thisOrder)
-                console.log(thisBlock[0])
+                //console.log(thisOrder)
+                //console.log(thisBlock[0])
                 repeatCheckSong(thisBlockAlphabet[thisChoice], thisOrder);
                 thisOrder.push(thisBlockAlphabet[thisChoice])
                 thisResyncList.push(thisResync)
@@ -233,8 +233,8 @@ console.log(data);
                 var thisArtist = document.createElement("p")
                 thisArtist.classList.add("artist")
                 thisArtist.id="thisId"
-                console.log(thisOrder[j]);
-                console.log(thisOrder[j].band);
+                //console.log(thisOrder[j]);
+                //console.log(thisOrder[j].band);
                 if(thisOrder[j].band === ""){
                     thisArtist.innerHTML = "<br>"
                 } else {
@@ -271,7 +271,7 @@ console.log(data);
                     seconds = thisOrder[j].seconds
                 }
                 thisTime.textContent = thisOrder[j].minutes+":"+seconds
-                console.log(thisResyncList[j])
+                //console.log(thisResyncList[j])
                 if(thisResyncList[j] !== "true"){
                     clockM = clockM + thisOrder[j].minutes
                     clockS = clockS + thisOrder[j].seconds
