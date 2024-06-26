@@ -215,6 +215,22 @@
         {
             "block": "specialty",
             "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "true"
+        },
+        {
+            "block": "80s",
+            "resync": "true"
+        },
+        {
+            "block": "90s",
+            "resync": "true"
+        },
+        {
+            "block": "summer",
+            "resync": "true"
         }
     ]
 }
