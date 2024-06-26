@@ -44,6 +44,12 @@
             .resync{
                 color: blue;
             }
+            .spotBlock{
+                color: purple;
+            }
+            .vt {
+                color: red;
+            }
         </style>
         <div id="timebox">
             <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -228,6 +234,10 @@ console.log(data);
                 thisTitle.textContent = thisOrder[j].title
                 if(thisTitle.textContent === "Top Of The Hour Ramp"){
                     thisTitle.id = "topOfHour"
+                } else if(thisTitle.textContent = "Empty Spot Block"){
+                    thisTitle.classList.add("spotBlock")
+                } else if(thisTitle.textContent = "Voice Track"){
+                    thisTitle.classList.add("vt")
                 }
                 var thisTime = document.createElement("p")
                 thisTime.classList.add("time")
