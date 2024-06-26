@@ -22,18 +22,27 @@
               padding: 4px;
             }
             .column{
-    width: 25%;
-    float: left;
-}
-#topOfHour{
-    color:green;
-}
+                width: 25%;
+                float: left;
+            }
+            .column1{
+                width: 30%;
+            }
+            .column2{
+                width:20%;
+            }
+            #topOfHour{
+                color:green;
+            }
             /*tr :nth-child(even) {
               /*background-color: #dddddd;*
             }*/
             #TopOfHourText{
                 font-size: 50px;
                 color:green;
+            }
+            .resync{
+                color: blue;
             }
         </style>
         <div id="timebox">
@@ -235,6 +244,10 @@ console.log(data);
                     clockS = clockS + thisOrder[j].seconds
                 } else {
                     thisClock.textContent = "ReSync";
+                    thisClock.classList.add("resync")
+                    thisTitle.classList.add("resync")
+                    thisArtist.classList.add("resync")
+                    thisTime.classList.add("resync")
                 }
                 var thisDiv = document.createElement("div")
                 //thisDiv.innerHTML = 
@@ -242,8 +255,8 @@ console.log(data);
                 //thisDiv.appendChild(song)
                 //document.body.appendChild(thisDiv)
                 document.getElementById("column0").appendChild(thisClock)
-                document.getElementById("column1").appendChild(thisArtist)
-                document.getElementById("column2").appendChild(thisTitle)
+                document.getElementById("column1").appendChild(thisTitle)
+                document.getElementById("column2").appendChild(thisArtist)
                 document.getElementById("column3").appendChild(thisTime)
             }
             }
