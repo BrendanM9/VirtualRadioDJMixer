@@ -115,7 +115,7 @@ console.log(data);
         console.log(data);*/
         //var lib = data.library[0].title;
         //console.log("Lib: "+lib)
-        function repeatCheckSong(thisSong, songList){
+        function repeatCheckSong(thisSong, songList, thisChoice1){
             //console.log(thisSong)
             //console.log(songList)
             for(var s = 0; s <= songList.length-1; s++){
@@ -145,9 +145,13 @@ console.log(data);
                         
                     } else {
                         console.log("REPEAT:"+thisSong);
+                        thisChoice1 += 1 
                     }
                     
+                } else {
+                    thisChoice1 = thisChoice1
                 }
+                return thisChoice1
             }
         }
         function formatList(list, rows1){
@@ -226,7 +230,7 @@ console.log(data);
                 //console.log(thisOrder)
                 //console.log(thisBlock[0])
                 if(i > 0){
-                    repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder);
+                    thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice);
                 }
                 thisOrder.push(thisBlockAlphabet[thisChoice])
                 thisResyncList.push(thisResync)
