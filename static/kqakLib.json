@@ -2409,6 +2409,27 @@
                     "year": 0,
                     "minutes": 0,
                     "seconds": 30
+                },
+                {
+                    "title": "Team Hyundai",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 1,
+                    "seconds": 0
+                },
+                {
+                    "title": "Horizon Broadcasting",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 0,
+                    "seconds": 30
+                },
+                {
+                    "title": "Free Golf Fridays",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 0,
+                    "seconds": 30
                 }
             ],
             "wx": [
