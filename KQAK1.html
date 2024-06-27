@@ -128,7 +128,7 @@ console.log(data);
         console.log(data);*/
         //var lib = data.library[0].title;
         //console.log("Lib: "+lib)
-        function repeatCheckSong(thisSong, songList, thisChoice1){
+        function repeatCheckSong(thisSong, songList, thisChoice1, blockAlphabet, titleList){
             //console.log(thisSong)
             //console.log(songList)
             //console.log(thisChoice1);
@@ -162,7 +162,11 @@ console.log(data);
                         
                     } else {
                         console.log("REPEAT:"+thisSong);
-                        thisChoice1 += 1 
+                        thisChoice1 += 1
+                        if(thisSong in titleList){
+                            console.log("help")
+                            repeatCheckSong(thisSong, songList, thisChoice1, blockAlphabet, titleList);
+                        }
                     }
                     
                 } else {
@@ -249,11 +253,11 @@ console.log(data);
                 //console.log(thisOrder)
                 //console.log(thisBlock[0])
                 if(i > 0){
-                    thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice);
-                    if(thisBlockAlphabet[thisChoice].title in thisTitleList){
+                    thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice, thisBlockAlphabet, thisTitleList);
+                    /*if(thisBlockAlphabet[thisChoice].title in thisTitleList){
                         console.log("help")
                         thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice);
-                    }
+                    }*/
                 }
                 thisOrder.push(thisBlockAlphabet[thisChoice])
                 thisTitleList.push(thisBlockAlphabet[thisChoice].title);
