@@ -62,6 +62,9 @@
             .img {
                 color: orange;
             }
+            .resyncChecks{
+                padding:5px;
+            }
         </style>
         <div id="timebox">
             <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -342,15 +345,16 @@ console.log(data);
                 //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
                 //thisDiv.appendChild(song)
                 //document.body.appendChild(thisDiv)
-                /*var thisResyncCheck = document.createElement("input")
+                var thisResyncCheck = document.createElement("input")
                 thisResyncCheck.type = "checkbox"
                 thisResyncCheck.value = "resync"+j
+                thisResyncCheck.classList.add("resyncChecks");
                 thisResyncCheck.addEventListener('change', e => {
                     if(e.target.checked){
                         console.log("checked");
                     }
                 })
-                var thisBr = document.createElement("br")*/
+                var thisBr = document.createElement("br")
                 document.getElementById("column0").appendChild(thisClock)
                 document.getElementById("column1").appendChild(thisTitle)
                 document.getElementById("column2").appendChild(thisArtist)
