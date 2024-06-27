@@ -1393,6 +1393,14 @@
                     "tracklist": "disco"
                 },
                 {
+                    "title": "Rhythym of the Night",
+                    "band": "DeBarge",
+                    "year": 1984,
+                    "minutes": 3,
+                    "seconds": 49,
+                    "tracklist": "disco"
+                },
+                {
                     "title": "Let's Groove",
                     "band": "Earth, Wind, & Fire",
                     "year": 1975,
@@ -2387,14 +2395,6 @@
                     "year": 1984,
                     "minutes": 3,
                     "seconds": 41,
-                    "tracklist": "regular"
-                },
-                {
-                    "title": "Rhythym of the Night",
-                    "band": "DeBarge",
-                    "year": 1984,
-                    "minutes": 3,
-                    "seconds": 49,
                     "tracklist": "regular"
                 },
                 {
