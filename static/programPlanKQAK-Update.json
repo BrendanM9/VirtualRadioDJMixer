@@ -1,0 +1,272 @@
+{
+    "kqak": [
+        {
+            "block": "topOfHour",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "false"
+        },
+        {
+            "block": "dce",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "90s",
+            "resync": "false"
+        },
+        {
+            "block": "mco",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "specialty",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "wx",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "contest",
+            "resync": "false"
+        },
+        {
+            "block": "summer",
+            "resync": "false"
+        },
+        {
+            "block": "90s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "psa",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "station",
+            "resync": "false"
+        },
+        {
+            "block": "disco",
+            "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "legalID",
+            "resync": "false"
+        },
+        {
+            "block": "wx",
+            "resync": "false"
+        },
+        {
+            "block": "80s Secondary",
+            "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "true"
+        },
+        {
+            "block": "80s",
+            "resync": "true"
+        },
+        {
+            "block": "90s",
+            "resync": "true"
+        },
+        {
+            "block": "summer",
+            "resync": "true"
+        },
+        {
+            "block": "topOfHour",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "false"
+        },
+        {
+            "block": "dce",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "disco",
+            "resync": "false"
+        },
+        {
+            "block": "mco",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "wx",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "contest",
+            "resync": "false"
+        },
+        {
+            "block": "summer",
+            "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "psa",
+            "resync": "false"
+        },
+        {
+            "block": "specialty",
+            "resync": "false"
+        },
+        {
+            "block": "station",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "90s",
+            "resync": "false"
+        },
+        {
+            "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "legalID",
+            "resync": "false"
+        },
+        {
+            "block": "80s",
+            "resync": "false"
+        },
+        {
+            "block": "specialty",
+            "resync": "false"
+        },
+        {
+            "block": "70s",
+            "resync": "true"
+        },
+        {
+            "block": "80s",
+            "resync": "true"
+        },
+        {
+            "block": "90s",
+            "resync": "true"
+        },
+        {
+            "block": "summer",
+            "resync": "true"
+        },
+        {
+            "block": "topOfHour",
+            "resync": "false"
+        }
+    ]
+}
