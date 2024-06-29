@@ -355,6 +355,7 @@ console.log(data);
                 //document.body.appendChild(thisDiv)
                 var thisResyncCheck = document.createElement("input")
                 thisResyncCheck.type = "checkbox"
+                thisResyncCheck.id = "rs"+j
                 thisResyncCheck.value = "resync"+j
                 thisResyncCheck.classList.add("resyncChecks");
                 thisResyncCheck.addEventListener('change', e => {
@@ -363,12 +364,16 @@ console.log(data);
                     }
                 })
                 var thisBr = document.createElement("br")
+                var thisLabel = document.createElement("label")
+                thisLabel.textContent = "ReSync";
+                thisLabel.htmlFor = "rs"+j;
                 var thisBr1 = document.createElement("br")
                 document.getElementById("column0").appendChild(thisClock)
                 document.getElementById("column1").appendChild(thisTitle)
                 document.getElementById("column2").appendChild(thisArtist)
                 document.getElementById("column3").appendChild(thisTime)
                 document.getElementById("column4").appendChild(thisResyncCheck)
+                document.getElementById("column4").appendChild(thisLabel)
                 document.getElementById("column4").appendChild(thisBr);
                 //document.getElementById("column4").appendChild(thisBr1);
             }
