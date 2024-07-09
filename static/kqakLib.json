@@ -757,6 +757,14 @@
                     "tracklist": "80s"
                 },
                 {
+                    "title": "Seperate Ways (Worlds Apart)",
+                    "band": "Journey",
+                    "year": 1983,
+                    "minutes": 4,
+                    "seconds": 21,
+                    "tracklist": "80s"
+                },
+                {
                     "title": "Danger Zone",
                     "band": "Kenny Loggins",
                     "year": 1986,
@@ -2398,14 +2406,6 @@
                     "tracklist": "regular"
                 },
                 {
-                    "title": "Seperate Ways (Worlds Apart)",
-                    "band": "Journey",
-                    "year": 1983,
-                    "minutes": 4,
-                    "seconds": 21,
-                    "tracklist": "80s"
-                },
-                {
                     "title": "La Isla Bonita",
                     "band": "Madonna",
                     "year": 1987,
@@ -2468,7 +2468,7 @@
             ],
             "mco": [
                 {
-                    "title": "16 After MCO AD",
+                    "title": "16 After MCO Sweep",
                     "band": "",
                     "year": 0,
                     "minutes": 0,
@@ -2477,7 +2477,7 @@
             ],
             "dce": [
                 {
-                    "title": "DCE Rewind",
+                    "title": "QDCE Recycler",
                     "band": "",
                     "year": 0,
                     "minutes": 0,
