@@ -46,7 +46,7 @@
             /*tr :nth-child(even) {
               /*background-color: #dddddd;*
             }*/
-            #TopOfHourText{
+            .TopOfHourText{
                 font-size: 50px;
                 color:green;
             }
@@ -303,7 +303,7 @@ console.log(data);
                 thisClock.textContent = clockH + ":" + thisMinute + "." + thisSecond
                 var thisArtist = document.createElement("p")
                 thisArtist.classList.add("artist")
-                thisArtist.id="thisId"
+                thisArtist.id="id#"+j
                 //console.log(thisOrder[j]);
                 //console.log(thisOrder[j].band);
                 if(thisOrder[j].band === ""){
@@ -313,9 +313,10 @@ console.log(data);
                 }
                 var thisTitle = document.createElement("p")
                 thisTitle.classList.add("title")
+                thisTitle.id ="title#"+j
                 thisTitle.textContent = thisOrder[j].title
                 if(thisTitle.textContent === "Top Of The Hour Ramp"){
-                    thisTitle.id = "topOfHour"
+                    thisTitle.classList.add = "topOfHour"
                 } else if(thisTitle.textContent === "Empty Spot Block"){
                     thisTitle.classList.add("spotBlock")
                 } else if(thisTitle.textContent === "Voice Track"){
@@ -370,18 +371,21 @@ console.log(data);
                 })*/
                 var thisResyncCheck = document.createElement("button")
                 thisResyncCheck.type = "button"
-                thisResyncCheck.id = "rs"+j
+                thisResyncCheck.id = "rs-"+j
                 thisResyncCheck.value = "resync"+j
                 thisResyncCheck.classList.add("resyncChecks");
                 thisResyncCheck.innerHTML = "ReSync"
                 thisResyncCheck.addEventListener('click', function(){
                     console.log(this.id)
+                    var thisCheck = this.id
+                    var blockId = thisCheck.split("-")
                 })
                 var thisBr = document.createElement("br")
                 var thisLabel = document.createElement("label")
                 thisLabel.textContent = "S";
                 thisLabel.htmlFor = "rs"+j;
                 var thisBr1 = document.createElement("br")
+                thisClock.id = "clock#"+j
                 document.getElementById("column0").appendChild(thisClock)
                 document.getElementById("column1").appendChild(thisTitle)
                 document.getElementById("column2").appendChild(thisArtist)
