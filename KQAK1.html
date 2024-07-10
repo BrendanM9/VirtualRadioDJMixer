@@ -40,7 +40,7 @@
             #column4{
                 width: 5%;
             }
-            #topOfHour{
+            .topOfHour{
                 color:green;
             }
             /*tr :nth-child(even) {
@@ -379,6 +379,10 @@ console.log(data);
                     console.log(this.id)
                     var thisCheck = this.id
                     var blockId = thisCheck.split("-")
+                    document.getElementById("clock#"+j).classList.add("resync")
+                    document.getElementById("title#"+j).classList.add("resync")
+                    document.getElementById("id#"+j).classList.add("resync")
+                    document.getElementById("time#"+j).classList.add("resync")
                 })
                 var thisBr = document.createElement("br")
                 var thisLabel = document.createElement("label")
@@ -386,6 +390,7 @@ console.log(data);
                 thisLabel.htmlFor = "rs"+j;
                 var thisBr1 = document.createElement("br")
                 thisClock.id = "clock#"+j
+                thisTime.id = "time#"+j
                 document.getElementById("column0").appendChild(thisClock)
                 document.getElementById("column1").appendChild(thisTitle)
                 document.getElementById("column2").appendChild(thisArtist)
