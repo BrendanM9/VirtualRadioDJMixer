@@ -379,10 +379,17 @@ console.log(data);
                     console.log(this.id)
                     var thisCheck = this.id
                     var blockId = thisCheck.split("-")
-                    document.getElementById("clock#"+parseInt(blockId[1])).classList.add("resync")
-                    document.getElementById("title#"+parseInt(blockId[1])).classList.add("resync")
-                    document.getElementById("id#"+parseInt(blockId[1])).classList.add("resync")
-                    document.getElementById("time#"+parseInt(blockId[1])).classList.add("resync")
+                    if(document.getElementById("clock#"+parseInt(blockId[1])).classList.contains("resync"){
+                        document.getElementById("clock#"+parseInt(blockId[1])).classList.remove("resync")
+                        document.getElementById("title#"+parseInt(blockId[1])).classList.remove("resync")
+                        document.getElementById("id#"+parseInt(blockId[1])).classList.remove("resync")
+                        document.getElementById("time#"+parseInt(blockId[1])).classList.remove("resync")
+                    } else { 
+                        document.getElementById("clock#"+parseInt(blockId[1])).classList.add("resync")
+                        document.getElementById("title#"+parseInt(blockId[1])).classList.add("resync")
+                        document.getElementById("id#"+parseInt(blockId[1])).classList.add("resync")
+                        document.getElementById("time#"+parseInt(blockId[1])).classList.add("resync")
+                    }
                 })
                 var thisBr = document.createElement("br")
                 var thisLabel = document.createElement("label")
