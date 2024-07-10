@@ -241,6 +241,10 @@
             "resync": "false"
         },
         {
+            "block": "wx",
+            "resync": "false"
+        },
+        {
             "block": "80s",
             "resync": "false"
         },
