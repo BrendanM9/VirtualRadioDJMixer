@@ -353,7 +353,7 @@ console.log(data);
                 //var song = thisArtist. + thisTitle.ATTRIBUTE_NODE + thisTime.ATTRIBUTE_NODE
                 //thisDiv.appendChild(song)
                 //document.body.appendChild(thisDiv)
-                var thisResyncCheck = document.createElement("input")
+                /*var thisResyncCheck = document.createElement("input")
                 thisResyncCheck.type = "checkbox"
                 thisResyncCheck.id = "rs"+j
                 thisResyncCheck.value = "resync"+j
@@ -362,9 +362,17 @@ console.log(data);
                     if(e.target.checked){
                         console.log("checked");
                     }
+                })*/
+                var thisResyncCheck = document.createElement("button")
+                thisResyncCheck.type = "button"
+                thisResyncCheck.id = "rs"+j
+                thisResyncCheck.value = "resync"+j
+                thisResyncCheck.classList.add("resyncChecks");
+                thisResyncCheck.addEventListener('click', function(){
+                    console.log(j)
                 })
                 var thisBr = document.createElement("br")
-                var thisLabel = document.createElement("p")
+                var thisLabel = document.createElement("label")
                 thisLabel.textContent = "S";
                 thisLabel.htmlFor = "rs"+j;
                 var thisBr1 = document.createElement("br")
@@ -374,7 +382,7 @@ console.log(data);
                 document.getElementById("column3").appendChild(thisTime)
                 document.getElementById("column4").appendChild(thisResyncCheck)
                 document.getElementById("column4").appendChild(thisLabel)
-                document.getElementById("column4").appendChild(thisBr);
+                //document.getElementById("column4").appendChild(thisBr);
                 //document.getElementById("column4").appendChild(thisBr1);
             }
             }
