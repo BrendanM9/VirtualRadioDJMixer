@@ -460,8 +460,9 @@ console.log(data);
             console.log(programPlanTxt)
             programPlanTxt = plan.kqak
             //var rows = programPlanTxt.split(',\n')
-            //console.log(rows)
+            console.log(programPlanTxt)
             $.getJSON("static/kqakLib.json", function(data){
+                console.log(data)
                 var libraryJson = data
                 console.log(libraryJson)
                 formatList(libraryJson, programPlanTxt)
