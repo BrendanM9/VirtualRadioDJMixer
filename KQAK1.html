@@ -233,7 +233,7 @@ console.log(data);
             //console.log(rows1.length)
             for(var i = 0;i <= rows1.length-1; i++){
                 //var AAA = list.bmLive[0].aaa[0]
-                //console.log("hello")
+                console.log("hello")
                 var thisBlock = rows1[i].block
                 var thisResync = rows1[i].resync
                 var thisBlockAlphabet = null;
@@ -286,7 +286,7 @@ console.log(data);
                 }*/
                 //it doesn't like the 000 format.
                 //console.log(thisBlock)
-                //console.log(thisBlockAlphabet)
+                console.log(thisBlockAlphabet)
                 //thisBlockAlphabet = toString(thisBlockAlphabet)
                 //console.log(list.bmLive[0].AAA[0])
                 //console.log(list)
@@ -295,11 +295,11 @@ console.log(data);
                 //console.log(list.library[0].thisBlock)
                 //console.log(list.library[0].topOfHour)
                 var thisLength = thisBlockAlphabet.length
-                //console.log(thisLength)
+                console.log(thisLength)
                 var thisChoice = Math.floor(Math.random()*thisLength)
-                //console.log(thisChoice)
+                console.log(thisChoice)
                 //console.log(list.bmLive[0].aaa[0])
-                //console.log(thisOrder)
+                console.log(thisOrder)
                 //console.log(thisBlock[0])
                 if(i > 0){
                     thisChoice = repeatCheckSong(thisBlockAlphabet[thisChoice].title, thisOrder, thisChoice, thisBlockAlphabet, thisTitleList);
