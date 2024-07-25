@@ -185,8 +185,40 @@ console.log(data);
             console.log(thisChoice1)
             return thisChoice1
         }
-        function recalcTimes(rsList){
+        function recalcTimes(rsList, thisOrder1){
             console.log(rsList);
+            var clockH1 = 3;
+            var clockM1 = 0;
+            var clockS1 = 0
+            var thisMinute1
+            var thisSecond1
+            for(var k = 0; k<=rsList.length-1; k++){
+                var thisClock1 = document.getElementById("clock#"+k)
+                //thisClock.classList.add("clock")
+                thisMinute1 = clockM1
+                thisSecond1 = clockS1
+                if(parseFloat(thisSecond1) >= 60){
+                    thisSecond1 -= 60;
+                    thisMinute1 += 1
+                    clockS1 -= 60
+                    clockM1 += 1
+                }
+                if(parseFloat(thisMinute1) >= 60){
+                    thisMinute1 -= 60;
+                    clockH1 += 1
+                    clockM1 -= 60
+                }
+                if(thisMinute1 <= 9){
+                    thisMinute1 = "0"+thisMinute1
+                }
+                if(thisSecond1 <= 9){
+                    thisSecond1 = "0"+thisSecond1
+                }
+                thisClock.textContent = clockH + ":" + thisMinute + "." + thisSecond
+                 if(thisResyncList[j] !== "true"){
+                    clockM1 = clockM1 + thisOrder1[k].minutes
+                    clockS1 = clockS1 + thisOrder1[k].seconds
+                }
         }
         function formatList(list, rows1){
                 //console.log(list, rows1)
@@ -396,7 +428,7 @@ console.log(data);
                         document.getElementById("time#"+parseInt(blockId[1])).classList.add("resync")
                         thisResyncList[parseInt(blockId[1])] = "true";
                     }
-                    recalcTimes(thisResyncList);
+                    recalcTimes(thisResyncList, thisOrder);
                 })
                 var thisBr = document.createElement("br")
                 var thisLabel = document.createElement("label")
