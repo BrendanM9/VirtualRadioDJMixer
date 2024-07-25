@@ -387,12 +387,14 @@ console.log(data);
                         document.getElementById("title#"+parseInt(blockId[1])).classList.remove("resync")
                         document.getElementById("id#"+parseInt(blockId[1])).classList.remove("resync")
                         document.getElementById("time#"+parseInt(blockId[1])).classList.remove("resync")
+                        thisResyncList[parseInt(blockId[1])] = "false";
                     } else { 
                         document.getElementById("clock#"+parseInt(blockId[1])).classList.add("resync")
                         document.getElementById("clock#"+parseInt(blockId[1])).innerHTML = "ReSync"
                         document.getElementById("title#"+parseInt(blockId[1])).classList.add("resync")
                         document.getElementById("id#"+parseInt(blockId[1])).classList.add("resync")
                         document.getElementById("time#"+parseInt(blockId[1])).classList.add("resync")
+                        thisResyncList[parseInt(blockId[1])] = "true";
                     }
                     recalcTimes(thisResyncList);
                 })
