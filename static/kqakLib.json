@@ -2389,12 +2389,13 @@
                     "seconds": 30
                 },
                 {
-                    "title": "Empty Spot Block",
+                    "title": "Q-Free Golf Fridays Spot",
                     "band": "",
                     "year": 0,
                     "minutes": 0,
                     "seconds": 30
-                },
+                }
+                
             ],
             "unsorted": [
                 {
@@ -2425,7 +2426,7 @@
             ],
             "spotBlock": [
                 {
-                    "title": "Q-Free Golf Fridays Spot",
+                    "title": "Empty Spot Block",
                     "band": "",
                     "year": 0,
                     "minutes": 0,
