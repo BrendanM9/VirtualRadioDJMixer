@@ -2388,13 +2388,6 @@
                     "minutes": 0,
                     "seconds": 30
                 },
-                {
-                    "title": "Free Golf Fridays",
-                    "band": "",
-                    "year": 0,
-                    "minutes": 0,
-                    "seconds": 30
-                }
             ],
             "unsorted": [
                 {
@@ -2426,6 +2419,13 @@
             "spotBlock": [
                 {
                     "title": "Empty Spot Block",
+                    "band": "",
+                    "year": 0,
+                    "minutes": 0,
+                    "seconds": 30
+                },
+                {
+                    "title": "Free Golf Fridays",
                     "band": "",
                     "year": 0,
                     "minutes": 0,
