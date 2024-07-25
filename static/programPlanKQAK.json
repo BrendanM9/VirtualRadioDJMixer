@@ -21,6 +21,14 @@
             "resync": "false"
         },
         {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
             "block": "80s",
             "resync": "false"
         },
@@ -42,6 +50,18 @@
         },
         {
             "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
             "resync": "false"
         },
         {
@@ -77,6 +97,14 @@
             "resync": "false"
         },
         {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
             "block": "psa",
             "resync": "false"
         },
@@ -105,7 +133,23 @@
             "resync": "false"
         },
         {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
             "block": "legalID",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
             "resync": "false"
         },
         {
@@ -153,6 +197,14 @@
             "resync": "false"
         },
         {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
             "block": "80s",
             "resync": "false"
         },
@@ -174,6 +226,18 @@
         },
         {
             "block": "vt",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
             "resync": "false"
         },
         {
@@ -209,6 +273,14 @@
             "resync": "false"
         },
         {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
             "block": "psa",
             "resync": "false"
         },
@@ -237,7 +309,19 @@
             "resync": "false"
         },
         {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
+            "resync": "false"
+        },
+        {
             "block": "legalID",
+            "resync": "false"
+        },
+        {
+            "block": "spotBlock",
             "resync": "false"
         },
         {
