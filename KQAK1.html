@@ -73,7 +73,7 @@
                 /* margin: 16px; */
             }
         </style>
-        <div id="timebox">
+        <div id="timebox"></div>
             <script src="https://code.jquery.com/jquery-latest.js"></script>
         <!--<table id="tracklist">
             <thead>Program Log</thead>
@@ -218,7 +218,9 @@ console.log(data);
                  if(rsList[k] !== "true"){
                     clockM1 = clockM1 + thisOrder1[k].minutes
                     clockS1 = clockS1 + thisOrder1[k].seconds
-                }
+                } else {
+                    thisClock.textContent = "ReSync";
+                 }
             }
         }
         function formatList(list, rows1){
