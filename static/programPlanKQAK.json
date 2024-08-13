@@ -5,7 +5,8 @@
             "resync": "false"
         },
         {
-            "block": "80s",
+            "block2": "80s",
+            "block": "lunar",
             "resync": "false"
         },
         {
