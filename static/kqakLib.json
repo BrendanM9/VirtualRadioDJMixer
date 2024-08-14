@@ -187,6 +187,14 @@
                     "tracklist": "70s"
                 },
                 {
+                    "title": "Grease",
+                    "band": "Frankie Valli",
+                    "year": "1978",
+                    "minutes": 3,
+                    "seconds": 21,
+                    "tracklist": "70s"
+                },
+                {
                     "title": "Dream Weaver",
                     "band": "Gary Wright",
                     "year": 1975,
@@ -661,7 +669,7 @@
                     "tracklist": "80s"
                 },
                 {
-                    "title": "That's All",
+                    "title": "That's All!",
                     "band": "Genesis",
                     "year": 1983,
                     "minutes": 4,
@@ -1430,6 +1438,14 @@
                     "year": 1977,
                     "minutes": 3,
                     "seconds": 16,
+                    "tracklist": "disco"
+                },
+                {
+                    "title": "Rock the Boat",
+                    "band": "Hues Corporation",
+                    "year": 1974,
+                    "minutes": 3,
+                    "seconds": 6,
                     "tracklist": "disco"
                 },
                 {
