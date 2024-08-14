@@ -78,6 +78,10 @@
             "resync": "false"
         },
         {
+            "block": "70s",
+            "resync": "false"
+        },
+        {
             "block": "contest",
             "resync": "false"
         },
@@ -254,6 +258,10 @@
             "resync": "false"
         },
         {
+            "block": "70s",
+            "resync": "false"
+        },
+        {
             "block": "contest",
             "resync": "false"
         },
@@ -262,7 +270,7 @@
             "resync": "false"
         },
         {
-            "block": "70s",
+            "block": "80s",
             "resync": "false"
         },
         {
