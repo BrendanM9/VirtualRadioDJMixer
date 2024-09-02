@@ -466,7 +466,7 @@
                     "year": 1989,
                     "minutes": 4,
                     "seconds": 29,
-                    "tracklist": "80s"
+                    "tracklist": "b80s"
                 },
                 {
                     "title": "Call Me",
@@ -474,7 +474,7 @@
                     "year": 1980,
                     "minutes": 3,
                     "seconds": 32,
-                    "tracklist": "80s"
+                    "tracklist": "b80s"
                 },
                 {
                     "title": "Livin' On A Prayer",
@@ -594,7 +594,7 @@
                     "year": 1986,
                     "minutes": 3,
                     "seconds": 32,
-                    "tracklist": "80s"
+                    "tracklist": "b80s"
                 },
                 {
                     "title": "Candle In The Wind",
@@ -618,7 +618,7 @@
                     "year": 1983,
                     "minutes": 3,
                     "seconds": 5,
-                    "tracklist": "80s"
+                    "tracklist": "b80s"
                 },
                 {
                     "title": "Hungry Eyes",
@@ -626,7 +626,7 @@
                     "year": 1987,
                     "minutes": 4,
                     "seconds": 8,
-                    "tracklist": "80s"
+                    "tracklist": "a80s"
                 },
                 {
                     "title": "Here Comes the Rain Again",
@@ -1242,7 +1242,7 @@
                     "year": 1984,
                     "minutes": 5,
                     "seconds": 28,
-                    "tracklist": "80s"
+                    "tracklist": "b80s"
                 },
                 {
                     "title": "Wake Me Up Before You Go-Go",
@@ -1254,6 +1254,14 @@
                 }
             ],
             "a90s": [
+                {
+                    "title": "All That She Wants",
+                    "band": "Ace of Base",
+                    "year": 1992,
+                    "minutes": 3,
+                    "seconds": 30,
+                    "tracklist": "90s"
+                },
                 {
                     "title": "Black Velvet",
                     "band": "Alannah Myles",
@@ -1491,14 +1499,6 @@
             ],
             "lunar": [
                 {
-                    "title": "All That She Wants",
-                    "band": "Ace of Base",
-                    "year": 1992,
-                    "minutes": 3,
-                    "seconds": 30,
-                    "tracklist": "lunar"
-                },
-                {
                     "title": "Heat Of The Moment",
                     "band": "Asia",
                     "year": 1982,
@@ -1696,6 +1696,14 @@
                     "year": 1987,
                     "minutes": 2,
                     "seconds": 54,
+                    "tracklist": "lunar"
+                },
+                {
+                    "title": "Dress You Up",
+                    "band": "Madonna",
+                    "year": 1984,
+                    "minutes": 0,
+                    "seconds": 0,
                     "tracklist": "lunar"
                 },
                 {
