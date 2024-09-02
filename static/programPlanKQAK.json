@@ -86,7 +86,8 @@
             "resync": "false"
         },
         {
-            "block": "summer",
+            "block": "80s",
+            "block2": "summer",
             "resync": "false"
         },
         {
@@ -178,7 +179,8 @@
             "resync": "true"
         },
         {
-            "block": "summer",
+            "block": "lunar",
+            "block2": "summer",
             "resync": "true"
         },
         {
@@ -266,11 +268,12 @@
             "resync": "false"
         },
         {
-            "block": "summer",
+            "block": "80s",
+            "block2": "summer",
             "resync": "false"
         },
         {
-            "block": "80s",
+            "block": "70s",
             "resync": "false"
         },
         {
@@ -358,7 +361,8 @@
             "resync": "true"
         },
         {
-            "block": "summer",
+            "block": "lunar",
+            "block2": "summer",
             "resync": "true"
         },
         {
